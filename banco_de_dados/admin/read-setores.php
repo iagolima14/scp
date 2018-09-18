@@ -1,5 +1,5 @@
 <?php
-$id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_SPECIAL_CHARS);
+$id = filter_input(INPUT_GET, 'select_unidades', FILTER_SANITIZE_SPECIAL_CHARS);
 if ($id == "todas") {
     $querySelect = $link->query("select * from tb_setores");
 } else {

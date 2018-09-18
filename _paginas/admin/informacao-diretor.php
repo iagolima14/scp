@@ -5,14 +5,26 @@
 
     <div class="row container">
         <div class="col s12">
-            <h5 class="light">Baixas Solicitadas</h5>
+            <h5 class="light">Informações do Diretor</h5>
             <hr>
-            <br><br><br><br><br><br><br>
-            <h4 class="center">Em construção...</h4>
 
-            <div class="progress">
-                <div class="indeterminate"></div>
-            </div>
+            <?php
+                $id_diretor = filter_input(INPUT_GET, 'nome_user_diretor', FILTER_SANITIZE_NUMBER_INT);
+
+                $querySelect = $link->query("select * from tb_usuarios where id = '$id_diretor'");
+
+                while ($registros = $querySelect->fetch_assoc()) {
+                    $id = $registros['id'];
+                    $nome = $registros['nome'];
+                    $cidade = $registros['cidade'];
+                    $regiao = $registros['regiao'];
+                    $telefone = $registros['telefone'];
+                    $id_usuario_diretor = $registros['diretor'];
+                }
+                echo "$id";
+                echo "$nome";
+                echo "$cidade";
+            ?>
 
         </div>
     </div>

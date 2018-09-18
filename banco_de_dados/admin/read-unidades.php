@@ -13,8 +13,18 @@ while ($registros = $querySelect->fetch_assoc()){
     $nome = $registros['nome'];
     $cidade = $registros['cidade'];
     $regiao = $registros['regiao'];
-    $diretor = $registros['diretor'];
     $telefone = $registros['telefone'];
+    $id_usuario_diretor = $registros['diretor'];
+
+
+
+    $buscaNomeDiretor = $link->query("select * from tb_usuarios where id = '$id_usuario_diretor'");
+    while ($registros = $buscaNomeDiretor->fetch_assoc()){
+        $nome_user_diretor = $registros['nome'];
+    }
+
+
+
 
     if ($regiao == "RMSP"){
         $regiao_nome = "CAPITAL E RMS GESTÃO PLENA";
@@ -31,11 +41,8 @@ while ($registros = $querySelect->fetch_assoc()){
         echo "<script>alert('Erro 125')</script>";
     }
 
-    //$nome_diretor = $link->query("select * from tb_unidades as uni inner join  tb_usuarios as usu on uni.diretor = usu.id");
-    $nome_diretor = $link->query("select * from ");
-
     echo "<tr id='destaque'>";
-    echo "<td>$nome</td><td>$cidade</td><td>$regiao_nome</td><td><a href=\"informacao-diretor.php\">$diretor</a></td><td>$telefone</td>";
+    echo "<td>$nome</td><td>$cidade</td><td>$regiao_nome</td><td><a href=\"informacao-diretor.php?nome_user_diretor=\">$nome_user_diretor</a></td><td>$telefone</td>";
     echo "<td><a href='editar-unidade.php?id=$id'><i class='material-icons'>edit</i></a></td>";
     //echo "<td><a href='banco_de_dados/delete-unidades.php?id=$id'><i class='material-icons'>delete</i></a></td>";
     echo "</tr>";
