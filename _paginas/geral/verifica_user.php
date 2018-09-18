@@ -1,8 +1,13 @@
 <?php
-    define("SERVIDOR", "localhost");
+    /*define("SERVIDOR", "localhost");
     define("USUARIO", "root");
     define("SENHA", "");
-    define("BANCODEDADOS", "db_sip");
+    define("BANCODEDADOS", "db_sip");*/
+
+    define("SERVIDOR", "br782.hostgator.com.br:3306");
+    define("USUARIO", "marmo643_iago");
+    define("SENHA", "Seap=2018");
+    define("BANCODEDADOS", "marmo643_scp");
     $conecta = new mysqli(SERVIDOR, USUARIO, SENHA, BANCODEDADOS); // CONECTA
     mysqli_set_charset($conecta, 'utf8');
     if ($conecta->connect_error) {
