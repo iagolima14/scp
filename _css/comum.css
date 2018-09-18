@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+footer{
+    background-color: #aa0000;
+}
+
+tr#destaque:hover{
+    background-color: lightgreen !important;
+}
+
+.espaco55{
+    margin-left: 80px;
+}
+.texto_icone{
+    line-height: 1;
+}
+.btn_inicial{
+    width:130px;
+    height: 130px;
+    background-color: #ff5722;
+}
+#div_alterar_senha{
+     margin-left: 160px;
+     background-color: #e6e6e6;
+     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+ }
+#div_inform_senha{
+    font-family: Arial;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 1;
+    margin-left: 160px;
+    background-color: rgba(33, 150, 243, 0.8);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+h4{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 40px;
+}
+form#ent{
+    line-height: 1;
+}
+
+/*.teste{
+    height: 500px !important;
+    overflow: auto;
+}*/
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}

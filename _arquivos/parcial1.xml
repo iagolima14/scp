@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Marcus Oliveira de Assis</Author>
+  <LastAuthor>Marcus Oliveira de Assis</LastAuthor>
+  <Created>2018-08-08T15:17:42Z</Created>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12225</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="#,##0.00;\-#,##0.00"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Planilha1">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="18" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="78.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="103.5"/>
+   <Row>
+    <Cell><Data ss:Type="String">a</Data></Cell>
+    <Cell><Data ss:Type="String">a</Data></Cell>
+    <Cell><Data ss:Type="String">a</Data></Cell>
+    <Cell><Data ss:Type="String">a</Data></Cell>
+    <Cell><Data ss:Type="String">a</Data></Cell>
+    <Cell><Data ss:Type="String">a</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00007956</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00023637</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">CONDICIONADOR DE AR DE PAREDE - TIPO SPLIT</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">12/06/2013</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">BOM</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">732.12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00007964</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">6023637</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ARMARIO ALTO EM MADEIRA</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">11/12/2015</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">REGULAR</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">150</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00007966</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00024576</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">TELEVISOR EM CORES</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">12/06/2013</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">REGULAR</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">444.56</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00007967</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00023634</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ARMARIO ALTO EM MADEIRA</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">14/06/2013</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">REGULAR</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">256.12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00007968</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00024238</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">REFRIGERADOR TIPO FRIGOBAR</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">14/06/2013</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">REGULAR</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">500.44</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00007975</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00023103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">CADEIRA GIRATORIA  EM VINIL</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">12/06/2013</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">BOM</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">79.17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00007977</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00023109</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">CADEIRA GIRATORIA  EM VINIL</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">12/06/2013</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">BOM</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">79.17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00007986</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00023104</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">CADEIRA GIRATORIA  EM VINIL</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">12/06/2013</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">BOM</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">79.17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00007987</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00021202</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">CADEIRA FIXA EM VINIL</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">12/06/2013</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">BOM</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">37.4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00007989</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00023545</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">CONDICIONADOR DE AR DE PAREDE - TIPO SPLIT</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">12/06/2013</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">BOM</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">510.32</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00007991</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00023703</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ARQUIVO EM ACO COM 04 GAVETAS</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">12/06/2013</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">BOM</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">222.84</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00007992</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00025264</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">TELEVISOR EM CORES</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">12/06/2013</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">REGULAR</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">449.85</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00007993</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00023708</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ARQUIVO EM ACO COM 04 GAVETAS</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">12/06/2013</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">BOM</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">222.84</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00007995</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00023702</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MICROCOMPUTADOR PROCESSADOR</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">12/06/2013</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">BOM</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">553.05999999999995</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00007997</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00024260</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">BEBEDOURO DE AGUA TIPO GARRAFAO</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">12/06/2013</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">BOM</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">255.41</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00007998</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00023108</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">CADEIRA GIRATORIA  EM VINIL</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">12/06/2013</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">BOM</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">79.17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00008000</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00024269</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MESA PARA IMPRESSORA</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">12/06/2013</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">BOM</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">91.12</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.31496062000000002"/>
+    <Footer x:Margin="0.31496062000000002"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.511811024"
+     x:Right="0.511811024" x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>10</ActiveRow>
+     <ActiveCol>11</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

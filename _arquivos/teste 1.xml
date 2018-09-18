@@ -1,0 +1,541 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Milton Cosme Martins Filho</Author>
+  <LastAuthor>Marcus</LastAuthor>
+  <Created>2018-08-01T22:45:59Z</Created>
+  <LastSaved>2018-08-01T22:48:12Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9510</WindowHeight>
+  <WindowWidth>21600</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Tahoma" x:Family="Swiss" ss:Size="12" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Planilha1">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="76" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="18.75">
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="361.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="69.75"/>
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:Index="5" ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6562</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM ACO - DESCRICAO: COM 08 PORTAS.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6563</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM ACO - DESCRICAO: COM 08 PORTAS.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6564</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">CADEIRA FIXA EM COURVIM</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6565</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM ACO - DESCRICAO: COM 08 PORTAS.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6566</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM ACO - DESCRICAO: COM 08 PORTAS.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6567</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM ACO - DESCRICAO: COM 08 PORTAS.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6568</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM ACO - DESCRICAO: COM 08 PORTAS.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6569</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM ACO - DESCRICAO: COM 08 PORTAS.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6570</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">CAMA HOSPITALAR</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6571</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO EM ACO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6572</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO EM ACO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6573</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO ALTO EM ACO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6575</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO EM ACO - DESCRICAO: COM 02 PORTAS</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6577</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM ACO - DESCRICAO: COM 08 PORTAS.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6578</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM ACO - DESCRICAO: COM 08 PORTAS.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6579</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM MADEIRA</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6580</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM MADEIRA</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6581</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM MADEIRA</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6582</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM MADEIRA</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6583</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM MADEIRA</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6584</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM MADEIRA</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6585</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM MADEIRA</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6586</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM ACO - DESCRICAO: COM 08 PORTAS.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6587</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM MADEIRA</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6588</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">CADEIRA FIXA EM PLASTICO</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6589</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">CADEIRA FIXA EM COURVIM</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6590</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">CADEIRA FIXA EM COURVIM</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6591</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">CADEIRA UNIVERSITARIA - DESCRICAO: COM PRANCHETA.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6592</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">CADEIRA UNIVERSITARIA - DESCRICAO: COM PRANCHETA.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6593</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM ACO - DESCRICAO: COM 08 PORTAS.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6594</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM ACO - DESCRICAO: COM 08 PORTAS.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6595</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO ACO 02 PORTAS</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6596</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">CAMA TIPO BELICHE - DESCRICAO: EM AÇO.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6597</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">CAMA TIPO BELICHE - DESCRICAO: EM AÇO.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6598</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">CAMA TIPO BELICHE - DESCRICAO: EM AÇO.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6599</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">CADEIRA FIXA EM PLASTICO</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6600</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">MESA PARA TELEFONE EM MADEIRA</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6701</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">ARMARIO ALTO EM ACO</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6702</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">ARMARIO ACO 02 PORTAS</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6703</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">CAMA TIPO BELICHE</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6704</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">CAMA TIPO BELICHE</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6705</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">CAMA TIPO BELICHE</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6706</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">CAMA TIPO BELICHE</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6707</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">CAMA TIPO BELICHE</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6708</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">CAMA TIPO BELICHE</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6709</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">CAMA TIPO BELICHE</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6710</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">REFRIGERADOR TIPO RESIDENCIAL</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6711</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM ACO - DESCRICAO: COM 08 PORTAS.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">49</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6712</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM ACO - DESCRICAO: COM 08 PORTAS.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6713</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM ACO - DESCRICAO: COM 08 PORTAS.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6714</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM ACO - DESCRICAO: COM 08 PORTAS.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">52</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6715</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM ACO - DESCRICAO: COM 08 PORTAS.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">53</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6716</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">ARMARIO ACO 02 PORTAS</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6717</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">CADEIRA FIXA EM PLASTICO</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6718</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">MESA DE TRABALHO EM MADEIRA</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6719</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">CONDICIONADOR DE AR DE PAREDE - DESCRICAO: 18.0000 BTU</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6720</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">PURIFICADOR DE AGUA</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">58</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6721</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">CADEIRA FIXA EM COURVIM</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6722</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">CADEIRA FIXA EM COURVIM</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6723</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO EM ACO</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6724</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">CADEIRA FIXA EM COURVIM - DESCRICAO: FIXA EM COURVIM</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6725</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">MESA PARA ESCRITORIO EM MADEIRA - DESCRICAO: COM DUAS GAVETAS.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">63</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6726</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">GRUPO GERADOR DIESEL - DESCRICAO: MARCA HEIMER</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">64</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6727</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">CADEIRA FIXA EM PLASTICO</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6728</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">CADEIRA FIXA EM MADEIRA</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">66</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6778</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ARMARIO GUARDA-ROUPA EM ACO - DESCRICAO: COM 08 PORTAS.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">67</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6947</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">BALANCA DE PRECISAO</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">68</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">8947</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">BALANCA DE PRECISAO - MARCA: TOLEDO</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">69</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">17397</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">VEICULO FURGAO - COR: BRANCA - MARCA: RENAULT - MODELO: MASTER FURG 8M3 - COMBUSTIVEL: DIESEL - ANO FABRICACAO: 2007 - ANO MODELO: 2007 - PLACA: JPX4397 - CHASSI: 93YADCUD57J838221 - RENAVAM: 00919373341 - Nº DO MOTOR: G9UA724C032704 - UTILIZACAO: OPERACOES ESPECIAIS - ATIVIDADE: SERVICO ESSENCIAL DE SEGURANCA</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">17647</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">AQUECEDOR DE AGUA ELETRICO</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">REGULAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s21"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.31496062000000002"/>
+    <Footer x:Margin="0.31496062000000002"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.511811024"
+     x:Right="0.511811024" x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>65</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
