@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Sip</title>
+    <title>SCP/SEAP</title>
     <!--<link type="text/css" rel="stylesheet" href="css/theme.css">-->
     <link type="text/css" rel="stylesheet" href="_css/jquery-ui.min.css">
     <link type="text/css" rel="stylesheet" href="_css/login.css">
