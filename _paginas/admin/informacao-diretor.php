@@ -3,28 +3,37 @@
 <?php include_once ("../../_includes/admin/controle_acesso_admin.php"); ?>
 <?php include_once ("../../_includes/admin/menu_admin.inc.php"); ?>
 
+
+<?php $opc_anterior = filter_input(INPUT_GET, 'opc_anterior', FILTER_SANITIZE_SPECIAL_CHARS);?>
+
+    <!--INFORMAÇÕES DO DIRETOR DA UNIDADE-->
     <div class="row container">
         <div class="col s12">
             <h5 class="light">Informações do Diretor</h5>
             <hr>
+            <p>&nbsp;</p>
+            <div class="container">
+                <fieldset class="formulario center-align" id="info_diretor" style="padding: 15px; width: 700px; alignment: center; background-color: rgba(235,235,235,0.8)">
+                    <legend><img src="../../_imagens/avatar1.png" alt="[imagem]" width="90"></legend>
 
-            <?php
-                $id_diretor = filter_input(INPUT_GET, 'nome_user_diretor', FILTER_SANITIZE_NUMBER_INT);
+                    <?php
+                        include_once ('../../banco_de_dados/admin/read-info-diretor.php');
+                    ?>
 
-                $querySelect = $link->query("select * from tb_usuarios where id = '$id_diretor'");
+                    <!-- BTN com ação VOLTAR para pag de CONSULTA -->
+                    <div class="col s12 toolt">
+                        <a href="consultar-unidade.php?select_unidades=<?php echo $opc_anterior ?>" class="btn-large tooltipped" data-position="left" data-tooltip="Voltar">
+                            <p class="texto_icone">
+                                <i class="material-icons" style="font-size: 20px;">reply_all</i>
+                                Voltar
+                            </p>
+                        </a>
+                    </div>
 
-                while ($registros = $querySelect->fetch_assoc()) {
-                    $id = $registros['id'];
-                    $nome = $registros['nome'];
-                    $cidade = $registros['cidade'];
-                    $regiao = $registros['regiao'];
-                    $telefone = $registros['telefone'];
-                    $id_usuario_diretor = $registros['diretor'];
-                }
-                echo "$id";
-                echo "$nome";
-                echo "$cidade";
-            ?>
+                </fieldset>
+            </div>
+
+
 
         </div>
     </div>

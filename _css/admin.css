@@ -39,6 +39,14 @@ tr#destaque:hover{
     background-color: rgba(33, 150, 243, 0.8);
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
+
+/*CSS da div onde estõ as informações do diretor*/
+#info_diretor{
+    font-family: "Arial";
+    font-size: 20px;
+    line-height: 0.2;
+    margin-top: -20px;
+}
 h4{
     font-family: Arial;
     font-weight: bold;

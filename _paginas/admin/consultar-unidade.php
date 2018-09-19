@@ -30,6 +30,7 @@
                 <th>Cidade</th>
                 <th>Região</th>
                 <th>Diretor</th>
+                <th>Alterar Dir.</th>
                 <th>Telefone</th>
                 <th>Editar</th>
             </tr>
