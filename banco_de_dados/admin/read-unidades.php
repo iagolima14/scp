@@ -43,7 +43,7 @@ while ($registros = $querySelect->fetch_assoc()){
         <td>$cidade</td>
         <td>$regiao_nome</td>
         <td><a href=\"informacao-diretor.php?id_user_diretor=$id_usuario_diretor&nome_unidade=$nome&opc_anterior=$variavelJS\">$nome_user_diretor</a></td>
-        <td><a href='editar-diretor.php?nome_diretor=$nome_user_diretor'><i class='material-icons'>sync</i></a></td><td>$telefone</td>";
+        <td><a href='editar-diretor.php?nome_diretor=$nome_user_diretor&id_user_diretor=$id_usuario_diretor'><i class='material-icons'>sync</i></a></td><td>$telefone</td>";
 
     echo "<td><a href='editar-unidade.php?id=$id'><i class='material-icons'>edit</i></a></td>";
     //echo "<td><a href='banco_de_dados/delete-unidades.php?id=$id'><i class='material-icons'>delete</i></a></td>";
