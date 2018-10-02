@@ -39,9 +39,10 @@
         {
             $querySelect = $link->query("select * from tb_itens WHERE nome_item like '%$desc%' and codigo like '%$cod%' and situacao = '$sit' order by $ordenar");
         }
-
+        $i=0;
         while ($registros = $querySelect->fetch_assoc())
         {
+            $i++;
             $id = $registros['id'];
             $descricao = $registros['nome_item'];
             $codigo = $registros['codigo'];
@@ -53,14 +54,14 @@
 
             if($situacao == "I"){
                 echo "<tr id='destaque' style='background-color: rgba(237,15,70,0.23)'>";
-                echo "<td>$descricao</td><td>$codigo</td><td>$quantidade</td><td>$dataformatada</td><td>$valor</td>";
+                echo "<td>$i</td><td>$descricao</td><td>$codigo</td><td>$quantidade</td><td>$dataformatada</td><td>$valor</td>";
                 echo "<td><a href='editar-item.php?id=$id'><i class='material-icons'>edit</i></a></td>";
                 echo "<td><a href='../../banco_de_dados/admin/modifica_situacao_itens.php?id=$id&sit_item=$situacao&select_ordenacao=$ordenar&desc=$desc&cod=$cod&select_situacao=$sit'><i class='material-icons' style='color: red;'>do_not_disturb_on</i></a></td>";
                 echo "</tr>";
             }
             else{
                 echo "<tr id='destaque'>";
-                echo "<td>$descricao</td><td>$codigo</td><td>$quantidade</td><td>$dataformatada</td><td>$valor</td>";
+                echo "<td>$i</td><td>$descricao</td><td>$codigo</td><td>$quantidade</td><td>$dataformatada</td><td>$valor</td>";
                 echo "<td><a href='editar-item.php?id=$id'><i class='material-icons'>edit</i></a></td>";
                 echo "<td><a href='../../banco_de_dados/admin/modifica_situacao_itens.php?id=$id&sit_item=$situacao&select_ordenacao=$ordenar&desc=$desc&cod=$cod&select_situacao=$sit'><i class='material-icons' style='color: green;'>lens</i></a></td>";
                 echo "</tr>";

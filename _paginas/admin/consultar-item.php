@@ -49,6 +49,7 @@
         <table class="striped">
             <thead>
             <tr>
+                <th>Item</th>
                 <th>Descrição</th>
                 <th>Cod Item</th>
                 <th>Quantidade</th>

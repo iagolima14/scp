@@ -36,7 +36,7 @@
                 <!--CAMPO TELEFONE DO SETOR-->
                 <div class="input-field col s12">
                     <i class="material-icons prefix">local_phone</i>
-                    <input type="number" name="telefone" id="telefone" maxlength="50">
+                    <input type="text" name="telefone" id="telefone" maxlength="20">
                     <label for="telefone">Telefone do Setor</label>
                 </div>
 

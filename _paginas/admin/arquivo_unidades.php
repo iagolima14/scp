@@ -46,21 +46,23 @@ if (!empty($_FILES['arquivo']['tmp_name'])) {
                 } else {
                     $registros = $querySelect->fetch_assoc();
                     $id_item = $registros['id'];
+
+                    echo "ID: $i <br>";
+                    echo "Patrimonio: $patrimonio <br>";
+                    echo "Patrimonio Antigo: $patrimonio_antigo <br>";
+                    echo "ID_ITEM: $id_item <br>";
+                    echo "Nome do Item: $nome_item <br>";
+                    echo "Descrição: $descricao_item <br>";
+                    echo "ID_UNIDADE: $id_unidade <br>";
+                    echo "Sit. Física: $sit_fisica <br>";
+                    echo "Data Aquisição: $data_aquisicao <br>";
+                    echo "Valor Aquisição: $valor_aquisicao <br>";
+                    echo "---------------------------------------------------------------------------------------<br>";
+                    $data_aquisicao_sql = substr($data_aquisicao, 6)."-".substr($data_aquisicao, 3, -5)."-".substr($data_aquisicao, 0, -8);
+                    $queryInsert = $link->query("insert into tb_patrimonio (num_patrimonio, patri_antigo, id_item, descricao, id_unidade, sit_fisica, data_aquisicao, valor_aquisicao) values ('$patrimonio', '$patrimonio_antigo', '$id_item', '$descricao_item', '$id_unidade', '$sit_fisica', '$data_aquisicao_sql', '$valor_aquisicao') ");
                 }
 
-                echo "ID: $i <br>";
-                echo "Patrimonio: $patrimonio <br>";
-                echo "Patrimonio Antigo: $patrimonio_antigo <br>";
-                echo "ID_ITEM: $id_item <br>";
-                echo "Nome do Item: $nome_item <br>";
-                echo "Descrição: $descricao_item <br>";
-                echo "ID_UNIDADE: $id_unidade <br>";
-                echo "Sit. Física: $sit_fisica <br>";
-                echo "Data Aquisição: $data_aquisicao <br>";
-                echo "Valor Aquisição: $valor_aquisicao <br>";
-                echo "---------------------------------------------------------------------------------------<br>";
-                //sleep(0.1);
-                //$queryInsert = $link->query("insert into tb_itens (id, nome_item, codigo, quantidade) values (default, '$nome_item','$codigo_item','$quantidade') ");
+
 
             }
             $primeira_linha = false;

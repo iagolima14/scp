@@ -8,7 +8,7 @@ $telefone     = filter_input(INPUT_POST, 'telefone', FILTER_SANITIZE_NUMBER_INT)
 
 
 //VERIFICANDO SE JÁ EXISTE O NOME DO SETOR OU NÃO
-$querySelect = $link->query("select nome from tb_setores");
+$querySelect = $link->query("select nome from tb_setores WHERE id_unidade = '$id_unidade_user'");
 $array_nomes = [];
 
 while ($nomes = $querySelect->fetch_assoc()) {
