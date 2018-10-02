@@ -79,7 +79,7 @@ if (!empty($_FILES['arquivo']['tmp_name'])) {
                 $querySelect = $link->query("SELECT * FROM tb_itens WHERE nome_item = '$nome_para_salvar_no_banco' ");
                 $num_linhas = $querySelect->num_rows;
                 if($num_linhas == 0){
-                    $queryInsert = $link->query("insert into tb_itens (id, nome_item, codigo, quantidade) values (default, '$nome_para_salvar_no_banco','$codigo_item','$quantidade') ");
+                    $queryInsert = $link->query("insert into tb_itens (id, nome_item, codigo, quantidade, disponivel) values (default, '$nome_para_salvar_no_banco','$codigo_item','$quantidade','$quantidade') ");
                 }
                 else{
                     $registros = $querySelect->fetch_assoc();

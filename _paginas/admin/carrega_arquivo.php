@@ -14,7 +14,6 @@
             <form method="POST" action="arquivo.php" enctype="multipart/form-data">
                 <input type="file" name="arquivo" class="">
                 <input type="submit" value="Enviar">
-
             </form>
         </div>
     </div>

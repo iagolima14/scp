@@ -47,7 +47,8 @@ while ($registros = $querySelect->fetch_assoc()) {
                     <label for="nome">Diretor Atual</label>
                 </div>
 
-                <label>Novo Diretor:</label>
+                <label>Novo Diretorlo:</label>
+                <i class="material-icons prefix">sync</i>
                 <input type="text" list="users">
                 <datalist id="users">
                     <?php
