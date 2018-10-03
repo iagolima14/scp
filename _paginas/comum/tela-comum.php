@@ -41,7 +41,7 @@
             <!--INDEX (LINHA 1) COLUNA 3 | DISTRIBUIÇÃO DE ITENS-->
             <div class="col s3 m3 l3">
                 <!-- BTN com ação LINK e informativo -->
-                <a href="../comum/distribuição-itens.php" class="btn-large tooltipped no-padding btn_inicial" data-position="top"
+                <a href="../comum/distribuição-itens.php?filtro=1" class="btn-large tooltipped no-padding btn_inicial" data-position="top"
                    data-tooltip="Distribuição de Itens">
                     <p class="texto_icone">Distribuição de Itens</p>
                     <i class="material-icons" style="font-size: 50px;">add_shopping_cart</i>

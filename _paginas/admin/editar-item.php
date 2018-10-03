@@ -64,7 +64,7 @@ while ($registros = $querySelect->fetch_assoc()){
                 <!--CAMPO VALOR-->
                 <div class="input-field col s12">
                     <i class="material-icons prefix">monetization_on</i>
-                    <input type="number" name="valor" id="valor" value="<?php echo $valor ?>" maxlength="12" required>
+                    <input type="text" name="valor" id="valor" value="<?php echo $valor ?>" maxlength="12" required>
                     <label for="valor">Valor</label>
                 </div>
 
