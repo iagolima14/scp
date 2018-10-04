@@ -11,7 +11,6 @@
 
 <?php
 $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
-$_SESSION['id'] = $id;
 $querySelect = $link->query("select * from tb_setores where id='$id'");
 
 while ($registros = $querySelect->fetch_assoc()){
@@ -46,7 +45,7 @@ while ($registros = $querySelect->fetch_assoc()){
                 <!--CAMPO TELEFONE-->
                 <div class="input-field col s12">
                     <i class="material-icons prefix">phone</i>
-                    <input type="tel" name="telefone" id="telefone" value="<?php echo $telefone ?>" maxlength="20" required>
+                    <input type="text" name="telefone" id="telefone" value="<?php echo $telefone ?>" maxlength="20" required>
                     <label for="telefone">Telefone do Usuário</label>
                 </div>
 
@@ -55,7 +54,7 @@ while ($registros = $querySelect->fetch_assoc()){
                     <input type="submit" value="alterar" class="btn blue">
                     <a href="consultar-setor.php" class="btn red">Cancelar</a>
                 </div>
-
+                <input type="hidden" name="id_setor" value="<?php echo $id ?>"/>
             </fieldset>
         </form>
     </div>

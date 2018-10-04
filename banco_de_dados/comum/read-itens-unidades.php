@@ -29,15 +29,16 @@ while ($registros = $querySelect->fetch_assoc()){
         $nome_item = $registros2['nome_item'];
     }
 
-    echo "<tr id='destaque'>";
+    echo "<tr id='destaque' class='font_tabela_corpo'>";
     if ($id_setor == null){
-        echo "<td>$i</td><td>$num_patrimonio</td><td>$nome_item</td><td>$descricao</td><td><a href='../../_paginas/comum/inserir-setor-patrimonio.php?id_item=$id_item&id_patrimonio=$id'><i class='material-icons'>playlist_add</i></a></td><td>$sit_fisica</td><td>$data_aquisicao</td><td>$valor_aquisicao</td><td>$obs</td><td>Baixa</td>";
-    }else{
+        echo "<td>$i</td><td>$num_patrimonio</td><td>$nome_item</td><td>$descricao</td><td><a href='../../_paginas/comum/inserir-setor-patrimonio.php?id_item=$id_item&id_patrimonio=$id'><i class='material-icons'>playlist_add</i></a></td><td>Baixa</td>";
+    }
+    else{
         $querySelect1 = $link->query("select * from tb_setores where id = '$id_setor'");
         while ($registros1 = $querySelect1 ->fetch_assoc()){
             $nome_setor = $registros1['nome'];
         }
-        echo "<td>$i</td><td>$num_patrimonio</td><td>$nome_item</td><td>$descricao</td><td>$nome_setor</td><td>$sit_fisica</td><td>$data_aquisicao</td><td>$valor_aquisicao</td><td>$obs</td><td>Baixa</td>";
+        echo "<td>$i</td><td>$num_patrimonio</td><td>$nome_item</td><td>$descricao</td><td>$nome_setor</td><td>Baixa</td>";
     }
 
 

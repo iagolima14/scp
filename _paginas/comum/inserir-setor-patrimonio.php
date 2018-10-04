@@ -32,7 +32,7 @@ while ($registros1 = $querySelect1->fetch_assoc()){
 
 
                     <fieldset>
-                        <legend><h6 class="light center">Informações do item Selecionado</h6></legend>
+                        <legend><h5 class="light center espaco_extra">Informações do item Selecionado</h5></legend>
 
                         <!--NÚMERO DO PATRIMONIO DO ITEM-->
                         <div class="input-field col s6">
@@ -60,7 +60,7 @@ while ($registros1 = $querySelect1->fetch_assoc()){
                     </fieldset>
 
                     <fieldset>
-                        <legend><h5 class="light center red-text">Selecione o setor</h5></legend>
+                        <legend><h5 class="light center red-text espaco_extra">Selecione o setor</h5></legend>
 
                         <!--SELECT AUTOMATIZADO COM SETORES PARA USUÁRIO SELECIONAR E VINCULAR NA DISTRIB. DO ITEM-->
                         <div class="input-field col s12">
@@ -80,7 +80,7 @@ while ($registros1 = $querySelect1->fetch_assoc()){
                             </select>
                             <input type="hidden" name="id_patrimonio" value="<?php echo $id_patrimonio ?>">
 
-                            <label for="sel_setor">Setores da sua unidade</label>
+                            <label for="sel_setor"></label>
                         </div>
                     </fieldset>
 
@@ -88,7 +88,7 @@ while ($registros1 = $querySelect1->fetch_assoc()){
                     <!--BOTÕES-->
                     <div class="input-field col s12">
                         <input type="submit" value="Enviar" class="btn blue">
-                        <a href="distribuição-itens.php" class="btn red">Voltar</a>
+                        <input type="button" value="Voltar" class="btn red" onclick="location.href='distribuição-itens.php'"/>
                     </div>
 
 

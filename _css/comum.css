@@ -56,3 +56,13 @@ body {
 main {
     flex: 1 0 auto;
 }
+.font_tabela_cab{
+    font-size: 10pt;
+}
+.font_tabela_corpo{
+    font-size: 9pt;
+}
+.espaco_extra{
+    margin-left: 10px;
+    margin-right: 10px;
+}

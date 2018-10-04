@@ -1,7 +1,7 @@
 <header>
     <nav class="deep-orange">
         <div class="nav-wrapper container">
-            <a href="tela-admin.php" class="brand-logo light">Sistema Patrimonial</a>
+            <a href="tela-comum.php" class="brand-logo light">Sistema Patrimonial</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
     </nav>

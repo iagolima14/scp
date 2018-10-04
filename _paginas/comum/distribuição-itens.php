@@ -25,17 +25,13 @@
 
             <table class="striped">
                 <thead>
-                <tr>
+                <tr class="font_tabela_cab">
                     <th>ITEM</th>
                     <th>PATRIMONIO</th>
                     <th>NOME DO ITEM</th>
                     <th>DESCRIÇÃO</th>
                     <th>SETOR</th>
-                    <th>SITUAÇÃO FÍSICA</th>
-                    <th>DATA AQUISIÇÃO</th>
-                    <th>VALOR DE AQUISIÇÃO</th>
-                    <th>OBS</th>
-                    <th>S. BAIXA</th>
+                    <th>SOLIC. BAIXA</th>
                 </tr>
                 </thead>
                 <tbody>
