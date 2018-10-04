@@ -31,7 +31,6 @@
                     <th>NOME DO ITEM</th>
                     <th>DESCRIÇÃO</th>
                     <th>SETOR</th>
-                    <th>SOLIC. BAIXA</th>
                 </tr>
                 </thead>
                 <tbody>

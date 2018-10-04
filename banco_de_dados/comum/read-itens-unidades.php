@@ -5,7 +5,7 @@ include_once ("../../_includes/comum/controle_acesso_comum.php");
 $filtro = filter_input(INPUT_GET, 'filtro', FILTER_SANITIZE_NUMBER_INT);
 
 if ($filtro == 2){
-    $querySelect = $link->query("select * from tb_patrimonio where id_unidade = '$id_unidade_user' and id_setor is not null");
+    $querySelect = $link->query("select * from tb_patrimonio where id_unidade = '$id_unidade_user' and id_setor is not null ORDER BY id_setor");
 }else{
    $querySelect = $link->query("select * from tb_patrimonio where id_unidade = '$id_unidade_user' and id_setor is null");
 }
@@ -31,14 +31,14 @@ while ($registros = $querySelect->fetch_assoc()){
 
     echo "<tr id='destaque' class='font_tabela_corpo'>";
     if ($id_setor == null){
-        echo "<td>$i</td><td>$num_patrimonio</td><td>$nome_item</td><td>$descricao</td><td><a href='../../_paginas/comum/inserir-setor-patrimonio.php?id_item=$id_item&id_patrimonio=$id'><i class='material-icons'>playlist_add</i></a></td><td>Baixa</td>";
+        echo "<td>$i</td><td>$num_patrimonio</td><td>$nome_item</td><td>$descricao</td><td><a href='../../_paginas/comum/inserir-setor-patrimonio.php?id_item=$id_item&id_patrimonio=$id'><i class='material-icons'>playlist_add</i></a></td>";
     }
     else{
         $querySelect1 = $link->query("select * from tb_setores where id = '$id_setor'");
         while ($registros1 = $querySelect1 ->fetch_assoc()){
             $nome_setor = $registros1['nome'];
         }
-        echo "<td>$i</td><td>$num_patrimonio</td><td>$nome_item</td><td>$descricao</td><td>$nome_setor</td><td>Baixa</td>";
+        echo "<td>$i</td><td>$num_patrimonio</td><td>$nome_item</td><td>$descricao</td><td>$nome_setor</td>";
     }
 
 
