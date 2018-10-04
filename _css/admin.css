@@ -65,3 +65,9 @@ body {
 main {
     flex: 1 0 auto;
 }
+.altera_fonte_cab{
+    font-size: 11pt;
+}
+.altera_fonte_corpo{
+    font-size: 10pt;
+}

@@ -56,8 +56,9 @@
 
                 <!--BOTÕES-->
                 <div class="input-field col s12">
-                    <input type="submit" value="cadastrar" class="btn blue">
+                    <input type="submit" value="cadastrar" class="btn green">
                     <input type="reset" value="limpar" class="btn red">
+                    <input type="button" value="Voltar" class="btn blue" onclick="location.href='tela-admin.php'">
                 </div>
 
             </fieldset>

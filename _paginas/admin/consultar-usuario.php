@@ -37,7 +37,6 @@
                 <th>Telefone</th>
                 <th>Permissão</th>
                 <th>Situação</th>
-                <th>Log</th>
                 <th>Editar</th>
                 <th>A/I</th>
             </tr>

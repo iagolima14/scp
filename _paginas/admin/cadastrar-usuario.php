@@ -53,6 +53,15 @@
                     <label for="tel">Telefone do Usuário</label>
                 </div>
 
+                <!--CAMPO UNIDADE-->
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">home</i>
+                    <select class="aa" id="sel_unidades" name="sel_unidades">
+                        <option></option>
+                    </select>
+                    <label for="tel">Telefone do Usuário</label>
+                </div>
+
                 <fieldset id="permis" class="formulario" style="padding: 15px">
                     <legend>Permissão</legend>
                     <form action="#" id="permis">

@@ -48,11 +48,12 @@
 
         <table class="striped">
             <thead>
-            <tr>
+            <tr class="altera_fonte_cab">
                 <th>Item</th>
                 <th>Descrição</th>
                 <th>Cod Item</th>
-                <th>Quantidade</th>
+                <th>QTD TOTAL</th>
+                <th>QTD DISPONIVEL</th>
                 <th>Data da Aquisição</th>
                 <th>Valor</th>
                 <th>Editar</th>
