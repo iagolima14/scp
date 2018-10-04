@@ -16,9 +16,6 @@
                             <th colspan="3"><p class="center-align">SECRETARIA DE ADMINISTRAÇÃO PENITENCIÁRIA E RESSOCIALIZAÇÃO</p><p class="center-align">COORDENAÇÃO DE MATERIAL E PATRIMÔNIO - COMAP</p></th>
                             <th colspan="2" class="center-align"><img src="../../_imagens/brasao-bahia.jpg" style="width: 50%"></th>
                         </tr>
-                        <tr>
-                            <th colspan="5"></th>
-                        </tr>
                         <tr class="font_tabela_cab">
                             <th style="width: 6%">ITEM</th>
                             <th style="width: 26%">NOME</th>
