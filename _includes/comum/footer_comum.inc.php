@@ -15,6 +15,21 @@
     })
 </script>
 
+<!--FUNÇÃO PARA CHAMAR A PÁGINA RELATÓRIO SETORES-->
+<script type="text/javascript">
+    function chama_pagina(id) {
+        location.href='relatorio-setores.php?id_setor='+id;
+    }
+</script>
+<!--FUNÇÃO PARA IMPRESSÃO DOS RELATÓRIOS-->
+<script type="text/javascript">
+    function imprimir(para) {
+    var conteudo = document.getElementById(para).innerHTML,
+    tela_impressao = window.open('about:blank');
+    tela_impressao.document.write(conteudo);
+    tela_impressao.window.print();
+}
+</script>
 <!--INICIALIZAÇÃO DO JQUERY DO SELECT NO FORM DO CADASTRO DA UNIDADE-->
 <script>
     document.addEventListener('DOMContentLoaded', function() {

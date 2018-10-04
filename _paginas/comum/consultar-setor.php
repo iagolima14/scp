@@ -11,12 +11,12 @@
             <table class="striped">
                 <thead>
                 <tr>
-                    <th>Nome do Setor</th>
-                    <th>Quantidade de Itens</th>
-                    <th>Responsável</th>
-                    <th>Telefone</th>
-                    <th>Editar</th>
-                    <th>A/I</th>
+                    <th style="width: 30%">Nome do Setor</th>
+                    <th style="width: 15%">Quantidade de Itens</th>
+                    <th style="width: 20%">Responsável</th>
+                    <th style="width: 15%">Telefone</th>
+                    <th style="width: 10%">Editar</th>
+                    <th style="width: 8%">A/I</th>
                 </tr>
                 </thead>
                 <tbody>
