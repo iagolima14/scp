@@ -10,33 +10,42 @@
     </div>
 
 <?php
-$nomeDiretor = filter_input(INPUT_GET, 'nome_diretor', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-$idDiretor = filter_input(INPUT_GET, 'id_user_diretor', FILTER_SANITIZE_NUMBER_INT);
-$id_unidade_selecionada = filter_input(INPUT_GET, 'id_unidade_selecionada', FILTER_SANITIZE_NUMBER_INT);
-
-$querySelect = $link->query("select * from tb_usuarios where id = '$idDiretor'");
-
-while ($registros = $querySelect->fetch_assoc()) {
-    $id = $registros['id'];
-    $nome = $registros['nome'];
-    $login = $registros['login'];
-    $matricula = $registros['matricula'];
-    $telefone = $registros['telefone'];
-    $email = $registros['email'];
-    $id_unidade = $registros['id_unidade'];
-    $permissao = $registros['permissao'];
-    if ($permissao == 1) {
-        $perm = "Administrador";
-    } else {
-        $perm = "Comum";
+    $opc_anterior = filter_input(INPUT_GET, 'opc_anterior', FILTER_SANITIZE_SPECIAL_CHARS);
+    $nomeDiretor = filter_input(INPUT_GET, 'nome_diretor', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+    if($nomeDiretor == "Sem registro!"){
+        $nomeDiretor = "Sem diretor cadastrado!";
     }
-}
+    $idDiretor = filter_input(INPUT_GET, 'id_user_diretor', FILTER_SANITIZE_NUMBER_INT);
+    if($idDiretor == ""){
+        $login = "Sem diretor cadastrado!";
+    }
+    else{
+        $querySelect = $link->query("select * from tb_usuarios where id = '$idDiretor'");
+        while ($registros = $querySelect->fetch_assoc()) {
+            $id = $registros['id'];
+            $nome = $registros['nome'];
+            $login = $registros['login'];
+            $matricula = $registros['matricula'];
+            $telefone = $registros['telefone'];
+            $email = $registros['email'];
+            $id_unidade = $registros['id_unidade'];
+            $permissao = $registros['permissao'];
+            if ($permissao == 1) {
+                $perm = "Administrador";
+            } else {
+                $perm = "Comum";
+            }
+        }
+    }
+
+    $id_unidade_selecionada = filter_input(INPUT_GET, 'id_unidade_selecionada', FILTER_SANITIZE_NUMBER_INT);
+
+
 
 ?>
 
     <!--FORMULÁRIO DE ALTERAÇÃO DO DIRETOR-->
     <div class="row container">
-        <p>&nbsp;</p>
         <form action="../../banco_de_dados/admin/update-diretor.php" method="post" class="col s12">
             <fieldset class="formulario" style="padding: 15px">
                 <legend><img src="../../_imagens/avatar1.png" alt="[imagem]" width="100"></legend>
@@ -45,14 +54,14 @@ while ($registros = $querySelect->fetch_assoc()) {
                 <!--CAMPO NOME DO DIRETOR ATUAL-->
                 <div class="input-field col s6">
                     <i class="material-icons prefix">account_circle</i>
-                    <input type="text" name="nome" id="nome" readonly value="<?php echo $nome?>" maxlength="40" required autofocus aria-readonly="true">
+                    <input type="text" name="nome" id="nome" readonly value="<?php echo $nomeDiretor?>" maxlength="40" required autofocus aria-readonly="true">
                     <label for="nome">Nome do Diretor Atual</label>
                 </div>
 
                 <!--CAMPO LOGIN DO DIRETOR ATUAL-->
                 <div class="input-field col s6">
                     <i class="material-icons prefix">account_circle</i>
-                    <input type="text" name="nome" id="nome" readonly value="<?php echo $login?>" maxlength="40" required autofocus aria-readonly="true">
+                    <input type="text" name="nome" id="nome" readonly value="<?php echo $login ?>" maxlength="40" required autofocus aria-readonly="true">
                     <label for="nome">Login do Diretor Atual</label>
                 </div>
 
@@ -72,12 +81,12 @@ while ($registros = $querySelect->fetch_assoc()) {
                     </select>
                     <label for="tel">Novo Diretor</label>
                 </div>
-
+                <input type="hidden" name="id_unidade_selecionada" value="<?php echo $id_unidade_selecionada ?>"/>
+                <input type="hidden" name="opcao_anterior" value="<?php echo $opc_anterior ?>"/>
                 <!--BOTÕES-->
                 <div class="input-field col s12">
-                    <input type="submit" value="alterar" class="btn blue">
-                    <?php echo "<a href='../../banco_de_dados/admin/update-diretor.php?id_user_diretor=$id2' class='btn black'>Alterar</a> "; ?>
-                    <a href="consultar-unidade.php" class="btn red">Cancelar</a>
+                    <input type="submit" value="alterar" class="btn green">
+                    <input type="button" value="Voltar" class="btn blue" onclick="location.href='consultar-unidade.php?select_unidades=<?php echo $opc_anterior?>'">
                 </div>
 
             </fieldset>

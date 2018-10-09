@@ -4,7 +4,7 @@ include_once '../conexao.php';
 $nome     = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
 $cidade     = filter_input(INPUT_POST, 'cidade', FILTER_SANITIZE_SPECIAL_CHARS);
 $regiao     = filter_input(INPUT_POST, 'regiao', FILTER_SANITIZE_SPECIAL_CHARS);
-$telefone     = filter_input(INPUT_POST, 'telefone', FILTER_SANITIZE_NUMBER_INT);
+$telefone     = filter_input(INPUT_POST, 'telefone', FILTER_SANITIZE_SPECIAL_CHARS);
 
 
 //VERIFICANDO SE JÁ EXISTE O NOME DA UNIDADE OU NÃO

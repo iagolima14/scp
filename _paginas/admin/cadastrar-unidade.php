@@ -36,7 +36,7 @@
                 <!--CAMPO TELEFONE DA UNIDADE-->
                 <div class="input-field col s12">
                     <i class="material-icons prefix">call</i>
-                    <input type="number" name="telefone" id="telefone" maxlength="50" required>
+                    <input type="text" name="telefone" id="telefone" maxlength="50" required>
                     <label for="telefone">Telefone da Unidade</label>
                 </div>
 

@@ -75,7 +75,7 @@
     <div class="footer-copyright">
         <div class="container">
             © 2018 SEAP - Secretaria de Administração Penitenciária e Ressocialização
-            <a class="grey-text text-lighten-4 right" href="_paginas/admin/tela-admin.php"><i class="material-icons"></i>Home</a>
+<!--            <a class="grey-text text-lighten-4 right" href="_paginas/admin/tela-admin.php"><i class="material-icons"></i>Home</a>-->
         </div>
     </div>
 </footer>
