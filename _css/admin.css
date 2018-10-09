@@ -71,3 +71,9 @@ main {
 .altera_fonte_corpo{
     font-size: 10pt;
 }
+.add_arquivo{
+    width: 50%;
+}
+.espaco_linha{
+    margin-bottom: 100px;
+}
