@@ -79,6 +79,11 @@
 </script>
 
 <script>
+    $('#textarea1').val('New Text');
+    M.textareaAutoResize($('#textarea1'));
+</script>
+
+<script>
     M.AutoInit();
 </script>
 

@@ -18,15 +18,20 @@ while ($registros = $querySelect->fetch_assoc()){
     $log = $registros['log'];
     $id_unidade_user = $registros['id_unidade'];
 
+$querySelect1 = $link->query("select * from tb_unidades where id = '$id_unidade_user'");
+while ($registros1 = $querySelect1->fetch_assoc()){
+    $nome_unidade = $registros1['nome'];
+}
+
     if ($situacao == "I") {
         echo "<tr id='destaque' style='background-color: rgba(174,35,38,0.44)'>";
-        echo "<td>$nome</td><td>$matricula</td><td>$email</td><td>$login</td><td>$telefone</td><td>$permissao</td><td>$situacao</td>";
+        echo "<td>$nome</td><td>$matricula</td><td>$email</td><td>$login</td><td>$telefone</td><td>$nome_unidade</td><td>$permissao</td><td>$situacao</td>";
         echo "<td><a href='editar-usuario.php?id=$id'><i class='material-icons'>edit</i></a></td>";
         echo "<td><a href='../../banco_de_dados/admin/modifica_situacao_user.php?id=$id&sit=$situacao&id_anterior=$id_unidade'><i class='material-icons' style='color:red'>do_not_disturb_on</i></a></td>";
         echo "</tr>";
     } else {
         echo "<tr id='destaque'>";
-        echo "<td>$nome</td><td>$matricula</td><td>$email</td><td>$login</td><td>$telefone</td><td>$permissao</td><td>$situacao</td>";
+        echo "<td>$nome</td><td>$matricula</td><td>$email</td><td>$login</td><td>$telefone</td><td>$nome_unidade</td><td>$permissao</td><td>$situacao</td>";
         echo "<td><a href='editar-usuario.php?id=$id'><i class='material-icons'>edit</i></a></td>";
         echo "<td><a href='../../banco_de_dados/admin/modifica_situacao_user.php?id=$id&sit=$situacao&id_anterior=$id_unidade'><i class='material-icons' style='color:green'>lens</i></a></td>";
         echo "</tr>";
