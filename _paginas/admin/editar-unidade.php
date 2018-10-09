@@ -5,13 +5,13 @@
 
     <div class="row container">
         <div class="col s12">
-            <h5 class="light">Edição de Registros</h5><hr>
+            <h5 class="light">Edição de Dados da Unidade</h5><hr>
         </div>
     </div>
 
 <?php
 $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
-$_SESSION['id'] = $id;
+$opc_anterior = filter_input(INPUT_GET, 'opc_anterior', FILTER_SANITIZE_SPECIAL_CHARS);
 $querySelect = $link->query("select * from tb_unidades where id='$id'");
 
 while ($registros = $querySelect->fetch_assoc()){
@@ -47,14 +47,14 @@ while ($registros = $querySelect->fetch_assoc()){
                 <!--CAMPO TELEFONE DA UNIDADE-->
                 <div class="input-field col s12">
                     <i class="material-icons prefix">call</i>
-                    <input type="number" name="telefone" id="telefone" value="<?php echo $telefone ?>" maxlength="50" required>
+                    <input type="text" name="telefone" id="telefone" value="<?php echo $telefone ?>" maxlength="50" required>
                     <label for="telefone">Telefone da Unidade</label>
                 </div>
 
 
                 <div class="input-field col s12">
                     <i class="material-icons prefix">location_city</i>
-                    <select name="regiao" value="<?php echo $regiao ?>">
+                    <select name="regiao">
                         <option value="" disabled selected></option>
                         <option value="RMSP">CAPITAL E RMS GESTÃO PLENA</option>
                         <option value="IP">INTERIOR GESTÃO PLENA</option>
@@ -64,11 +64,12 @@ while ($registros = $querySelect->fetch_assoc()){
                     </select>
                     <label>REGIÃO DA UNIDADE</label>
                 </div>
-
+                <input type="hidden" value="<?php echo $opc_anterior?>" name="op_anterior"/>
+                <input type="hidden" value="<?php echo $id?>" name="id_unidade"/>
                 <!--BOTÕES-->
                 <div class="input-field col s12">
                     <input type="submit" value="alterar" class="btn blue">
-                    <a href="consultar-unidade.php" class="btn red">Cancelar</a>
+                    <input type="button" value="Voltar" class="btn red" onclick="location.href='consultar-unidade.php?select_unidades=<?php echo $opc_anterior?>'">
                 </div>
 
             </fieldset>

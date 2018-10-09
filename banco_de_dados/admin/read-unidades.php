@@ -49,7 +49,7 @@
            echo "<td style='color: red;'>$nome_user_diretor</td>";
         }
         echo "<td><a href='editar-diretor.php?nome_diretor=$nome_user_diretor&id_user_diretor=$id_usuario_diretor&id_unidade_selecionada=$id&opc_anterior=$variavelJS'><i class='material-icons'>sync</i></a></td><td>$telefone</td>";
-        echo "<td><a href='editar-unidade.php?id=$id'><i class='material-icons'>edit</i></a></td></tr>";
+        echo "<td><a href='editar-unidade.php?id=$id&opc_anterior=$variavelJS'><i class='material-icons'>edit</i></a></td></tr>";
     }
 
 ?>
