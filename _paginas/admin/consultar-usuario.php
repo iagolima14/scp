@@ -35,6 +35,7 @@
                 <th>E-MAIL</th>
                 <th>Login</th>
                 <th>Telefone</th>
+                <th>Unidade</th>
                 <th>Permissão</th>
                 <th>Situação</th>
                 <th>Editar</th>

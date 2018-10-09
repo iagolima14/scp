@@ -52,10 +52,12 @@ while ($registros1 = $querySelect1->fetch_assoc()){
 
                         <!--DESCRIÇÃO DO ITEM-->
                         <div class="input-field col s12">
-                            <i class="material-icons prefix">check</i>
-                            <input type="text" name="desc-item" id="desc-item" value="<?php echo $desc_item ?>"
-                                   maxlength="40" required autofocus readonly>
-                            <label for="desc-item">Descrição do Item</label>
+                                <i class="material-icons prefix">check</i>
+                                <textarea id="desc-item" name="desc-item" class="materialize-textarea" readonly><?php echo $desc_item ?></textarea>
+                                <label for="desc-item">Descrição do Item</label>
+<!--                            <input type="text" name="desc-item" id="desc-item" value="--><?php //echo $desc_item ?><!--"-->
+<!--                                   maxlength="40" required autofocus readonly>-->
+<!--                            <label for="desc-item">Descrição do Item</label>-->
                         </div>
                     </fieldset>
 

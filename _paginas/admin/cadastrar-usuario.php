@@ -53,13 +53,22 @@
                     <label for="tel">Telefone do Usuário</label>
                 </div>
 
-                <!--CAMPO UNIDADE-->
+
+                <!--CAMPO UNIDADE DO USUÁRIO-->
                 <div class="input-field col s12">
-                    <i class="material-icons prefix">home</i>
+                    <i class="material-icons prefix">location_city</i>
                     <select class="aa" id="sel_unidades" name="sel_unidades">
                         <option></option>
+                        <?php
+                        $querySelect = $link->query("select * from tb_unidades");
+                        while ($registros = $querySelect->fetch_assoc()) {
+                            $nome = $registros['nome'];
+                            $id_unidade_selecionada = $registros['id'];
+                            echo "<option value='$id_unidade_selecionada'>$nome - $id_unidade_selecionada</option>";
+                        }
+                        ?>
                     </select>
-                    <label for="tel">Telefone do Usuário</label>
+                    <label for="tel">Unidade do Usuário</label>
                 </div>
 
                 <fieldset id="permis" class="formulario" style="padding: 15px">
@@ -125,6 +134,7 @@ if(isset($_REQUEST['salvar'])) {
         }
         $telefone = isset($_POST["tel"]) ? $_POST["tel"] : "";
         $permissao = isset($_POST["group1"]) ? $_POST["group1"] : "2";
+        $id_unidade = isset($_POST["sel_unidades"]) ? $_POST["sel_unidades"] : "";
 
         $sql2 = "SELECT * FROM tb_usuarios WHERE login = '$login'";
         $linha2 = $link->query($sql2);
@@ -135,7 +145,7 @@ if(isset($_REQUEST['salvar'])) {
         } else {
             $senha = "Seap=2018";
             $senha_criptografada = md5($senha);
-            $sql3 = "INSERT INTO tb_usuarios (login, senha, matricula, nome, permissao, situacao, telefone, email) VALUES ('$login', '$senha_criptografada', '$matricula', '$nome' ,'$permissao', 'A', '$telefone', '$email')";
+            $sql3 = "INSERT INTO tb_usuarios (login, senha, matricula, nome, permissao, situacao, telefone, email, id_unidade) VALUES ('$login', '$senha_criptografada', '$matricula', '$nome' ,'$permissao', 'A', '$telefone', '$email','$id_unidade')";
             $link->query($sql3);
             date_default_timezone_set('America/Sao_Paulo');
             $data_log = date('Y-m-d');
