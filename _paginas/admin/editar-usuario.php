@@ -69,10 +69,30 @@ while ($registros = $querySelect->fetch_assoc()){
                     <label for="telefone">Telefone do Usuário</label>
                 </div>
 
+                <!--CAMPO UNIDADE DO USUÁRIO-->
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">home</i>
+                    <select id="select_unidades" name="select_unidades">
+                        <option></option>
+                        <option value="todas">TODOS USUÁRIOS</option>
+                        <?php
+                        $querySelect = $link->query("select * from tb_unidades");
+                        while ($registros = $querySelect->fetch_assoc()) {
+                            $nome = $registros['nome'];
+                            $id_unidade_selecionada = $registros['id'];
+                            echo "<option value='$id_unidade_selecionada'>$nome</option>";
+                        }
+                        ?>
+                    </select>
+                    <label for="select_unidades">Unidade do Usuário</label>
+                </div>
+
                 <!--BOTÕES-->
                 <div class="input-field col s12">
-                    <input type="submit" value="alterar" class="btn blue">
-                    <a href="consultar-usuario.php" class="btn red">Cancelar</a>
+                    <input type="submit" value="Alterar" class="btn green">
+<!--                    <a href="consultar-usuario.php" class="btn red">Cancelar</a>-->
+                    <input type="reset" value="limpar" class="btn red">
+                    <input type="button" value="Voltar" class="btn blue" onclick="location.href='consultar-usuario.php'">
                 </div>
 
             </fieldset>

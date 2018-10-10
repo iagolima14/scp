@@ -67,7 +67,13 @@
                     </optgroup>
                 </select>
                 <input type="file" name="arquivo" class="">
-                <input type="submit" value="Enviar">
+<!--                <input type="submit" value="Enviar">-->
+
+                <div class="input-field">
+                    <input type="submit" value="enviar" name="Enviar" class="btn green"">
+                    <input type="reset" value="limpar" name="limpar" class="btn red"">
+                    <input type="button" value="voltar" name="VOLTAR" class="btn blue" onclick="location.href='tela-admin.php'">
+                </div>
             </form>
         </div>
     </div>

@@ -37,7 +37,7 @@
                 <th>Telefone</th>
                 <th>Unidade</th>
                 <th>Permissão</th>
-                <th>Situação</th>
+            <!--<th>Situação</th>-->
                 <th>Editar</th>
                 <th>A/I</th>
             </tr>

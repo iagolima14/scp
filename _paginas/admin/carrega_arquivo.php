@@ -16,6 +16,8 @@
             <br>
             <br>
             <br>
+            <br>
+            <br>
             <form method="POST" action="arquivo.php" enctype="multipart/form-data">
                 <input type="file" name="arquivo" class="input-field add_arquivo">
                 <div class="input-field">

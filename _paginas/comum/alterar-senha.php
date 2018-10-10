@@ -39,8 +39,9 @@
 
                     <!--BOTÕES-->
                     <div class="input-field col s12">
-                        <input type="submit" value="Alterar" class="btn blue" name="alterar">
+                        <input type="submit" value="Alterar" class="btn green" name="alterar">
                         <input type="reset" value="limpar" class="btn red">
+                        <input type="button" value="Voltar" class="btn blue" onclick="location.href='tela-comum.php'">
                     </div>
                 </div>
 
