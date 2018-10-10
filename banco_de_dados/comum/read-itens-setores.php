@@ -25,7 +25,6 @@ while ($registros = $querySelect->fetch_assoc()) {
     echo"<tr class='font_tabela_corpo'>
             <td style='text-indent: 15px;'>$i</td>
             <td>$nome</td>
-            <td>$descricao</td>
             <td style='text-indent: 40px;'>$num_patrimonio</td>
             <td style='text-indent: 20px;'>$situacao_fisica</td>
          </tr>
