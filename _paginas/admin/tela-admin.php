@@ -6,7 +6,7 @@
         <!-- Note that "m8 l9" was added -->
             <br><br><br><br>
             <div class="row">
-                <div class="container teste" ">
+                <div class="container teste">
                     <div id="linha" class="col s9 offset-s3 espaco_linha">
 
                         <!--INDEX (LINHA 1) COLUNA 1 | CADASTRAR NOVO ITEM-->
@@ -21,8 +21,8 @@
                         <!--INDEX (LINHA 1) COLUNA 2 | DISTRIBUIÇÃO DE ITENS-->
                         <div class="col s4 toolt">
                             <!-- BTN com ação LINK e informativo -->
-                            <a href="../../distribuição-itens.php" class="btn-large tooltipped no-padding btn_inicial" data-position="top" data-tooltip="Distribuição de Itens">
-                                <p class="texto_icone">Distribuição de Itens</p>
+                            <a href="../../distribuição-itens.php" class="btn-large tooltipped no-padding btn_inicial" data-position="top" data-tooltip="Distribuição de Itens Por Unidades">
+                                <p class="texto_icone">Distribuição de Itens - Unidade</p>
                                 <i class="material-icons" style="font-size: 40px;">shopping_cart</i>
                             </a>
                         </div>
