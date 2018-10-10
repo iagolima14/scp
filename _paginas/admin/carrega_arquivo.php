@@ -18,8 +18,8 @@
             <br>
             <br>
             <br>
-            <form method="POST" action="arquivo.php" enctype="multipart/form-data">
-                <input type="file" name="arquivo" class="input-field add_arquivo">
+            <form method="POST" action="arquivo.php" enctype="multipart/form-data" onsubmit="return checkSubmit()">
+                <input type="file" name="arquivo" class="input-field add_arquivo" required>
                 <div class="input-field">
                     <input type="submit" value="enviar" name="Enviar" class="btn green"">
                     <input type="reset" value="limpar" name="limpar" class="btn red"">

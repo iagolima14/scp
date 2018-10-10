@@ -12,64 +12,33 @@
             <br>
             <br>
             <br>
-            <form method="POST" action="arquivo_unidades.php" enctype="multipart/form-data">
-                <select id="select_unidades" name="id_unidade">
+            <form method="post" action="arquivo_unidades.php" enctype="multipart/form-data" onsubmit="return checkSubmit()">
+                <select id="select_unidades" name="id_unidade" required>
                     <option></option>
-                    <optgroup label="Salvador e RM - PLENA">
-                        <?php
-                            $querySelect = $link->query("select * from tb_unidades where regiao = 'RMSP'");
+                    <?php
+                        $vetor_regiao = array("RMSP", "IP", "RMSC", "IC", "CEAPA");
+                        $vetor_regiao_extenso = array("CAPITAL E RMS GESTÃO PLENA", "INTERIOR GESTÃO PLENA", "CAPITAL E RMS COGESTÃO", "INTERIOR COGESTÃO", "CEAPA");
+                        for($i=0; $i<5; $i++){
+                            echo "<optgroup label='$vetor_regiao_extenso[$i]'>";
+                            $querySelect = $link->query("select * from tb_unidades WHERE regiao = '$vetor_regiao[$i]'");
                             while ($registros = $querySelect->fetch_assoc()) {
-                                $id = $registros['id'];
                                 $nome = $registros['nome'];
-                                echo "<option value = '$id'>$nome</option>";
+                                $id_unidade_selecionada = $registros['id'];
+                                echo "<option value='$id_unidade_selecionada' style='padding: 0; line-height: 0.1;'>$nome</option>";
                             }
-                        ?>
-                    </optgroup>
-                    <optgroup label="Interior - PLENA">
-                        <?php
-                        $querySelect = $link->query("select * from tb_unidades where regiao = 'IP'");
-                        while ($registros = $querySelect->fetch_assoc()) {
-                            $id = $registros['id'];
-                            $nome = $registros['nome'];
-                            echo "<option value = '$id'>$nome</option>";
-                            }
-                        ?>
-                    </optgroup>
-                    <optgroup label="Salvador e RM - Cogestão">
-                        <?php
-                        $querySelect = $link->query("select * from tb_unidades where regiao = 'RMSC'");
-                        while ($registros = $querySelect->fetch_assoc()) {
-                            $id = $registros['id'];
-                            $nome = $registros['nome'];
-                            echo "<option value = '$id'>$nome</option>";
+                            echo "</optgroup>";
                         }
-                        ?>
-                    </optgroup>
-                    <optgroup label="Interior - Cogestão">
-                        <?php
-                        $querySelect = $link->query("select * from tb_unidades where regiao = 'IC'");
-                        while ($registros = $querySelect->fetch_assoc()){
-                            $id = $registros['id'];
-                            $nome = $registros['nome'];
-                            echo "<option value = '$id'>$nome</option>";
-                        }
-                        ?>
-                    </optgroup>
-                    <optgroup label="CEAPA">
-                        <?php
-                        $querySelect = $link->query("select * from tb_unidades where regiao = 'CEAPA'");
-                        while ($registros = $querySelect->fetch_assoc()){
-                            $id = $registros['id'];
-                            $nome = $registros['nome'];
-                            echo "<option value = '$id'>$nome</option>";
-                        }
-                        ?>
-                    </optgroup>
+                     ?>
                 </select>
-                <input type="file" name="arquivo" class="">
-<!--                <input type="submit" value="Enviar">-->
+                <br>
+                <input type="file" name="arquivo" class="input-field add_arquivo" required>
 
                 <div class="input-field">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                     <input type="submit" value="enviar" name="Enviar" class="btn green"">
                     <input type="reset" value="limpar" name="limpar" class="btn red"">
                     <input type="button" value="voltar" name="VOLTAR" class="btn blue" onclick="location.href='tela-admin.php'">
@@ -79,4 +48,4 @@
     </div>
 </div>
 
-<?php include_once ("../../_includes/geral/footer.inc.php"); ?>
+<?php include_once ("../../_includes/comum/footer_comum.inc.php"); ?>

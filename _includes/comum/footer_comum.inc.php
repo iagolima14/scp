@@ -87,15 +87,26 @@
     M.AutoInit();
 </script>
 
+<script>
+    var submited = false;
+    function checkSubmit() {
+        if (!submited) {
+            submited = true;
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+</script>
 
 
 <!--INÍCIO DO RODAPÉ-->
 <footer class="page-footer deep-orange">
 
     <div class="footer-copyright">
-        <div class="container">
+        <div class="container center">
             © 2018 SEAP - Secretaria de Administração Penitenciária e Ressocialização
-<!--            <a class="grey-text text-lighten-4 right" href="../../_paginas/comum/tela-comum.php"><i class="material-icons"></i>Home</a>-->
         </div>
     </div>
 </footer>
