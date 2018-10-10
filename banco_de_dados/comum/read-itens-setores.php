@@ -1,14 +1,10 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: marcus.assis
- * Date: 04/10/2018
- * Time: 10:36
- */
-include_once '../../banco_de_dados/conexao.php';
-include_once ("../../_includes/comum/controle_acesso_comum.php");
+<?php include_once '../../banco_de_dados/conexao.php'; ?>
+<?php include_once ("../../_includes/comum/controle_acesso_comum.php"); ?>
 
-$id_setor_selecionado = filter_input(INPUT_GET, 'id_setor', FILTER_SANITIZE_SPECIAL_CHARS);
+<?php
+$id_setor_selecionado = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_SPECIAL_CHARS);
+
+
 
 
 
@@ -27,6 +23,8 @@ while ($registros = $querySelect->fetch_assoc()) {
             <td>$nome</td>
             <td style='text-indent: 40px;'>$num_patrimonio</td>
             <td style='text-indent: 20px;'>$situacao_fisica</td>
+            <td><a href='../../_paginas/comum/mover-item.php'><i class='material-icons'>autorenew</i></a></td>
          </tr>
         ";
 }
+?>
