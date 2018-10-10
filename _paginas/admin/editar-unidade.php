@@ -50,17 +50,22 @@ while ($registros = $querySelect->fetch_assoc()){
                     <input type="text" name="telefone" id="telefone" value="<?php echo $telefone ?>" maxlength="50" required>
                     <label for="telefone">Telefone da Unidade</label>
                 </div>
-
-
                 <div class="input-field col s12">
                     <i class="material-icons prefix">location_city</i>
                     <select name="regiao">
                         <option value="" disabled selected></option>
-                        <option value="RMSP">CAPITAL E RMS GESTÃO PLENA</option>
-                        <option value="IP">INTERIOR GESTÃO PLENA</option>
-                        <option value="RMSC">CAPITAL E RMS COGESTÃO</option>
-                        <option value="IC">INTERIOR COGESTÃO</option>
-                        <option value="CEAPA">CEAPA</option>
+                        <?php
+                            $vetor_regiao = array("RMSP", "IP", "RMSC", "IC", "CEAPA");
+                            $vetor_regiao_extenso = array("CAPITAL E RMS GESTÃO PLENA", "INTERIOR GESTÃO PLENA", "CAPITAL E RMS COGESTÃO", "INTERIOR COGESTÃO", "CEAPA");
+                            for($i=0; $i<5; $i++){
+                                if($regiao == $vetor_regiao[$i]){
+                                    echo "<option value='$vetor_regiao[$i]' selected>$vetor_regiao_extenso[$i]</option>";
+                                }
+                                else{
+                                    echo "<option value='$vetor_regiao[$i]'>$vetor_regiao_extenso[$i]</option>";
+                                }
+                            }
+                        ?>
                     </select>
                     <label>REGIÃO DA UNIDADE</label>
                 </div>

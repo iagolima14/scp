@@ -11,15 +11,22 @@
         <form>
             <div class="col s10 center">
                 <select id="select_unidades" name="select_unidades">
-                    <option></option>
-                    <option value="todas">TODOS USUÁRIOS</option>
+                    <option class='font_select' ></option>
+                    <option class='font_select' value="todas">TODOS USUÁRIOS</option>
                     <?php
-                    $querySelect = $link->query("select * from tb_unidades");
-                    while ($registros = $querySelect->fetch_assoc()) {
-                        $nome = $registros['nome'];
-                        $id_unidade_selecionada = $registros['id'];
-                        echo "<option value='$id_unidade_selecionada'>$nome</option>";
-                    }
+                        $vetor_regiao = array("RMSP", "IP", "RMSC", "IC", "CEAPA");
+                        $vetor_regiao_extenso = array("CAPITAL E RMS GESTÃO PLENA", "INTERIOR GESTÃO PLENA", "CAPITAL E RMS COGESTÃO", "INTERIOR COGESTÃO", "CEAPA");
+                        for($i=0; $i<5; $i++){
+                            echo "<optgroup label='$vetor_regiao_extenso[$i]'>";
+                            $querySelect = $link->query("select * from tb_unidades WHERE regiao = '$vetor_regiao[$i]'");
+                            while ($registros = $querySelect->fetch_assoc()) {
+                                $nome = $registros['nome'];
+                                $id_unidade_selecionada = $registros['id'];
+                                echo "<option value='$id_unidade_selecionada' style='padding: 0; line-height: 0.1;'>$nome</option>";
+                            }
+                            echo "</optgroup>";
+                        }
+
                     ?>
                 </select>
             </div>
