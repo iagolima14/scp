@@ -87,6 +87,7 @@
     M.AutoInit();
 </script>
 
+<!--BLOQUEIA O DUPLO ENVIO DO SUBMIT-->
 <script>
     var submited = false;
     function checkSubmit() {
@@ -100,6 +101,7 @@
     }
 </script>
 
+<!--EXIBE A DIV BLOQUEADA-->
 
 <!--INÍCIO DO RODAPÉ-->
 <footer class="page-footer deep-orange">
