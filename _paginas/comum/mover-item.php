@@ -11,6 +11,8 @@
 
 <?php
 $id_patrimonio = filter_input(INPUT_GET, 'id_patrimonio', FILTER_SANITIZE_NUMBER_INT);
+$id_setor_selecionado = filter_input(INPUT_GET, 'id_setor', FILTER_SANITIZE_SPECIAL_CHARS);
+
 $querySelect = $link->query("select * from tb_patrimonio where id = '$id_patrimonio'");
 
 while ($registros = $querySelect->fetch_assoc()){
@@ -99,10 +101,10 @@ while ($registros1 = $querySelect1->fetch_assoc()){
                 <!--BOTÕES-->
                 <div class="input-field col s12">
                     <input type="submit" value="Alterar" name="salvar" class="btn green">
-                    <input type="button" value="Voltar" class="btn blue" onclick="location.href='consultar-item-no-setor.php?<?php echo $id_patrimonio ?>'">
+                    <input type="button" value="Voltar" class="btn blue" onclick="location.href='consultar-item-no-setor.php?id_setor=<?php echo $id_setor_selecionado ?>'">
                 </div>
 
-                <input type="hidden" name="id_setor" value="<?php echo $id ?>"/>
+                <input type="hidden" name="id_setor" value="<?php echo $id_setor_selecionado ?>"/>
             </fieldset>
         </form>
     </div>

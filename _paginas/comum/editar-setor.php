@@ -51,9 +51,11 @@ while ($registros = $querySelect->fetch_assoc()){
 
                 <!--BOTÕES-->
                 <div class="input-field col s12">
-                    <input type="submit" value="alterar" class="btn blue">
-                    <a href="consultar-setor.php" class="btn red">Cancelar</a>
+                    <input type="submit" value="Alterar" class="btn green">
+                    <input type="reset" value="limpar" class="btn red">
+                    <input type="button" value="Voltar" class="btn blue" onclick="location.href='consultar-setor.php'">
                 </div>
+
                 <input type="hidden" name="id_setor" value="<?php echo $id ?>"/>
             </fieldset>
         </form>
