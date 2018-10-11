@@ -8,8 +8,7 @@
 
         <br><br><br><br>
         <div class="row">
-            <div class="container teste"
-            ">
+            <div class="container">
             <!--INDEX (LINHA 0) COLUNA 0 | ... -->
             <div class="col s3 m3 l3">
 
@@ -43,7 +42,7 @@
                 <!-- BTN com ação LINK e informativo -->
                 <a href="../comum/distribuição-itens.php?filtro=1" class="btn-large tooltipped no-padding btn_inicial" data-position="top"
                    data-tooltip="Distribuição de Itens Por Setor">
-                    <p class="texto_icone">Distribuição de Itens por Setor</p>
+                    <p class="texto_icone">Distribuição de Itens</p>
                     <i class="material-icons" style="font-size: 50px;">add_shopping_cart</i>
                 </a>
             </div>
@@ -68,7 +67,7 @@
             <div class="col s3 m3 l3">
                 <br><br><br><br>
                 <!-- BTN com ação LINK e informativo -->
-                <a href="baixas-solicitadas.php" class="btn-large tooltipped no-padding btn_inicial"
+                <a href="solicitar-baixas.php" class="btn-large tooltipped no-padding btn_inicial"
                    data-position="top" data-tooltip="Solicitar Baixa">
                     <p class="texto_icone">Solicitar Baixa de Materiais</p>
                     <i class="material-icons" style="font-size: 50px;">assignment_turned_in</i>

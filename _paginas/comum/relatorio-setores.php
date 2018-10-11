@@ -13,8 +13,10 @@
                 <table class="striped" >
                     <thead>
                         <tr>
-                            <th colspan="3"><p class="center-align">SECRETARIA DE ADMINISTRAÇÃO PENITENCIÁRIA E RESSOCIALIZAÇÃO</p><p class="center-align">COORDENAÇÃO DE MATERIAL E PATRIMÔNIO - COMAP</p></th>
-                            <th colspan="1" class="center-align"><img src="../../_imagens/brasao-bahia.jpg" style="width: 50%"></th>
+                            <th colspan="3"><br><p class="center-align tam_fonte">SECRETARIA DE ADMINISTRAÇÃO PENITENCIÁRIA E RESSOCIALIZAÇÃO</p>
+                                            <p class="center-align tam_fonte">DIRETORIA GERAL - DG   /   DIRETORIA ADMINISTRATIVA - DA</p>
+                                            <p class="center-align tam_fonte">COMAP</p></th>
+                            <th colspan="1" class="center-align"><img src="../../_imagens/brasao-bahia.jpg" style="width: 65%"></th>
                         </tr>
                         <tr class="font_tabela_cab">
                             <th style="width: 10%">ITEM</th>
@@ -28,17 +30,22 @@
                 <?php include_once '../../banco_de_dados/comum/read-itens-setores.php' ?>
                 </tbody>
                     <tr>
-                        <td colspan="4"><p class="center-align font_tabela_cab">Obs.: Cabe aos funcionários deste setor a responsabilidade dos bens móveis citado acima.</p></td>
+                        <td colspan="4" style="padding: 5px;">
+                            <p class="center-align font_tabela_cab2" style="margin: 3px;">Obs.: Cabe aos funcionários deste setor a responsabilidade dos bens móveis citado acima.</p>
+                            <p class="center-align font_tabela_cab2" style="margin: 3px;">SISCOP - Sistema de Controle de Patrimônio SEAP/BA</p>
+                        </td>
                     </tr>
             </table>
-                <div class="col s4">
-                    <p>Data de conferência: _____/______/__________</p>
+                <div class="col s12">
+                        <p class="font_tabela_cab2">Data de conferência: _____/______/__________</p>
                 </div>
-                <div class="col s4">
-                    <p style="text-decoration: overline; margin-top: 50px;">Responsável pelo Patrimônio da Unidade</p>
-                </div>
-                <div class="col s4">
-                    <p style="text-decoration: overline; margin-top: 50px;">Responsável pela Conferência/SETOR</p>
+                <div class="col s12">
+                    <div class="assinatura">
+                        <p class="font_tabela_cab2" style="text-decoration: overline; margin-top: 50px;">Responsável pelo Patrimônio da Unidade</p>
+                    </div>
+                    <div class="assinatura">
+                        <p class="font_tabela_cab2" style="text-decoration: overline; margin-top: 50px;">Responsável pela Conferência/SETOR</p>
+                    </div>
                 </div>
         </div>
             <!--BOTÕES-->

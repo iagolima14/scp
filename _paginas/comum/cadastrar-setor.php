@@ -7,7 +7,7 @@
     <div class="row container">
         <p>&nbsp;</p>
 
-        <form action="../../banco_de_dados/comum/create-setor.php" method="post" class="col s12">
+        <form action="../../banco_de_dados/comum/create-setor.php" method="post" class="col s12" onsubmit="return checkSubmit()">
             <fieldset class="formulario" style="padding: 15px">
                 <legend><img src="../../_imagens/casa1.png" alt="[imagem]" width="200"></legend>
                 <h5 class="light center">Cadastro de Setores</h5>

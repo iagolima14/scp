@@ -25,7 +25,7 @@
 <script type="text/javascript">
     function imprimir(para) {
     var conteudo = document.getElementById(para).innerHTML,
-    tela_impressao = window.open('about:blank');
+    tela_impressao = window.open();
     tela_impressao.document.write(conteudo);
     tela_impressao.window.print();
 }
