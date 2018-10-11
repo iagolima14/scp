@@ -23,7 +23,7 @@ while ($registros = $querySelect->fetch_assoc()) {
             <td>$nome</td>
             <td style='text-indent: 40px;'>$num_patrimonio</td>
             <td style='text-indent: 20px;'>$situacao_fisica</td>
-            <td><a href='../../_paginas/comum/mover-item.php'><i class='material-icons'>autorenew</i></a></td>
+            <td><a href='../../_paginas/comum/mover-item.php?id_patrimonio=$id'><i class='material-icons'>autorenew</i></a></td>
          </tr>
         ";
 }
