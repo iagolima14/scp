@@ -49,7 +49,8 @@
             $quantidade = $registros['quantidade'];
             $situacao = $registros['situacao'];
             $data = $registros['data'];
-            $valor = "R$".str_replace(".",",", $registros['valor']);
+            //$valor = "R$".str_replace(".",",", $registros['valor']);
+            $valor = "R$".number_format($registros['valor'], 2, ",", ".");
             $dataformatada = substr($data,-2)."/".substr($data,-5,2)."/".substr($data,0,-6);
 
             $querySoma = $link->query("SELECT * FROM tb_patrimonio WHERE id_item = '$id'");
@@ -59,14 +60,14 @@
 
             if($situacao == "I"){
                 echo "<tr class='altera_fonte_corpo' id='destaque' style='background-color: rgba(237,15,70,0.23)'>";
-                echo "<td>$i</td><td>$descricao</td><td>$codigo</td><td>$quantidade</td><td>$qnt_disponivel</td><td>$dataformatada</td><td>$valor</td>";
+                echo "<td style='text-indent: 10px'>$i</td><td>$descricao</td><td>$codigo</td><td style='text-indent: 30px'>$quantidade</td><td style='text-indent: 30px'>$qnt_disponivel</td><td style='text-indent: 50px'>$dataformatada</td><td>$valor</td>";
                 echo "<td><a href='editar-item.php?id=$id'><i class='material-icons'>edit</i></a></td>";
                 echo "<td><a href='../../banco_de_dados/admin/modifica_situacao_itens.php?id=$id&sit_item=$situacao&select_ordenacao=$ordenar&desc=$desc&cod=$cod&select_situacao=$sit'><i class='material-icons' style='color: red;'>do_not_disturb_on</i></a></td>";
                 echo "</tr>";
             }
             else{
                 echo "<tr id='destaque' class='altera_fonte_corpo'>";
-                echo "<td>$i</td><td>$descricao</td><td>$codigo</td><td>$quantidade</td><td>$qnt_disponivel</td><td>$dataformatada</td><td>$valor</td>";
+                echo "<td style='text-indent: 10px'>$i</td><td>$descricao</td><td>$codigo</td><td style='text-indent: 30px'>$quantidade</td><td style='text-indent: 30px'>$qnt_disponivel</td><td style='text-indent: 50px'>$dataformatada</td><td>$valor</td>";
                 echo "<td><a href='editar-item.php?id=$id'><i class='material-icons'>edit</i></a></td>";
                 echo "<td><a href='../../banco_de_dados/admin/modifica_situacao_itens.php?id=$id&sit_item=$situacao&select_ordenacao=$ordenar&desc=$desc&cod=$cod&select_situacao=$sit'><i class='material-icons' style='color: green;'>lens</i></a></td>";
                 echo "</tr>";
