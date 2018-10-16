@@ -26,13 +26,13 @@
         <table class="striped">
             <thead>
             <tr>
-                <th>Nome</th>
-                <th>Cidade</th>
-                <th>Região</th>
-                <th>Diretor</th>
-                <th>Alterar Dir.</th>
-                <th>Telefone</th>
-                <th>Editar</th>
+                <th>NOME</th>
+                <th>CIDADE</th>
+                <th>REGIÃO</th>
+                <th>DIRETOR</th>
+                <th>ALTERAR DIR.</th>
+                <th>TELEFONE</th>
+                <th>EDITAR</th>
             </tr>
             </thead>
             <tbody>

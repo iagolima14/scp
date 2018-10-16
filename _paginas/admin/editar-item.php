@@ -20,7 +20,7 @@ while ($registros = $querySelect->fetch_assoc()){
     $codigo = $registros['codigo'];
     $quantidade = $registros['quantidade'];
     $data = $registros['data'];
-    $valor = $registros['valor'];
+    $valor = str_replace(".",",",$registros['valor']);
 
 }
 ?>

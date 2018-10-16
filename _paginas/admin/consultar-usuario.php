@@ -37,15 +37,15 @@
         <table class="striped">
             <thead>
             <tr>
-                <th>Nome</th>
-                <th>Matrícula</th>
+                <th>NOME</th>
+                <th>MATRÍCULA</th>
                 <th>E-MAIL</th>
-                <th>Login</th>
-                <th>Telefone</th>
-                <th>Unidade</th>
-                <th>Permissão</th>
+                <th>LOGIN</th>
+                <th>TELEFONE</th>
+                <th>UNIDADE</th>
+                <th>PERMISSÃO</th>
             <!--<th>Situação</th>-->
-                <th>Editar</th>
+                <th>EDITAR</th>
                 <th>A/I</th>
             </tr>
             </thead>
