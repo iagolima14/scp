@@ -48,7 +48,7 @@
                         <!--INDEX (LINHA 2) COLUNA 2 | BAIXAS SOLICITADAS-->
                         <div class="col s4 toolt">
                             <!-- BTN com ação LINK e informativo -->
-                            <a href="../../baixas-solicitadas.php" class="btn-large tooltipped no-padding btn_inicial" data-position="top" data-tooltip="Baixas Solicitadas">
+                            <a href="../../_paginas/admin/baixas-solicitadas.php" class="btn-large tooltipped no-padding btn_inicial" data-position="top" data-tooltip="Baixas Solicitadas">
                                 <p class="texto_icone">Baixas Solicitadas</p>
                                 <i class="material-icons" style="font-size: 50px;">playlist_add</i>
                             </a>

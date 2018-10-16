@@ -29,11 +29,11 @@
             <table class="striped">
                 <thead>
                 <tr>
-                    <th>Nome do Setor</th>
-                    <th>Quantidade de Itens</th>
-                    <th>Responsável</th>
-                    <th>Telefone</th>
-                    <th>Editar</th>
+                    <th>NOME DO SETOR</th>
+                    <th>QTD DE ITENS</th>
+                    <th>RESPONSÁVEL</th>
+                    <th>TELEFONE</th>
+                    <th>EDITAR</th>
                     <th>A/I</th>
                 </tr>
                 </thead>

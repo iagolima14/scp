@@ -5,7 +5,7 @@ $nome_item     = filter_input(INPUT_POST, 'descricao', FILTER_SANITIZE_SPECIAL_C
 $codigo     = filter_input(INPUT_POST, 'codigo', FILTER_SANITIZE_NUMBER_INT);
 $quantidade     = filter_input(INPUT_POST, 'quantidade', FILTER_SANITIZE_NUMBER_INT);
 $data     = filter_input(INPUT_POST, 'data', FILTER_SANITIZE_NUMBER_INT);
-$valor     = filter_input(INPUT_POST, 'valor', FILTER_SANITIZE_NUMBER_INT);
+$valor     = filter_input(INPUT_POST, 'valor', FILTER_SANITIZE_SPECIAL_CHARS);
 
 
 //VERIFICANDO SE JÁ EXISTE O NOME DA UNIDADE OU NÃO
