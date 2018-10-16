@@ -5,18 +5,22 @@
 
     <div class="row container">
         <div class="col s12">
-            <h5 class="light">Consultar Setores</h5>
-            <hr>
-
+            <div class="col s10">
+                <h5 class="light">Consultar Setores</h5>
+                <hr>
+            </div>
+            <div class="col s2">
+                <input type="button" value="VOLTAR" class="btn blue mover_btn_baixo" onclick="location.href='tela-comum.php'">
+            </div>
             <table class="striped">
                 <thead>
                 <tr>
-                    <th style="width: 30%">Nome do Setor</th>
-                    <th style="width: 15%">Quantidade de Itens</th>
-                    <th style="width: 20%">Responsável</th>
-                    <th style="width: 15%">Telefone</th>
-                    <th style="width: 10%">Editar</th>
-                    <th style="width: 8%">A/I</th>
+                    <th style="width: 28%; text-transform: uppercase;">Nome do Setor</th>
+                    <th style="width: 18%; text-transform: uppercase;">Quantidade de Itens</th>
+                    <th style="width: 20%; text-transform: uppercase;">Responsável</th>
+                    <th style="width: 15%; text-transform: uppercase;">Telefone</th>
+                    <th style="width: 10%; text-transform: uppercase;">Editar</th>
+                    <th style="width: 8%; text-transform: uppercase;">A/I</th>
                 </tr>
                 </thead>
                 <tbody>

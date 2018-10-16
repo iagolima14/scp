@@ -22,18 +22,18 @@ while ($registros = $querySelect->fetch_assoc()) {
         echo "<tr id='destaque' style='background-color: rgba(174,35,38,0.44)'>
             <td style='text-indent: 15px;'>$i</td>
             <td>$nome</td>
-            <td style='text-indent: 40px;'>$num_patrimonio</td>
+            <td style='text-indent: 20px;'>$num_patrimonio</td>
             <td style='text-indent: 20px;'>$situacao_fisica</td>
-            <td><a href='../../_paginas/comum/mover-item.php?id_patrimonio=$id&id_setor=$id_setor_selecionado'><i class='material-icons'>autorenew</i></a></td>
+            <td><a href='../../_paginas/comum/mover-item.php?id_patrimonio=$id&id_setor=$id_setor_selecionado'><i class='material-icons mudar_cor_icone'>import_export</i></a></td>
          </tr>
         ";
     } else {
         echo "<tr id='destaque'>
             <td style='text-indent: 15px;'>$i</td>
             <td>$nome</td>
-            <td style='text-indent: 40px;'>$num_patrimonio</td>
+            <td style='text-indent: 20px;'>$num_patrimonio</td>
             <td style='text-indent: 20px;'>$situacao_fisica</td>
-            <td><a href='../../_paginas/comum/mover-item.php?id_patrimonio=$id&id_setor=$id_setor_selecionado'><i class='material-icons'>autorenew</i></a></td>
+            <td><a href='../../_paginas/comum/mover-item.php?id_patrimonio=$id&id_setor=$id_setor_selecionado'><i class='material-icons mudar_cor_icone'>import_export</i></a></td>
          </tr>
          ";
     }

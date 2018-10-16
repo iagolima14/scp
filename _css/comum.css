@@ -87,3 +87,13 @@ div#secreta{
     margin-left: 60px;
     float: left;
 }
+.espaco_qnt_linha{
+    text-indent: 50px;
+}
+.mudar_cor_icone{
+    color: cornflowerblue;
+    margin-left: 25px;
+}
+.mover_btn_baixo{
+    margin-top: 10px;
+}

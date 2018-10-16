@@ -10,17 +10,24 @@ $nome_setor_selecionado = filter_input(INPUT_GET, 'nome_setor', FILTER_SANITIZE_
 
     <div class="row container teste">
         <div class="col s12">
-            <h5 class="light">Itens Disponível no Setor -- <?php echo $nome_setor_selecionado ?></h5>
-            <hr>
+
+            <div class="col s10">
+                <h5 class="light">Itens Disponível no Setor -- <?php echo $nome_setor_selecionado ?></h5>
+                <hr>
+            </div>
+            <div class="col s2">
+                <input type="button" value="VOLTAR" class="btn blue mover_btn_baixo" onclick="location.href='movimentacao-itens.php'">
+            </div>
+
 
             <table class="striped">
                 <thead>
                 <tr class="altera_fonte_cab">
-                    <th>Item</th>
-                    <th>Nome</th>
-                    <th>Cod Item</th>
-                    <th>Situação</th>
-                    <th>Mover o Item</th>
+                    <th>ITEM</th>
+                    <th>NOME</th>
+                    <th>PATRIMÔNIO</th>
+                    <th>SITUAÇÃO</th>
+                    <th>MOVER O ITEM</th>
                 </tr>
                 </thead>
                 <tbody>

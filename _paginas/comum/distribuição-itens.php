@@ -5,8 +5,13 @@
 
     <div class="row container">
         <div class="col s12">
-            <h5 class="light">Distribuição de Itens</h5>
-            <hr>
+            <div class="col s10">
+                <h5 class="light">Distribuição de Itens</h5>
+                <hr>
+            </div>
+            <div class="col s2">
+                <input type="button" value="VOLTAR" class="btn blue mover_btn_baixo" onclick="location.href='tela-comum.php'">
+            </div>
 
             <form method='get'>
                 <div class="col s11">
@@ -18,7 +23,7 @@
                 </div>
 
                 <div class="col s1">
-                    <input type="submit" class="btn blue" value="OK">
+                    <input type="submit" class="btn green" value="OK">
                 </div>
             </form>
 

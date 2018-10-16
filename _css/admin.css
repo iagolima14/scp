@@ -82,3 +82,9 @@ main {
     font-size: 10pt; !important
     line-height: 0.1; !important
 }
+.alerta_popup{
+    float: left;
+    position: absolute;
+    margin: -18px 0 0 105px;
+
+}

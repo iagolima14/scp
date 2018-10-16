@@ -5,18 +5,23 @@
 
     <div class="row container scrolling">
         <div class="col s12">
-            <h5 class="light">Lista de Setores</h5>
-            <hr>
 
+            <div class="col s10">
+                <h5 class="light">Lista de Setores</h5>
+                <hr>
+            </div>
+            <div class="col s2">
+                <input type="button" value="VOLTAR" class="btn blue mover_btn_baixo" onclick="location.href='tela-comum.php'">
+            </div>
 
             <table class="striped">
                 <thead>
                 <tr>
-                    <th>Nome do Setor</th>
-                    <th>Quantidade de Itens</th>
-                    <th>Responsável</th>
-                    <th>Telefone</th>
-                    <th>Lista de Itens</th>
+                    <th style="width: 30%; text-transform: uppercase;">Nome do Setor</th>
+                    <th style="width: 19%; text-transform: uppercase;">Quantidade de Itens</th>
+                    <th style="width: 20%; text-transform: uppercase;">Responsável</th>
+                    <th style="width: 15%; text-transform: uppercase;">Telefone</th>
+                    <th style="width: 13%; text-transform: uppercase;">Lista de Itens</th>
 
                 </tr>
                 </thead>
