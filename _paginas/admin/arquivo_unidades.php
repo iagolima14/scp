@@ -20,6 +20,7 @@
 
             $primeira_linha = true;
             $i = 0;
+            $j = 0;
             $fp1 = fopen("itens_nao_adicionados.txt", "w");
             $fp2 = fopen("itens_em_duplicidade.txt", "w");
             $fp3 = fopen("itens_add_corretamente.txt", "w");
@@ -27,11 +28,11 @@
                 if ($primeira_linha == false) {
                     $i++;
                     $patrimonio = $linha->getElementsByTagName("Data")->item(0)->nodeValue;
-                    $patrimonio_antigo = $linha->getElementsByTagName("Data")->item(1)->nodeValue;
-                    $nome_desc = $linha->getElementsByTagName("Data")->item(2)->nodeValue;
-                    $data_aquisicao = $linha->getElementsByTagName("Data")->item(3)->nodeValue;
-                    $sit_fisica = $linha->getElementsByTagName("Data")->item(4)->nodeValue;
-                    $valor_aquisicao = $linha->getElementsByTagName("Data")->item(5)->nodeValue;
+                    //$patrimonio_antigo = $linha->getElementsByTagName("Data")->item(1)->nodeValue;
+                    $nome_desc = $linha->getElementsByTagName("Data")->item(1)->nodeValue;
+                    $data_aquisicao = $linha->getElementsByTagName("Data")->item(2)->nodeValue;
+                    $sit_fisica = $linha->getElementsByTagName("Data")->item(3)->nodeValue;
+                    $valor_aquisicao = $linha->getElementsByTagName("Data")->item(4)->nodeValue;
 
                     $valores_item = explode(" - DESCRICAO: ", $nome_desc);
 
@@ -67,10 +68,11 @@
                         echo "Valor Aquisição: $valor_aquisicao <br>";
                         echo "---------------------------------------------------------------------------------------<br>";*/
                         $data_aquisicao_sql = substr($data_aquisicao, 6)."-".substr($data_aquisicao, 3, -5)."-".substr($data_aquisicao, 0, -8);
-                        $queryInsert = $link->query("insert into tb_patrimonio (num_patrimonio, patri_antigo, id_item, descricao, id_unidade, sit_fisica, data_aquisicao, valor_aquisicao) values ('$patrimonio', '$patrimonio_antigo', '$id_item', '$descricao_item', '$id_unidade', '$sit_fisica', '$data_aquisicao_sql', '$valor_aquisicao') ");
+                        $queryInsert = $link->query("insert into tb_patrimonio (num_patrimonio, id_item, descricao, id_unidade, sit_fisica, data_aquisicao, valor_aquisicao) values ('$patrimonio', '$id_item', '$descricao_item', '$id_unidade', '$sit_fisica', '$data_aquisicao_sql', '$valor_aquisicao') ");
                         $affected_rows = mysqli_affected_rows($link);
 
                         if ($affected_rows > 0){
+                            $j++;
                             $texto = "ITEM ADICIONADO COM SUCESSO:\r\n Nome: ".$nome_item."\r\nPatrimônio: ".$patrimonio."\r\nDescrição:".$descricao_item."\r\nSit. Física:".$sit_fisica."\r\n\r\n";
                             fwrite($fp3, "$texto");
                         }
@@ -91,7 +93,7 @@
         <a href='itens_nao_adicionados.txt' download="Relatório de Itens não Adicionados.txt">itens_nao_adicionados.txt</a><br><br>
         <a href='itens_em_duplicidade.txt' download="Relatório de Itens Em Duplicidade.txt">itens_em_duplicidade.txt</a><br><br>
         <a href='itens_add_corretamente.txt' download="Relatório de Itens Adicionados Corretamente.txt">itens_add_corretamente.txt</a><br><br>
-
+        <p>Foram adicionados <?php echo $j ?> ao estoque da Unidade</p>
         <input type="button" value="limpar" name="limpar" class="btn red"">
         <input type="button" value="voltar" name="VOLTAR" class="btn blue" onclick="location.href='tela-admin.php'">
     </div>
