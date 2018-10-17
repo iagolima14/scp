@@ -53,7 +53,7 @@ while ($registros1 = $querySelect1->fetch_assoc()){
                         <i class="material-icons prefix">filter_9_plus</i>
                         <input type="text" name="patri" id="patri" value="<?php echo $num_patrimonio ?>" maxlength="50"
                                required readonly>
-                        <label for="patri">Númemro de patrimonio</label>
+                        <label for="patri">Número do Patrimônio</label>
                     </div>
 
                     <!--CAMPO SITUAÇÃO FISICA-->
@@ -74,7 +74,7 @@ while ($registros1 = $querySelect1->fetch_assoc()){
                 </fieldset>
 
                 <fieldset>
-                    <legend><h5 class="light center red-text espaco_extra">Selecione o setor</h5></legend>
+                    <legend><h5 class="light center red-text espaco_extra">Selecione o Setor de Destino</h5></legend>
 
                     <!--SELECT AUTOMATIZADO COM SETORES PARA USUÁRIO SELECIONAR E VINCULAR NA DISTRIB. DO ITEM-->
                     <div class="input-field col s12">

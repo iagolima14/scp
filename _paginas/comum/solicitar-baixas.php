@@ -26,10 +26,10 @@
                             }
                         ?>
                     </datalist>
-                    <div class="col s1">
+                    <div class="col s2">
                         <input type="submit" value="buscar" class="btn green alinhar_botao"/>
                     </div>
-                    <div class="col s1">
+                    <div class="col s2">
                         <input type="reset" value="limpar" class="btn red alinhar_botao"/>
                     </div>
                 </form>

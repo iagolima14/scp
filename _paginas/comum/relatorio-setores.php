@@ -6,7 +6,7 @@
         <div class="col s12">
             <h5 class="light">Itens do Setor</h5>
             <hr>
-            <div id="impressao" style="width: 75%">
+            <div id="impressao" style="width: 80%">
                 <link rel="stylesheet" href="../../_materialize/css/materialize.min.css">
                 <link rel="stylesheet" href="../../_css/comum.css">
                 <link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
