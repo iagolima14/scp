@@ -8,11 +8,11 @@
         $querySelect = $link->query("select * from tb_unidades where regiao = '$variavelJS'");
     }*/
 
-    $querySelect = $link->query("select * from tb_movimentacoes as m INNER JOIN tb_unidades as u ON m.id_unidade = u.id where m.analisado is NULL");
+    $querySelect = $link->query("select m.id as id_mov, u.id, m.id_unidade, m.analisado, u.nome, m.data, m.id_setor_antigo, m.id_novo_setor, m.usuario_responsavel, m.id_patrimonio from tb_movimentacoes as m INNER JOIN tb_unidades as u ON m.id_unidade = u.id where m.analisado is NULL");
 
     while ($registros = $querySelect->fetch_assoc())
     {
-        $id = $registros['id'];
+        $id = $registros['id_mov'];
         $nome_unidade = $registros['nome'];
         $data_movimentacao = $registros['data'];
 
@@ -49,7 +49,7 @@
               <td>$nome_item</td>";
 
 
-        echo "<td><a href='editar-unidade.php?id=$id&opc_anterior=2'><i class='material-icons'>check_circle</i></a></td></tr>";
+        echo "<td><a href='../../banco_de_dados/admin/update-movimentacoes-setores.php?id=$id'><i class='material-icons'>check_circle</i></a></td></tr>";
 }
 
 ?>
