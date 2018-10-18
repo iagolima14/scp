@@ -94,13 +94,13 @@
         $_SESSION['id_user_sip'] = $id_user;
         $_SESSION['id_unidade_user_sip'] = $id_unidade_user;
         $_SESSION['user_email_sip'] = $email;
-        $_SESSION['versao_sip'] = "SIP - Sistema de Controle de Patrimonio V1.0";
+        $_SESSION['versao_sip'] = "SISCOP - Sistema de Controle Patrimonial V1.0";
 
 
         date_default_timezone_set('America/Sao_Paulo');
         $data_log = date('Y-m-d');
         $hora_log = date('H:i:s');
-        $sql_log = "INSERT INTO log (id_usuario, `data`, hora, codigo, operacao) VALUES ('$id_user', '$data_log', '$hora_log', '01', 'Conectou-se ao SIP')";
+        $sql_log = "INSERT INTO log (id_usuario, `data`, hora, codigo, operacao) VALUES ('$id_user', '$data_log', '$hora_log', '01', 'Conectou-se ao SISCOP')";
         //$conecta->query($sql_log);
 
 
@@ -114,7 +114,7 @@
             }
             $_SESSION['red_senha'] = "";
         } else {
-            echo "<script> alert('Olá, seja bem vindo ao SIP. Sua senha ainda é a padrão! Você precisa altera-la!');</script>";
+            echo "<script> alert('Olá, seja bem vindo ao SISCOP. Sua senha ainda é a padrão! Você precisa altera-la!');</script>";
             $_SESSION['red_senha'] = "Seap=2018";
             if ($acesso == 2){
                 echo "<script> location.href='../comum/alterar-senha.php'</script>";
