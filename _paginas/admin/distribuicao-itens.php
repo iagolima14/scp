@@ -1,6 +1,7 @@
-<?php include_once 'banco_de_dados/conexao.php'; ?>
-<?php include_once("_includes/header.inc.php"); ?>
-<?php include_once("_includes/menu.inc.php"); ?>
+<?php include_once ("../../banco_de_dados/conexao.php"); ?>
+<?php include_once ("../../_includes/geral/header.inc.php"); ?>
+<?php include_once ("../../_includes/admin/controle_acesso_admin.php"); ?>
+<?php include_once ("../../_includes/admin/menu_admin.inc.php"); ?>
 
     <div class="row container">
         <div class="col s12">
@@ -15,4 +16,4 @@
         </div>
     </div>
 
-<?php include_once("_includes/footer.inc.php"); ?>
+<?php include_once ("../../_includes/geral/footer.inc.php"); ?>

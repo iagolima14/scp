@@ -13,7 +13,7 @@ $affected_rows = mysqli_affected_rows($link);
 
 if ($affected_rows > 0){
     echo "<script>alert('Inserção efetuada com sucesso!')</script>";
-    header("Location:../../_paginas/comum/distribuição-itens.php");
+    header("Location:../../_paginas/comum/distribuicao-itens.php");
 }else{
     echo "<script>alert('ERRO na Inserção!')</script>";
 }
