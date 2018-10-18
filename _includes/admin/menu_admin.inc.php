@@ -9,6 +9,8 @@
             <li><p>Cadastros</p></li>
             <li><a href="cadastrar-usuario.php">Novo Usuário</a></li>
             <li><a href="cadastrar-unidade.php">Nova Unidade</a></li>
+            <li><a href="cadastrar-grupo.php">Novo Grupo</a></li>
+            <li><a href="cadastrar-subgrupo.php">Novo Subgrupo</a></li>
             <li class="divider"></li>
             <li><p>Consultas</p></li>
             <li><a href="consultar-usuario.php">Usuários</a></li>
@@ -19,6 +21,8 @@
         <ul class="sidenav" id="mobile-demo">
             <li><a href="cadastrar-usuario.php">Novo Usuário</a></li>
             <li><a href="cadastrar-unidade.php">Nova Unidade</a></li>
+            <li><a href="cadastrar-grupo.php">Novo Grupo</a></li>
+            <li><a href="cadastrar-subgrupo.php">Nova Unidade</a></li>
             <li class="divider"></li>
             <li><p>Consultas</p></li>
             <li><a href="consultar-usuario.php">Usuários</a></li>

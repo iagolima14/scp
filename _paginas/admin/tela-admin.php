@@ -75,7 +75,7 @@
                             <!-- BTN com ação LINK e informativo -->
                                 <a href="listar-movimentacoes.php" class="btn-large tooltipped no-padding btn_inicial" data-position="top" data-tooltip="Movimentações nas Unidades">
                                 <p class="texto_icone">Movimentações nas Unidades</p>
-                                <i class="material-icons" style="font-size: 50px;">account_box</i>
+                                <i class="material-icons" style="font-size: 50px;">repeat</i>
                             </a>
                         </div>
                     </div>
