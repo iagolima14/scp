@@ -21,6 +21,8 @@
             $primeira_linha = true;
             $i = 0;
             $j = 0;
+            $nao_encontrado =0;
+            $duplicado = 0;
             $fp1 = fopen("itens_nao_adicionados.txt", "w");
             $fp2 = fopen("itens_em_duplicidade.txt", "w");
             $fp3 = fopen("itens_add_corretamente.txt", "w");
@@ -39,17 +41,57 @@
                     $nome_item = $valores_item[0];
                     $descricao_item = isset($valores_item[1]) ? $valores_item[1] : "SD";
 
-                    $querySelect = $link->query("SELECT * FROM tb_itens WHERE nome_item = '$nome_item' ");
+
+
+                    $permitidas = "abcdefghijklmnopqrstuvxzyw0123456789ABCDEFGHIJKLMNOPQRSTUVXZYW";
+
+
+                    $tamanho_permitidas = strlen($permitidas);
+                    $array_permitidas = str_split($permitidas);
+                    $tamanho_nome_item = strlen($nome_item);
+                    $array_nome_item = str_split($nome_item);
+
+                    $cont_nome = 0;
+                    $nome_para_salvar_no_banco = $nome_item;
+
+                    for ($i = $tamanho_nome_item; $i >0; $i--) {
+                        $diferente = 0;
+                        for ($p = 0; $p < $tamanho_permitidas; $p++) {
+                            if ($array_nome_item[$i-1] === $array_permitidas[$p]) {
+                                $control = 1;
+                                break;
+                            }
+                            else {
+                                $diferente++;
+                                $control = 0;
+                            }
+                        }
+                        if ($control) {
+                            break;
+                        }
+                        if($diferente == $tamanho_permitidas){
+                            $nome_para_salvar_no_banco = substr($nome_para_salvar_no_banco, 0, -1);
+                        }
+                    }
+
+
+
+
+
+
+                    $querySelect = $link->query("SELECT * FROM tb_itens WHERE nome_item = '$nome_para_salvar_no_banco' ");
                     $num_linhas = $querySelect->num_rows;
 
                     if ($num_linhas < 1) {
-                        echo "<script>alert('item não encontrado Item:$nome_item ID= $i')</script>";
-                        $texto = "ITEM NÃO LOCALIZADO: Nome: ".$nome_item."  ----  Patrimônio: ".$patrimonio."\r\n";
+                        $nao_encontrado++;
+                        echo "<script>alert('item não encontrado Item:$nome_para_salvar_no_banco ID= $i')</script>";
+                        $texto = $nao_encontrado."ITEM NÃO LOCALIZADO: Nome: ".$nome_para_salvar_no_banco."  ----  Patrimônio: ".$patrimonio."\r\n";
                         fwrite($fp1, "$texto");
                     }
                     else if ($num_linhas > 1) {
-                        echo "<script>alert('foram encontrados mais de 1 item com a mesma descricao Item:$nome_item')</script>";
-                        $texto = "ITEM EM DUPLICIDADE: Nome: ".$nome_item."  ----  Patrimônio: ".$patrimonio."\r\n";
+                        $duplicado++;
+                        echo "<script>alert('foram encontrados mais de 1 item com a mesma descricao Item:$nome_para_salvar_no_banco')</script>";
+                        $texto = $duplicado."ITEM EM DUPLICIDADE: Nome: ".$nome_para_salvar_no_banco."  ----  Patrimônio: ".$patrimonio."\r\n";
                         fwrite($fp2, "$texto");
                     }
                     else {
@@ -73,7 +115,7 @@
 
                         if ($affected_rows > 0){
                             $j++;
-                            $texto = "ITEM ADICIONADO COM SUCESSO:\r\n Nome: ".$nome_item."\r\nPatrimônio: ".$patrimonio."\r\nDescrição:".$descricao_item."\r\nSit. Física:".$sit_fisica."\r\n\r\n";
+                            $texto = $j."ITEM ADICIONADO COM SUCESSO:\r\n Nome: ".$nome_para_salvar_no_banco."\r\nPatrimônio: ".$patrimonio."\r\nDescrição:".$descricao_item."\r\nSit. Física:".$sit_fisica."\r\n\r\n";
                             fwrite($fp3, "$texto");
                         }
                     }
