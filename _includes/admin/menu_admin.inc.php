@@ -52,7 +52,8 @@
             </div>
         </li>
         <li><a href="../../_paginas/admin/carrega_arquivo.php"><i class="material-icons">add_to_photos</i>Carregar Arquivo Principal</a></li>
-        <li><a href="#"><i class="material-icons"></i></a></li>
+        <li><a href="../../_paginas/admin/carrega_arquivo_teste_unidades.php"><i class="material-icons">add_to_photos</i>Testar Arquivo Unidades</a></li>
+        <li><a href="../../_paginas/admin/carrega_arquivo_unidades.php"><i class="material-icons">add_to_photos</i>Arquivo Definitivo Unidades</a></li>
         <li><div class="divider"></div></li>
         <li><a class="subheader"><i class="material-icons">settings</i>Configurações</a></li>
         <li><a href="../../_paginas/admin/alterar-senha.php" class="waves-effect"><i class="material-icons" >vpn_key</i>Alterar Senha</a></li>

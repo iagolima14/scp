@@ -4,7 +4,7 @@
 <?php include_once ("../../_includes/admin/menu_admin.inc.php"); ?>
 <?php
     include_once '../../banco_de_dados/conexao.php';
-
+    $origem     = filter_input(INPUT_POST, 'origem', FILTER_SANITIZE_NUMBER_INT);
     echo "<br>";
     if (!empty($_FILES['arquivo']['tmp_name'])) {
         $extensao = pathinfo($_FILES['arquivo']['name'], PATHINFO_EXTENSION);
@@ -109,11 +109,17 @@
                         echo "Data Aquisição: $data_aquisicao <br>";
                         echo "Valor Aquisição: $valor_aquisicao <br>";
                         echo "---------------------------------------------------------------------------------------<br>";*/
-                        $data_aquisicao_sql = substr($data_aquisicao, 6)."-".substr($data_aquisicao, 3, -5)."-".substr($data_aquisicao, 0, -8);
-                        $queryInsert = $link->query("insert into tb_patrimonio (num_patrimonio, id_item, descricao, id_unidade, sit_fisica, data_aquisicao, valor_aquisicao) values ('$patrimonio', '$id_item', '$descricao_item', '$id_unidade', '$sit_fisica', '$data_aquisicao_sql', '$valor_aquisicao') ");
-                        $affected_rows = mysqli_affected_rows($link);
-
-                        if ($affected_rows > 0){
+                        if($origem == 0){
+                            $data_aquisicao_sql = substr($data_aquisicao, 6)."-".substr($data_aquisicao, 3, -5)."-".substr($data_aquisicao, 0, -8);
+                            $queryInsert = $link->query("insert into tb_patrimonio (num_patrimonio, id_item, descricao, id_unidade, sit_fisica, data_aquisicao, valor_aquisicao) values ('$patrimonio', '$id_item', '$descricao_item', '$id_unidade', '$sit_fisica', '$data_aquisicao_sql', '$valor_aquisicao') ");
+                            $affected_rows = mysqli_affected_rows($link);
+                            if ($affected_rows > 0){
+                                $j++;
+                                $texto = $j."ITEM ADICIONADO COM SUCESSO:\r\n Nome: ".$nome_para_salvar_no_banco."\r\nPatrimônio: ".$patrimonio."\r\nDescrição:".$descricao_item."\r\nSit. Física:".$sit_fisica."\r\n\r\n";
+                                fwrite($fp3, "$texto");
+                            }
+                        }
+                        else{
                             $j++;
                             $texto = $j."ITEM ADICIONADO COM SUCESSO:\r\n Nome: ".$nome_para_salvar_no_banco."\r\nPatrimônio: ".$patrimonio."\r\nDescrição:".$descricao_item."\r\nSit. Física:".$sit_fisica."\r\n\r\n";
                             fwrite($fp3, "$texto");

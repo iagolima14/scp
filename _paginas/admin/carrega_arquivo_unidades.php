@@ -6,35 +6,34 @@
 <div class="row">
     <div class="container">
         <div class="col s12 m12 l12 center">
-            <h1>ARQUIVOS UNIDADES</h1>
+            <h3>CARREGAR ITENS DEFINITIVOS NAS UNIDADES</h3>
             <br>
             <br>
             <br>
             <br>
-            <br>
+            <h5 style="text-align: left">Selecione a Unidade:</h5>
             <form method="post" action="arquivo_unidades.php" enctype="multipart/form-data" onsubmit="return checkSubmit()">
-                <select id="select_unidades" name="id_unidade" required>
-                    <option></option>
-                    <?php
-                        $vetor_regiao = array("RMSP", "IP", "RMSC", "IC", "CEAPA");
-                        $vetor_regiao_extenso = array("CAPITAL E RMS GESTÃO PLENA", "INTERIOR GESTÃO PLENA", "CAPITAL E RMS COGESTÃO", "INTERIOR COGESTÃO", "CEAPA");
-                        for($i=0; $i<5; $i++){
-                            echo "<optgroup label='$vetor_regiao_extenso[$i]'>";
-                            $querySelect = $link->query("select * from tb_unidades WHERE regiao = '$vetor_regiao[$i]'");
-                            while ($registros = $querySelect->fetch_assoc()) {
-                                $nome = $registros['nome'];
-                                $id_unidade_selecionada = $registros['id'];
-                                echo "<option value='$id_unidade_selecionada' style='padding: 0; line-height: 0.1;'>$nome</option>";
+                    <select id="select_unidades" name="id_unidade" required>
+                        <option></option>
+                        <?php
+                            $vetor_regiao = array("RMSP", "IP", "RMSC", "IC", "CEAPA");
+                            $vetor_regiao_extenso = array("CAPITAL E RMS GESTÃO PLENA", "INTERIOR GESTÃO PLENA", "CAPITAL E RMS COGESTÃO", "INTERIOR COGESTÃO", "CEAPA");
+                            for($i=0; $i<5; $i++){
+                                echo "<optgroup label='$vetor_regiao_extenso[$i]'>";
+                                $querySelect = $link->query("select * from tb_unidades WHERE regiao = '$vetor_regiao[$i]'");
+                                while ($registros = $querySelect->fetch_assoc()) {
+                                    $nome = $registros['nome'];
+                                    $id_unidade_selecionada = $registros['id'];
+                                    echo "<option value='$id_unidade_selecionada' style='padding: 0; line-height: 0.1;'>$nome</option>";
+                                }
+                                echo "</optgroup>";
                             }
-                            echo "</optgroup>";
-                        }
-                     ?>
-                </select>
+                         ?>
+                    </select>
                 <br>
                 <input type="file" name="arquivo" class="input-field add_arquivo" required>
-
+                <input type="hidden" name="origem" value="0"/>
                 <div class="input-field">
-                    <br>
                     <br>
                     <br>
                     <br>

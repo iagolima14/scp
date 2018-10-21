@@ -54,30 +54,24 @@
                             </a>
                         </div>
                         <!--INDEX (LINHA 2) COLUNA 3 | CARREGAR ARQUIVOS UNIDADES-->
-
-                        <div class="col s4 toolt">
-                            <!-- BTN com ação LINK e informativo -->
-                            <a href="carrega_arquivo_unidades.php" class="btn-large tooltipped no-padding btn_inicial" data-position="top" data-tooltip="Carregar Arquivo Unidades">
-                                <p class="texto_icone">Carregar Arquivo Unidades</p>
-                                <i class="material-icons" style="font-size: 50px;">account_box</i>
-                            </a>
-                        </div>
-                    </div>
-                    <div id="linha" class="col s9 offset-s3 espaco_linha">
                         <div class="col s4 toolt">
                             <?php
-                                $notificacoes = $link->query("Select * from tb_movimentacoes WHERE analisado is NULL");
-                                $num_linhas = $notificacoes->num_rows;
-                                if($num_linhas>0){
-                                    echo "<a href=\"listar-movimentacoes.php\" class=\"alerta_popup btn-floating pulse btn-large waves-effect waves-light red\"> <b>$num_linhas</b> <i class=\"material-icons\"></i></a>";
-                                }
+                            $notificacoes = $link->query("Select * from tb_movimentacoes WHERE analisado is NULL");
+                            $num_linhas = $notificacoes->num_rows;
+                            if($num_linhas>0){
+                                echo "<a href=\"listar-movimentacoes.php\" class=\"alerta_popup btn-floating pulse btn-large waves-effect waves-light red\"> <b>$num_linhas</b> <i class=\"material-icons\"></i></a>";
+                            }
                             ?>
                             <!-- BTN com ação LINK e informativo -->
-                                <a href="listar-movimentacoes.php" class="btn-large tooltipped no-padding btn_inicial" data-position="top" data-tooltip="Movimentações nas Unidades">
+                            <a href="listar-movimentacoes.php" class="btn-large tooltipped no-padding btn_inicial" data-position="top" data-tooltip="Movimentações nas Unidades">
                                 <p class="texto_icone">Movimentações nas Unidades</p>
                                 <i class="material-icons" style="font-size: 50px;">repeat</i>
                             </a>
                         </div>
+
+                    </div>
+                    <div id="linha" class="col s9 offset-s3 espaco_linha">
+
                     </div>
                 </div>
             </div>
