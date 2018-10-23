@@ -6,19 +6,20 @@
 
         <!-- GRUPO DE OPÇÕES DO NAV (CADASTROS) -->
         <ul id="dropdown1" class="dropdown-content">
-            <li><p>Cadastros</p></li>
+            <li><p class="submenu">Cadastros</p></li>
             <li><a href="cadastrar-usuario.php">Novo Usuário</a></li>
             <li><a href="cadastrar-unidade.php">Nova Unidade</a></li>
             <li><a href="cadastrar-grupo.php">Novo Grupo</a></li>
             <li><a href="cadastrar-subgrupo.php">Novo Subgrupo</a></li>
             <li class="divider"></li>
-            <li><p>Consultas</p></li>
+            <li><p class="submenu">Consultas</p></li>
             <li><a href="consultar-usuario.php">Usuários</a></li>
             <li><a href="consultar-unidade.php">Unidades</a></li>
+            <li><a href="consultar-grupos.php">Grupos e Subgrupos</a></li>
 
         </ul>
         <!-- GRUPO DE OPÇÕES DO NAV (CADASTROS) QUANDO DIMINUIR A TELA (MOBILE)-->
-        <ul class="sidenav" id="mobile-demo">
+        <ul class="sidenav" id="mobile-demo" >
             <li><a href="cadastrar-usuario.php">Novo Usuário</a></li>
             <li><a href="cadastrar-unidade.php">Nova Unidade</a></li>
             <li><a href="cadastrar-grupo.php">Novo Grupo</a></li>
@@ -27,6 +28,7 @@
             <li><p>Consultas</p></li>
             <li><a href="consultar-usuario.php">Usuários</a></li>
             <li><a href="consultar-unidade.php">Unidades</a></li>
+            <li><a href="consultar-grupos.php">Grupos e Subgrupos</a></li>
         </ul>
 
         <!-- CHAMADA DOS GRUPOS DE OPÇÕES -->

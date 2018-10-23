@@ -91,3 +91,8 @@ main {
 .mover_btn_baixo{
     margin-top: 10px;
 }
+.submenu{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}

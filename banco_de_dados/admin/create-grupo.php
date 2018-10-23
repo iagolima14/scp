@@ -2,6 +2,7 @@
 include_once '../conexao.php';
 
 $nome_grupo     = filter_input(INPUT_POST, 'nome_grupo', FILTER_SANITIZE_SPECIAL_CHARS);
+$nome_grupo = strtoupper($nome_grupo);
 $cod_grupo     = filter_input(INPUT_POST, 'cod_grupo', FILTER_SANITIZE_NUMBER_INT);
 
 

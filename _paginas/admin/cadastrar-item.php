@@ -21,38 +21,60 @@
                 <!--CAMPO DESCRIÇÃO-->
                 <div class="input-field col s12">
                     <i class="material-icons prefix">add</i>
-                    <input type="text" name="descricao" id="descricao" maxlength="80" required autofocus>
-                    <label for="descricao">Descrição do Item</label>
+                    <input type="text" name="descricao" list="lista_itens" id="descricao" required>
+                    <label for="descricao">Nome do Item</label>
                 </div>
-
+                <datalist id="lista_itens">
+                    <?php
+                        $itens = $link->query('SELECT * FROM tb_itens ORDER BY nome_item');
+                        while($resultados = $itens->fetch_assoc()){
+                            $nome_item = $resultados['nome_item'];
+                            echo "<option value='$nome_item'>$nome_item</option>";
+                        }
+                    ?>
+                </datalist>
                 <!--CAMPO CÓDIGO-->
                 <div class="input-field col s12">
                     <i class="material-icons prefix">select_all</i>
-                    <input type="text" name="codigo" id="codigo" maxlength="20" required>
-                    <label for="codigo">Código do Item</label>
+                    <input type="text" name="codigo" id="codigo" maxlength="20">
+                    <label for="codigo">Código SIAP</label>
                 </div>
 
-                <!--CAMPO QUANTIDADE-->
+                <!--CAMPO SELECT GRUPO-->
                 <div class="input-field col s12">
-                    <i class="material-icons prefix">add_shopping_cart</i>
-                    <input type="number" name="quantidade" id="quantidade" maxlength="20" required>
-                    <label for="quantidade">Quantidade</label>
+                    <i class="material-icons prefix">dehaze</i>
+                    <select id="grupo" name="grupo" required>
+                        <option></option>
+                        <?php
+                            $grupo = $link->query('SELECT * FROM tb_grupo ORDER BY nome_grupo');
+                            while($resultados = $grupo->fetch_assoc()){
+                                $id_grupo = $resultados['id'];
+                                $nome_grupo = $resultados['nome_grupo'];
+                                $cod_grupo = $resultados['cod_grupo'];
+                                echo "<option value='$id_grupo # $cod_grupo'>$nome_grupo - $cod_grupo</option>";
+                            }
+                        ?>
+                    </select>
+                    <label for="grupo">GRUPO</label>
                 </div>
 
-                <!--CAMPO DATA DA AQUISIÇÃO-->
+                <!--CAMPO SELECT SUBGRUPO-->
                 <div class="input-field col s12">
-                    <i class="material-icons prefix">date_range</i>
-                    <input type="date" name="data" id="data" maxlength="20" required>
-                    <label for="data">Data da Aquisição</label>
+                    <i class="material-icons prefix">short_text</i>
+                    <select id="subgrupo" name="subgrupo" required>
+                        <option></option>
+                        <?php
+                        $subgrupo = $link->query("SELECT * FROM tb_subgrupo ORDER BY nome_subgrupo");
+                        while($resultados2 = $subgrupo->fetch_assoc()){
+                            $id_subgrupo = $resultados2['id'];
+                            $nome_subgrupo = $resultados2['nome_subgrupo'];
+                            $cod_subgrupo = $resultados2['cod_subgrupo'];
+                            echo "<option value='$id_subgrupo # $cod_subgrupo'>$nome_subgrupo - $cod_subgrupo</option>";
+                        }
+                        ?>
+                    </select>
+                    <label for="subgrupo">SUBGRUPO</label>
                 </div>
-
-                <!--CAMPO VALOR-->
-                <div class="input-field col s12">
-                    <i class="material-icons prefix">monetization_on</i>
-                    <input type="text" name="valor" id="valor" maxlength="20" required>
-                    <label for="valor">Valor do Item</label>
-                </div>
-
                 <!--BOTÕES-->
                 <div class="input-field col s12">
                     <input type="submit" value="cadastrar" class="btn green">
