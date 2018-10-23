@@ -17,22 +17,25 @@
         <form>
             <div class="col s3">
                 <p>&nbsp;</p>
-                <input type="text" placeholder="Descrição" name="desc">
+                <input type="text" placeholder="Nome do Item" name="desc">
 
             </div>
-            <div class="col s3">
+            <div class="col s2">
                 <p>&nbsp;</p>
-                <input type="text" placeholder="Código" name="cod">
+                <input type="text" placeholder="Código SIAP" name="cod">
 
             </div>
-            <div class="col s3">
+            <div class="col s2">
+                <p>&nbsp;</p>
+                <input type="text" placeholder="Código SISCOP" name="cod_siscop">
+
+            </div>
+            <div class="col s2">
                 <p>Ordenar Por:</p>
                 <select id="select_ordenacao" name="select_ordenacao">
-                    <option value="codigo">CÓDIGO</option>
-                    <option value="nome_item">DESCRIÇÃO</option>
-                    <option value="quantidade">QUANTIDADE</option>
-                    <option value="data">DATA</option>
-                    <option value="valor">VALOR</option>
+                    <option value="nome_item">NOME DO ITEM</option>
+                    <option value="codigo">CÓDIGO SIAP</option>
+                    <option value="codigo_siscop">CÓDIGO SISCOP</option>
                     <option value="situacao">SITUAÇÃO</option>
 
                 </select>
@@ -55,13 +58,12 @@
         <table class="striped">
             <thead>
             <tr class="altera_fonte_cab">
-                <th style="text-transform: uppercase; width: 5%">Item</th>
-                <th style="text-transform: uppercase; width: 28%">Descrição</th>
-                <th style="text-transform: uppercase; width: 10%">Patrimônio</th>
-                <th style="text-transform: uppercase; width: 10%">QTD TOTAL</th>
-                <th style="text-transform: uppercase; width: 10%">DISPONIVEL</th>
-                <th style="text-transform: uppercase; width: 15%">Data da Aquisição</th>
-                <th style="text-transform: uppercase; width: 10%">Valor</th>
+                <th style="text-transform: uppercase; width: 5%">ITEM</th>
+                <th style="text-transform: uppercase; width: 28%">NOME DO ITEM</th>
+                <th style="text-transform: uppercase; width: 13%">CÓDIGO SIAP</th>
+                <th style="text-transform: uppercase; width: 13%">CÓDIGO SISCOP</th>
+                <th style="text-transform: uppercase; width: 13%">QUANTIDADE</th>
+                <th style="text-transform: uppercase; width: 13%">DISPONIVEL</th>
                 <th style="text-transform: uppercase; width: 6%">Editar</th>
                 <th style="text-transform: uppercase; width: 5%">A/I</th>
             </tr>

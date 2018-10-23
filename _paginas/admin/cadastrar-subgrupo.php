@@ -33,9 +33,19 @@
                     <!--CAMPO NOME DO SUBGRUPO-->
                     <div class="input-field col s12">
                         <i class="material-icons prefix">group_add</i>
-                        <input type="text" name="nome_subgrupo" id="nome_subgrupo" maxlength="80" required autofocus>
+                        <input type="text" name="nome_subgrupo" id="nome_subgrupo" maxlength="80" required list="lista_subgrupo">
                         <label for="nome_subgrupo">Nome do Subgrupo</label>
                     </div>
+                    <datalist id="lista_subgrupo">
+                        <?php
+                        $itens = $link->query('SELECT * FROM tb_subgrupo ORDER BY nome_subgrupo');
+                        while($resultados = $itens->fetch_assoc()){
+                            $nome_subgrupo = $resultados['nome_subgrupo'];
+                            echo "<option value='$nome_subgrupo'>$nome_subgrupo</option>";
+                        }
+                        ?>
+                    </datalist>
+
 
                     <!--CAMPO CÓDIGO INTERNO SUBGRUPO-->
                     <div class="input-field col s12">

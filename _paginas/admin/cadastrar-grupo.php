@@ -15,9 +15,18 @@
                     <!--CAMPO NOME DO GRUPO-->
                     <div class="input-field col s12">
                         <i class="material-icons prefix">group_add</i>
-                        <input type="text" name="nome_grupo" id="nome_grupo" maxlength="80" required autofocus>
+                        <input type="text" name="nome_grupo" id="nome_grupo" maxlength="80" required list="lista_grupo">
                         <label for="nome_grupo">Nome do Grupo</label>
                     </div>
+                    <datalist id="lista_grupo">
+                        <?php
+                        $itens = $link->query('SELECT * FROM tb_grupo ORDER BY nome_grupo');
+                        while($resultados = $itens->fetch_assoc()){
+                            $nome_grupo = $resultados['nome_grupo'];
+                            echo "<option value='$nome_grupo'>$nome_grupo</option>";
+                        }
+                        ?>
+                    </datalist>
 
                     <!--CAMPO CÓDIGO INTERNO GRUPO-->
                     <div class="input-field col s12">

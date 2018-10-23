@@ -36,7 +36,7 @@
                 <!--CAMPO CÓDIGO-->
                 <div class="input-field col s12">
                     <i class="material-icons prefix">select_all</i>
-                    <input type="text" name="codigo" id="codigo" maxlength="20">
+                    <input type="text" name="codigo" id="codigo" maxlength="12">
                     <label for="codigo">Código SIAP</label>
                 </div>
 
