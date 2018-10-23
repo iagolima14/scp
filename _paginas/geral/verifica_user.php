@@ -85,7 +85,11 @@
             $email = $colunas['email'];
             $id_unidade_user = $colunas['id_unidade'];
         }
-
+        $sql22 = "SELECT * FROM tb_unidades WHERE id = '$id_unidade_user'";
+        $query22 = $conecta->query($sql22);
+        while ($colunas22 = $query22->fetch_assoc()) {
+            $nome_unidade_user = $colunas22['nome'];
+        }
         session_start();
         $_SESSION['login_sip'] = $login;
         $_SESSION['matricula_sip'] = $matricula;
@@ -93,6 +97,7 @@
         $_SESSION['acesso_sip'] = $acesso;
         $_SESSION['id_user_sip'] = $id_user;
         $_SESSION['id_unidade_user_sip'] = $id_unidade_user;
+        $_SESSION['nome_unidade_user_sip'] = $nome_unidade_user;
         $_SESSION['user_email_sip'] = $email;
         $_SESSION['versao_sip'] = "SISCOP - Sistema de Controle Patrimonial V1.0";
 

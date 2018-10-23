@@ -16,6 +16,7 @@
                 <a href="../../_paginas/comum/tela-comum.php"><img class="circle" src='../../_imagens/avatar1.png'></a>
                 <a href="#"><span class="black-text name"><?php echo "$user_name - $user_code"; ?></span></a>
                 <a href="#"><span class="black-text email"><?php echo "$user_email"; ?></span></a>
+                <a href="#"><span class="black-text email"><?php echo "$nome_unidade_user"; ?></span></a>
             </div>
         </li>
         <li><a href="#"><i class="material-icons">cloud</i>Endereço teste com link</a></li>

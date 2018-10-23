@@ -7,6 +7,7 @@
     $system_version = $_SESSION['versao_sip'];
     $user_email = $_SESSION['user_email_sip'];
     $id_unidade_user = $_SESSION['id_unidade_user_sip'];
+    $nome_unidade_user = $_SESSION['nome_unidade_user_sip'];
     if($acesso!= 2)
     {
         echo "<script> alert('Você não tem permissão!');</script>";
