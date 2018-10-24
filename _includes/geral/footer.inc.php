@@ -75,6 +75,28 @@
 
 
 
+
+
+
+
+<script type="text/javascript">
+    function voltar_pag_consulta_item(ordenar, desc, cod, sit, cod_siscop) {
+        location.href='consultar-item.php?select_ordenacao='+ordenar+'&desc='+desc+'&cod='+cod+'&select_situacao='+sit+'&cod_siscop='+cod_siscop;
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--INÍCIO DO RODAPÉ-->
 <footer class="page-footer deep-orange">
 

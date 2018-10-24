@@ -15,12 +15,30 @@
     })
 </script>
 
+
+
+
+
+
+
 <!--FUNÇÃO PARA CHAMAR A PÁGINA RELATÓRIO SETORES-->
 <script type="text/javascript">
     function chama_pagina(id) {
         location.href='relatorio-setores.php?id_setor='+id;
     }
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
 <!--FUNÇÃO PARA IMPRESSÃO DOS RELATÓRIOS-->
 <script type="text/javascript">
     function imprimir(para) {

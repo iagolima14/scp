@@ -10,15 +10,19 @@
     </div>
 
 <?php
-
+    $ordenar = filter_input(INPUT_GET, 'select_ordenacao', FILTER_SANITIZE_SPECIAL_CHARS);
+    $desc = filter_input(INPUT_GET, 'desc', FILTER_SANITIZE_SPECIAL_CHARS);
+    $cod = filter_input(INPUT_GET, 'cod', FILTER_SANITIZE_SPECIAL_CHARS);
+    $cod_siscop = filter_input(INPUT_GET, 'cod_siscop', FILTER_SANITIZE_SPECIAL_CHARS);
+    $sit = filter_input(INPUT_GET, 'select_situacao', FILTER_SANITIZE_SPECIAL_CHARS);
     $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
     $querySelect = $link->query("select * from tb_itens where id='$id'");
     while ($registros = $querySelect->fetch_assoc()){
         $descricao = $registros['nome_item'];
         $codigo = $registros['codigo'];
         $codigo_siscop = $registros['codigo_siscop'];
-        $grupo = $registros['grupo'];
-        $subgrupo = $registros['subgrupo'];
+        $id_do_grupo = $registros['grupo'];
+        $id_do_subgrupo = $registros['subgrupo'];
 
     }
 ?>
@@ -62,7 +66,7 @@
                                 $id_grupo = $resultados['id'];
                                 $nome_grupo = $resultados['nome_grupo'];
                                 $cod_grupo = $resultados['cod_grupo'];
-                                if($id_grupo == $grupo){
+                                if($id_grupo == $id_do_grupo){
                                     echo "<option value='$id_grupo # $cod_grupo' selected>$nome_grupo - $cod_grupo</option>";
                                 }
                                 else{
@@ -85,7 +89,8 @@
                             $id_subgrupo = $resultados['id'];
                             $nome_subgrupo = $resultados['nome_subgrupo'];
                             $cod_subgrupo = $resultados['cod_subgrupo'];
-                            if($id_subgrupo == $subgrupo){
+                            if($id_subgrupo == $id_do_subgrupo){
+
                                 echo "<option value='$id_subgrupo # $cod_subgrupo' selected>$nome_subgrupo - $cod_subgrupo</option>";
                             }
                             else{
@@ -97,11 +102,20 @@
                     <label for="data">SUBGRUPO</label>
                 </div>
                 <input type="hidden" value="<?php echo $id?>" name="id_item_selecionado"/>
+
+                <!-- passagem de parâmetro para próxima pagina das variáveis do filtro selecionado anteriormente-->
+                <input type="hidden" value="<?php echo $ordenar?>" name="select_ordenacao"/>
+                <input type="hidden" value="<?php echo $desc?>" name="desc"/>
+                <input type="hidden" value="<?php echo $cod?>" name="cod"/>
+                <input type="hidden" value="<?php echo $cod_siscop?>" name="cod_siscop"/>
+                <input type="hidden" value="<?php echo $sit?>" name="select_situacao"/>
+
+
                 <!--BOTÕES-->
                 <div class="input-field col offset-s4 s8">
                     <input type="submit" value="alterar" class="btn green">
                     <input type="reset" value="limpar" class="btn red">
-                    <input type="button" value="voltar" name="VOLTAR" class="btn blue" onclick="location.href='consultar-item.php'">
+                    <?php echo "<input type='button' value='voltar' name='VOLTAR' class='btn blue' onclick='voltar_pag_consulta_item(\"$ordenar\", \"$desc\", \"$cod\", \"$sit\", \"$cod_siscop\")'/>"; ?>
                 </div>
 
             </fieldset>

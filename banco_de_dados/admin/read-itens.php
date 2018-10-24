@@ -92,8 +92,8 @@
                       <td style='text-indent: 30px'>$codigo_siscop</td>
                       <td style='text-indent: 30px'>0</td>
                       <td style='text-indent: 50px'>0</td>";
-                echo "<td><a href='editar-item.php?id=$id'><i class='material-icons'>edit</i></a></td>";
-                echo "<td><a href='../../banco_de_dados/admin/modifica_situacao_itens.php?id=$id&sit_item=$situacao&select_ordenacao=$ordenar&desc=$desc&cod=$cod&select_situacao=$sit&cod_siscop=$codigo_siscop'><i class='material-icons' style='color: red;'>do_not_disturb_on</i></a></td>";
+                echo "<td><a href='editar-item.php?id=$id&sit_item=$situacao&select_ordenacao=$ordenar&desc=$desc&cod=$cod&select_situacao=$sit&cod_siscop=$cod_siscop'><i class='material-icons'>edit</i></a></td>";
+                echo "<td><a href='../../banco_de_dados/admin/modifica_situacao_itens.php?id=$id&sit_item=$situacao&select_ordenacao=$ordenar&desc=$desc&cod=$cod&select_situacao=$sit&cod_siscop=$cod_siscop'><i class='material-icons' style='color: red;'>do_not_disturb_on</i></a></td>";
                 echo "</tr>";
             }
             else{
@@ -104,8 +104,8 @@
                       <td style='text-indent: 30px'>$codigo_siscop</td>
                       <td style='text-indent: 30px'>0</td>
                       <td style='text-indent: 50px'>0</td>";
-                echo "<td><a href='editar-item.php?id=$id'><i class='material-icons'>edit</i></a></td>";
-                echo "<td><a href='../../banco_de_dados/admin/modifica_situacao_itens.php?id=$id&sit_item=$situacao&select_ordenacao=$ordenar&desc=$desc&cod=$cod&select_situacao=$sit&cod_siscop=$codigo_siscop'><i class='material-icons' style='color: green;'>lens</i></a></td>";
+                echo "<td><a href='editar-item.php?id=$id&sit_item=$situacao&select_ordenacao=$ordenar&desc=$desc&cod=$cod&select_situacao=$sit&cod_siscop=$cod_siscop'><i class='material-icons'>edit</i></a></td>";
+                echo "<td><a href='../../banco_de_dados/admin/modifica_situacao_itens.php?id=$id&sit_item=$situacao&select_ordenacao=$ordenar&desc=$desc&cod=$cod&select_situacao=$sit&cod_siscop=$cod_siscop'><i class='material-icons' style='color: green;'>lens</i></a></td>";
                 echo "</tr>";
             }
 

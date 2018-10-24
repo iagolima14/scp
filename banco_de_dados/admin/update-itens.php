@@ -2,6 +2,15 @@
 <?php include_once ("../../_includes/admin/controle_acesso_admin.php"); ?>
 
 <?php
+    //VARIÁVEIS PARA MANTER O FILTRO CONFORME SELECIONADO ANTERIORMENTE
+    $ordenar = filter_input(INPUT_POST, 'select_ordenacao', FILTER_SANITIZE_SPECIAL_CHARS);
+    $desc = filter_input(INPUT_POST, 'desc', FILTER_SANITIZE_SPECIAL_CHARS);
+    $cod = filter_input(INPUT_POST, 'cod', FILTER_SANITIZE_SPECIAL_CHARS);
+    $cod_siscop = filter_input(INPUT_POST, 'cod_siscop', FILTER_SANITIZE_SPECIAL_CHARS);
+    $sit = filter_input(INPUT_POST, 'select_situacao', FILTER_SANITIZE_SPECIAL_CHARS);
+    //FIM DAS VARIÁVEIS DO FILTRO
+
+
     $id_item_selecionado = filter_input(INPUT_POST, 'id_item_selecionado', FILTER_SANITIZE_NUMBER_INT);
     $nome_item     = filter_input(INPUT_POST, 'descricao', FILTER_SANITIZE_SPECIAL_CHARS);
     $codigo     = filter_input(INPUT_POST, 'codigo', FILTER_SANITIZE_NUMBER_INT);
@@ -24,11 +33,11 @@
         $affected_rows = mysqli_affected_rows($link);
         if ($affected_rows > 0){
             echo "<script>alert('Item editado com sucesso! O código SISCOP não foi alterado.')</script>";
-            echo "<script>location.href='../../_paginas/admin/consultar-item.php'</script>";
+            echo "<script>location.href='../../_paginas/admin/consultar-item.php?select_ordenacao=$ordenar&desc=$desc&cod=$cod&select_situacao=$sit&cod_siscop=$cod_siscop'</script>";
         }
         else{
             echo "<script>alert('Item não editado!')</script>";
-            echo "<script>location.href='../../_paginas/admin/consultar-item.php'</script>";
+            echo "<script>location.href='../../_paginas/admin/consultar-item.php?select_ordenacao=$ordenar&desc=$desc&cod=$cod&select_situacao=$sit&cod_siscop=$cod_siscop'</script>";
         }
     }
     else{
@@ -51,12 +60,12 @@
             $affected_rows2 = mysqli_affected_rows($link);
             if ($affected_rows > 0) {
                 echo "<script>alert('Item editado com sucesso! O Código SISCOP para o item foi alterado de: $codigo_siscop  para $novo_codigo_siscop.')</script>";
-                echo "<script>location.href='../../_paginas/admin/consultar-item.php'</script>";
+                echo "<script>location.href='../../_paginas/admin/consultar-item.php?select_ordenacao=$ordenar&desc=$desc&cod=$cod&select_situacao=$sit&cod_siscop=$cod_siscop'</script>";
             }
         }
         else{
             echo "<script>alert('Item não editado!')</script>";
-            echo "<script>location.href='../../_paginas/admin/consultar-item.php'</script>";
+            echo "<script>location.href='../../_paginas/admin/consultar-item.php?select_ordenacao=$ordenar&desc=$desc&cod=$cod&select_situacao=$sit&cod_siscop=$cod_siscop'</script>";
         }
 
     }
