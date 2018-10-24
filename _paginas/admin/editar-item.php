@@ -56,14 +56,19 @@
                 <div class="input-field col s12">
                     <i class="material-icons prefix">add_shopping_cart</i>
                     <select id="grupo" name="grupo" required>
-                        <option></option>
                         <?php
                             $grupo = $link->query('SELECT * FROM tb_grupo ORDER BY nome_grupo');
                             while($resultados = $grupo->fetch_assoc()){
                                 $id_grupo = $resultados['id'];
                                 $nome_grupo = $resultados['nome_grupo'];
                                 $cod_grupo = $resultados['cod_grupo'];
-                                echo "<option value='$id_grupo # $cod_grupo'>$nome_grupo - $cod_grupo</option>";
+                                if($id_grupo == $grupo){
+                                    echo "<option value='$id_grupo # $cod_grupo' selected>$nome_grupo - $cod_grupo</option>";
+                                }
+                                else{
+                                    echo "<option value='$id_grupo # $cod_grupo'>$nome_grupo - $cod_grupo</option>";
+                                }
+
                             }
                         ?>
                     </select>
@@ -74,14 +79,18 @@
                 <div class="input-field col s12">
                     <i class="material-icons prefix">date_range</i>
                     <select id="subgrupo" name="subgrupo" required>
-                        <option></option>
                         <?php
                         $subgrupo = $link->query('SELECT * FROM tb_subgrupo ORDER BY nome_subgrupo');
                         while($resultados = $subgrupo->fetch_assoc()){
                             $id_subgrupo = $resultados['id'];
                             $nome_subgrupo = $resultados['nome_subgrupo'];
                             $cod_subgrupo = $resultados['cod_subgrupo'];
-                            echo "<option value='$id_subgrupo # $cod_subgrupo'>$nome_subgrupo - $cod_subgrupo</option>";
+                            if($id_subgrupo == $subgrupo){
+                                echo "<option value='$id_subgrupo # $cod_subgrupo' selected>$nome_subgrupo - $cod_subgrupo</option>";
+                            }
+                            else{
+                                echo "<option value='$id_subgrupo # $cod_subgrupo'>$nome_subgrupo - $cod_subgrupo</option>";
+                            }
                         }
                         ?>
                     </select>
