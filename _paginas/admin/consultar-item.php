@@ -69,7 +69,7 @@
             </tr>
             </thead>
             <tbody>
-            <?php include_once '../../banco_de_dados/admin/read-itens.php' ?>
+            <?php include_once '../../banco_de_dados/admin/read-setores.php' ?>
             </tbody>
         </table>
     </div>

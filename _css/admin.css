@@ -7,6 +7,9 @@ footer{
 tr#destaque:hover{
     background-color: lightgreen !important;
 }
+tr#destaque2:hover{
+    background-color: rgba(230, 1, 6, 0.53) !important;
+}
 
 .espaco55{
     margin-left: 80px;
@@ -95,4 +98,20 @@ main {
     font-weight: bold;
     text-align: center;
     text-decoration: underline;
+}
+.tab_subgrupo{
+    border: 1px dotted gray;
+    font-size: 9pt;
+    padding: 0px;
+    line-height: 0.05 !important;
+}
+
+.tab_grupo{
+    border: 1px solid black;
+    font-size: 10pt;
+    padding: 10px;
+}
+table#tab_grupo td#td_grupo{
+    line-height: 0.1 !important;
+
 }
