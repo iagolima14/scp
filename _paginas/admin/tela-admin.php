@@ -18,11 +18,11 @@
                             </a>
                         </div>
 
-                        <!--INDEX (LINHA 1) COLUNA 2 | DISTRIBUIÇÃO DE ITENS-->
+                        <!--INDEX (LINHA 1) COLUNA 2 | LANÇAMENTO DE ITENS-->
                         <div class="col s4 toolt">
                             <!-- BTN com ação LINK e informativo -->
-                            <a href="distribuicao-itens.php" class="btn-large tooltipped no-padding btn_inicial" data-position="top" data-tooltip="Distribuição de Itens Por Unidades">
-                                <p class="texto_icone">Distribuição de Itens - Unidade</p>
+                            <a href="lancar-itens.php" class="btn-large tooltipped no-padding btn_inicial" data-position="top" data-tooltip="Lançar Itens no Sistema">
+                                <p class="texto_icone">LANÇAMENTO DE ITENS</p>
                                 <i class="material-icons" style="font-size: 40px;">shopping_cart</i>
                             </a>
                         </div>
@@ -71,7 +71,14 @@
 
                     </div>
                     <div id="linha" class="col s9 offset-s3 espaco_linha">
-
+                        <!--INDEX (LINHA 1) COLUNA 2 | DISTRIBUIÇÃO DE ITENS-->
+                        <div class="col s4 toolt">
+                            <!-- BTN com ação LINK e informativo -->
+                            <a href="distribuicao-itens.php" class="btn-large tooltipped no-padding btn_inicial" data-position="top" data-tooltip="Distribuição de Itens Por Unidades">
+                                <p class="texto_icone">Distribuição de Itens - Unidade</p>
+                                <i class="material-icons" style="font-size: 40px;">shopping_cart</i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

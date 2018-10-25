@@ -72,7 +72,18 @@
 <script>
     M.AutoInit();
 </script>
-
+<script>
+    var submited = false;
+    function checkSubmit() {
+        if (!submited) {
+            submited = true;
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+</script>
 
 
 
