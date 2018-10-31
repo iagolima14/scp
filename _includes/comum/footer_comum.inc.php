@@ -119,7 +119,73 @@
     }
 </script>
 
-<!--EXIBE A DIV BLOQUEADA-->
+<script>
+    $(document).ready(function () {
+        $('input#input_text, textarea#textarea2').characterCounter();
+    });
+</script>
+
+
+<!--************************************************************************-->
+<!--FUNÇÃO QUE EXIME A IMAGEM A SER CARREGADA NA PAG DE SOLICITAÇÃO DE BAIXA-->
+<!--************************************************************************-->
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<!--<input id="imgInput" type="file">-->
+<script>
+    $("#imgInput").change(function(){
+        if (this.files && this.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#view-img').attr('src', e.target.result);
+            }
+            reader.readAsDataURL(this.files[0]);
+        }
+    });
+</script>
+<!--************************************************************************-->
+
+<!--************************************************************************-->
+<!--FUNÇÃO QUE EXIME A IMAGEM A SER CARREGADA NA PAG DE SOLICITAÇÃO DE BAIXA-->
+<!--************************************************************************-->
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<!--<input id="imgInput" type="file">-->
+<script>
+    $("#imgInput1").change(function(){
+        if (this.files && this.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#view-img1').attr('src', e.target.result);
+            }
+            reader.readAsDataURL(this.files[0]);
+        }
+    });
+</script>
+<!--************************************************************************-->
+
+<!--************************************************************************-->
+<!--FUNÇÃO QUE EXIME A IMAGEM A SER CARREGADA NA PAG DE SOLICITAÇÃO DE BAIXA-->
+<!--************************************************************************-->
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<!--<input id="imgInput" type="file">-->
+<script>
+    $("#imgInput2").change(function(){
+        if (this.files && this.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#view-img2').attr('src', e.target.result);
+            }
+            reader.readAsDataURL(this.files[0]);
+        }
+    });
+</script>
+<!--************************************************************************-->
+
+
+
+
 
 <!--INÍCIO DO RODAPÉ-->
 <footer class="page-footer deep-orange">

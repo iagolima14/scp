@@ -10,26 +10,32 @@
             <h5 class="light">Consultar Itens</h5>
             <hr>
         </div>
+
+        <!--BOTÃO VOLTAR-->
         <div class="col s2">
             <input type="button" value="VOLTAR" class="btn blue mover_btn_baixo" onclick="location.href='tela-admin.php'">
         </div>
 
         <form>
+            <!--CAMPO DE BUSCA POR NOME-->
             <div class="col s3">
                 <p>&nbsp;</p>
                 <input type="text" placeholder="Nome do Item" name="desc">
-
             </div>
+
+            <!--CAMPO DE BUSCA POR COD SIAP-->
             <div class="col s2">
                 <p>&nbsp;</p>
                 <input type="text" placeholder="Código SIAP" name="cod">
-
             </div>
+
+            <!--CAMPO DE BUSCA POR COD SISCOP-->
             <div class="col s2">
                 <p>&nbsp;</p>
                 <input type="text" placeholder="Código SISCOP" name="cod_siscop">
-
             </div>
+
+            <!--CAMPO DE ORDENAÇÃO-->
             <div class="col s2">
                 <p>Ordenar Por:</p>
                 <select id="select_ordenacao" name="select_ordenacao">
@@ -37,9 +43,10 @@
                     <option value="codigo">CÓDIGO SIAP</option>
                     <option value="codigo_siscop">CÓDIGO SISCOP</option>
                     <option value="situacao">SITUAÇÃO</option>
-
                 </select>
             </div>
+
+            <!--CAMPO DE ORDENAÇÃO POR ATIVO/INATIVO-->
             <div class="col s2">
                 <p>Situação:</p>
                 <select id="select_situacao" name="select_situacao">
@@ -49,6 +56,8 @@
 
                 </select>
             </div>
+
+            <!--BOTÕES-->
             <div class="col s1 center">
                 <p>&nbsp;</p>
                 <input type="submit" value="OK" class="btn gree">
@@ -57,21 +66,22 @@
 
         <table class="striped">
             <thead>
-            <tr class="altera_fonte_cab">
-                <th style="text-transform: uppercase; width: 5%">ITEM</th>
-                <th style="text-transform: uppercase; width: 28%">NOME DO ITEM</th>
-                <th style="text-transform: uppercase; width: 13%">CÓDIGO SIAP</th>
-                <th style="text-transform: uppercase; width: 13%">CÓDIGO SISCOP</th>
-                <th style="text-transform: uppercase; width: 13%">QUANTIDADE</th>
-                <th style="text-transform: uppercase; width: 13%">DISPONIVEL</th>
-                <th style="text-transform: uppercase; width: 6%">Editar</th>
-                <th style="text-transform: uppercase; width: 5%">A/I</th>
-            </tr>
+                <tr class="altera_fonte_cab">
+                    <th style="text-transform: uppercase; width: 5%">ITEM</th>
+                    <th style="text-transform: uppercase; width: 28%">NOME DO ITEM</th>
+                    <th style="text-transform: uppercase; width: 13%">CÓDIGO SIAP</th>
+                    <th style="text-transform: uppercase; width: 13%">CÓDIGO SISCOP</th>
+                    <th style="text-transform: uppercase; width: 13%">QUANTIDADE</th>
+                    <th style="text-transform: uppercase; width: 13%">DISPONIVEL</th>
+                    <th style="text-transform: uppercase; width: 6%">Editar</th>
+                    <th style="text-transform: uppercase; width: 5%">A/I</th>
+                </tr>
             </thead>
             <tbody>
-            <?php include_once '../../banco_de_dados/admin/read-setores.php' ?>
+                <?php include_once '../../banco_de_dados/admin/read-itens.php' ?>
             </tbody>
         </table>
+
     </div>
 </div>
 

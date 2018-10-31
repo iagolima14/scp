@@ -18,4 +18,5 @@ if ($affected_rows > 0){
     echo "<script>alert('ERRO na Inserção!')</script>";
 }
 
+
 ?>

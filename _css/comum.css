@@ -97,3 +97,10 @@ div#secreta{
 .mover_btn_baixo{
     margin-top: 10px;
 }
+
+.adorno_img{
+    background: rgba(199,193,197,0.53);
+    width: 290px !important;
+    height: 210px;
+    border: dashed #535353 5px;
+}
