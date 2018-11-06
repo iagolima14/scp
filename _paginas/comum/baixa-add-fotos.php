@@ -3,6 +3,29 @@
 <?php include_once ("../../_includes/comum/controle_acesso_comum.php");?>
 <?php include_once("../../_includes/comum/menu_comum.inc.php"); ?>
 
+<?php
+$selec_itens = filter_input(INPUT_GET, 'selec_itens', FILTER_SANITIZE_SPECIAL_CHARS);
+$id_patrimonio = filter_input(INPUT_POST, 'id_patrimonio', FILTER_SANITIZE_SPECIAL_CHARS);
+$nome_item = filter_input(INPUT_POST, 'nome_item', FILTER_SANITIZE_SPECIAL_CHARS);
+$patrimonio_item = filter_input(INPUT_POST, 'patrimonio_item', FILTER_SANITIZE_SPECIAL_CHARS);
+echo "id - $selec_itens<br>";
+echo "id patrimonio - $id_patrimonio<br>";
+echo "nome item - $nome_item<br>";
+echo "N° patrimonio - $patrimonio_item";
+
+//$querySelect = $link->query("select p.id_item, p.descricao, p.sit_fisica, p.id_unidade, p.num_patrimonio, i.nome_item, p.id as id_tab_patrimonio, i.id from tb_patrimonio as p INNER JOIN tb_itens as i ON p.id_item = i.id WHERE p.id_unidade = '$id_unidade_user' order by p.num_patrimonio");
+$querySelect = $link->query("select * from tb_patrimonio");
+while($row = $querySelect->fetch_assoc()){
+    $patrimonio_item = $row['num_patrimonio'];
+    $descricao = $row['descricao'];
+    $sit_fisica = $row['sit_fisica'];
+    //$id_patrimonio = $row['id_tab_patrimonio'];
+    //$nome_item = $row['nome_item'];
+//    echo "<option value='$id_patrimonio # $nome_item'>$patrimonio_item - $nome_item</option>";
+}
+
+?>
+
     <div class="row container">
         <div class="col s12">
             <h5 class="light">Solicitar Baixa de Item</h5>
@@ -28,7 +51,7 @@
                         <!--CAMPO NUMERO DO PATRIMONIO-->
                         <div class="input-field col s3">
                             <i class="material-icons prefix">filter_9_plus</i>
-                            <input type="text" name="patri" id="patri" value="<?php echo $num_patrimonio ?>"
+                            <input type="text" name="patri" id="patri" value="<?php echo $patrimonio_item ?>"
                                    maxlength="50"
                                    required readonly>
                             <label for="patri">Número do Patrimônio</label>
