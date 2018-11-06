@@ -1,0 +1,22 @@
+SECRETARIA DE ADMINISTRAÇÃO PENITENCIÁRIA E RESSOCIALIZAÇÃO - SEAP
+DIRETORIA GERAL (DG)  -  DIRETORIA ADMINISTRATIVA (DA)
+SISTEMA DE CONTROLE PATRIMONIAL - SISCOP
+----------------------------------------------------------------------------------------
+
+| ITEM AGREGADO: | Nome: FONTE DE ALIMENTACAO | Código Suprimido: 100001828   --->  Código Destino: 100001115 |
+| ITEM AGREGADO: | Nome: AUTOCLAVE VERTICAL | Código Suprimido: 100001934   --->  Código Destino: 100001517 |
+| ITEM AGREGADO: | Nome: AUTOCLAVE HORIZONTAL | Código Suprimido: 100001935   --->  Código Destino: 100001518 |
+| ITEM AGREGADO: | Nome: SWITCH COM 24 PORTAS | Código Suprimido: 100002660   --->  Código Destino: 100002605 |
+| ITEM AGREGADO: | Nome: SCANNER DE MESA | Código Suprimido: 100002668   --->  Código Destino: 100002589 |
+| ITEM AGREGADO: | Nome: MESA PARA REFEITORIO | Código Suprimido: 100002786   --->  Código Destino: 100002769 |
+| ITEM AGREGADO: | Nome: MESA AUXILIAR | Código Suprimido: 100003043   --->  Código Destino: 100002985 |
+| ITEM AGREGADO: | Nome: SOFA EM COURO | Código Suprimido: 100003065   --->  Código Destino: 100002804 |
+| ITEM AGREGADO: | Nome: SOFA EM COURO | Código Suprimido: 100003066   --->  Código Destino: 100002804 |
+| ITEM AGREGADO: | Nome: ESTANTE EM ACO | Código Suprimido: 100003070   --->  Código Destino: 100003016 |
+| ITEM AGREGADO: | Nome: ESTANTE EM MADEIRA | Código Suprimido: 100003073   --->  Código Destino: 100003017 |
+| ITEM AGREGADO: | Nome: CADEIRA UNIVERSITARIA | Código Suprimido: 100004025   --->  Código Destino: 100003084 |
+| ITEM AGREGADO: | Nome: MESA PARA TELEFONE EM MADEIRA | Código Suprimido: 100004509   --->  Código Destino: 100002925 |
+| ITEM AGREGADO: | Nome: CADEIRA FIXA | Código Suprimido: 100007198   --->  Código Destino: 100004008 |
+| ITEM AGREGADO: | Nome: FILMADORA | Código Suprimido: 100013355   --->  Código Destino: 100013292 |
+| ITEM AGREGADO: | Nome: APARELHO DE SOM | Código Suprimido: 100022025   --->  Código Destino: 100000865 |
+| ITEM AGREGADO: | Nome: PIA EM ACO INOX | Código Suprimido: 100022173   --->  Código Destino: 100001721 |
