@@ -51,7 +51,7 @@ else{
         $parcial = str_pad($parcial, 4, "0", STR_PAD_LEFT);
         $codigo_siscop = $busca_codigo.$parcial;
 
-        $queryInsert = $link->query("insert into tb_itens (id, nome_item, codigo, codigo_siscop, grupo, subgrupo) values (default, '$nome_item','$codigo','$codigo_siscop','$id_grupo','$id_subgrupo') ");
+        $queryInsert = $link->query("insert into tb_itens (id, nome_item, codigo, codigo_siscop, grupo, subgrupo, nascimento) values (default, '$nome_item','$codigo','$codigo_siscop','$id_grupo','$id_subgrupo', 'N') ");
         $affected_row = mysqli_affected_rows($link);
         if ($affected_row > 0){
             echo "<script>alert('Cadastro efetuado com sucesso!')</script>";

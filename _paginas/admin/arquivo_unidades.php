@@ -30,7 +30,6 @@
                 if ($primeira_linha == false) {
                     $i++;
                     $patrimonio = $linha->getElementsByTagName("Data")->item(0)->nodeValue;
-                    //$patrimonio_antigo = $linha->getElementsByTagName("Data")->item(1)->nodeValue;
                     $nome_desc = $linha->getElementsByTagName("Data")->item(1)->nodeValue;
                     $data_aquisicao = $linha->getElementsByTagName("Data")->item(2)->nodeValue;
                     $sit_fisica = $linha->getElementsByTagName("Data")->item(3)->nodeValue;
@@ -75,10 +74,6 @@
                     }
 
 
-
-
-
-
                     $querySelect = $link->query("SELECT * FROM tb_itens WHERE nome_item = '$nome_para_salvar_no_banco' ");
                     $num_linhas = $querySelect->num_rows;
 
@@ -97,18 +92,6 @@
                     else {
                         $registros = $querySelect->fetch_assoc();
                         $id_item = $registros['id'];
-
-                        /*echo "ID: $i <br>";
-                        echo "Patrimonio: $patrimonio <br>";
-                        echo "Patrimonio Antigo: $patrimonio_antigo <br>";
-                        echo "ID_ITEM: $id_item <br>";
-                        echo "Nome do Item: $nome_item <br>";
-                        echo "Descrição: $descricao_item <br>";
-                        echo "ID_UNIDADE: $id_unidade <br>";
-                        echo "Sit. Física: $sit_fisica <br>";
-                        echo "Data Aquisição: $data_aquisicao <br>";
-                        echo "Valor Aquisição: $valor_aquisicao <br>";
-                        echo "---------------------------------------------------------------------------------------<br>";*/
                         if($origem == 0){
                             $data_aquisicao_sql = substr($data_aquisicao, 6)."-".substr($data_aquisicao, 3, -5)."-".substr($data_aquisicao, 0, -8);
                             $queryInsert = $link->query("insert into tb_patrimonio (num_patrimonio, id_item, descricao, id_unidade, sit_fisica, data_aquisicao, valor_aquisicao) values ('$patrimonio', '$id_item', '$descricao_item', '$id_unidade', '$sit_fisica', '$data_aquisicao_sql', '$valor_aquisicao') ");

@@ -16,8 +16,8 @@
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>7545</WindowHeight>
-  <WindowWidth>20490</WindowWidth>
+  <WindowHeight>14565</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
   <WindowTopX>32767</WindowTopX>
   <WindowTopY>32767</WindowTopY>
   <TabRatio>500</TabRatio>
@@ -66,17 +66,15 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="siap">
-  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="101" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="101" x:FullColumns="1"
    x:FullRows="1">
    <Column ss:AutoFitWidth="0" ss:Width="90.75"/>
-   <Column ss:AutoFitWidth="0" ss:Width="44.25"/>
    <Column ss:AutoFitWidth="0" ss:Width="516.75"/>
    <Column ss:AutoFitWidth="0" ss:Width="123"/>
    <Column ss:AutoFitWidth="0" ss:Width="70.5"/>
-   <Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="77.25"/>
+   <Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="77.25"/>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s62"><Data ss:Type="String">Patrimônio</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Patr. Antigo</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Descrição</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Dt. Aquisição</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Sit. Física</Data></Cell>
@@ -84,7 +82,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000060</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CONDICIONADOR DE AR TIPO SPLIT - DESCRICAO: SEAP/SGP. DE PAREDE, 12.000 BTU/H, TENSAO 220V, CONTROLE REMOTO. CODIGO SIMPAS: 41.20.00.00115657-8 - MARCA: RHEEM</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">26/10/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -92,7 +89,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000061</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CONDICIONADOR DE AR TIPO SPLIT - DESCRICAO: SEAP/SGP. DE PAREDE, 12.000 BTU/H, TENSAO 220V, CONTROLE REMOTO. CODIGO SIMPAS: 41.20.00.00115657-8 - MARCA: RHEEM</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">26/10/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -100,7 +96,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000064</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">3</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CONDICIONADOR DE AR TIPO SPLIT - DESCRICAO: SEAP/SGP. DE PAREDE, 12.000 BTU/H, TENSAO 220V, CONTROLE REMOTO. CODIGO SIMPAS: 41.20.00.00115657-8 - MARCA: RHEEM</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">26/10/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -108,7 +103,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000113</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">4</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CONDICIONADOR DE AR TIPO SPLIT - DESCRICAO: SEAP/SGP. DE PAREDE, 12.000 BTU/H, TENSAO 220V, CONTROLE REMOTO. CODIGO SIMPAS: 41.20.00.00115657-8 - MARCA: RHEEM</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">26/10/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -116,7 +110,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000129</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CONDICIONADOR DE AR TIPO SPLIT - DESCRICAO: SGP/SEAP. DE PAREDE, 9.000 BTU/H, 220V, CONTROLE REMOTO. CODIGO SIMPAS: 41.20.00.00115648-9 - MARCA: LG</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">07/11/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -124,7 +117,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000130</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">6</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CONDICIONADOR DE AR TIPO SPLIT - DESCRICAO: SGP/SEAP. DE PAREDE, 9.000 BTU/H, 220V, CONTROLE REMOTO. CODIGO SIMPAS: 41.20.00.00115648-9 - MARCA: LG</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">07/11/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -132,7 +124,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000131</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">7</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CONDICIONADOR DE AR TIPO SPLIT - DESCRICAO: SGP/SEAP. DE PAREDE, 9.000 BTU/H, 220V, CONTROLE REMOTO. CODIGO SIMPAS: 41.20.00.00115648-9 - MARCA: LG</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">07/11/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -140,16 +131,14 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000133</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">8</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CONDICIONADOR DE AR TIPO SPLIT - DESCRICAO: SGP/SEAP. DE PAREDE, 9.000 BTU/H, 220V, CONTROLE REMOTO. CODIGO SIMPAS: 41.20.00.00115648-9 - MARCA: LG</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">07/11/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
     <Cell ss:StyleID="s64"><Data ss:Type="Number">796</Data></Cell>
-    <Cell ss:Index="10" ss:StyleID="s65"/>
+    <Cell ss:Index="9" ss:StyleID="s65"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000237</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">9</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">CONDICIONADOR DE AR DE PAREDE - TIPO SPLIT - DESCRICAO: DEST. D.G, 18.000 BTU/H 220 V&#10;COD. SIMPAS 41.20.00.00115316-1 - MARCA: CONSUL</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/12/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -157,7 +146,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000242</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">10</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">PURIFICADOR DE AGUA - DESCRICAO: DEST. D.G, 220V, &#10;&#10;COD. SIMPAS 46.10.00.00121091-2 - MARCA: SOFT</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">15/12/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -165,7 +153,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000261</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">11</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">CONDICIONADOR DE AR DE PAREDE - TIPO SPLIT - DESCRICAO: DEST. DG - 1200 BTU, 220 V&#10;COD. SIMPAS 41.20.00.00115647-8 - MARCA: RHEEM</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">13/12/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -173,7 +160,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000498</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">12</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">MONITOR DE VIDEO LCD - DESCRICAO: DEST. D.G  DE 19 POL.&#10;COD. SIMPAS 70.10.09.00005151-9 - MARCA: HP</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">19/12/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -181,7 +167,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000565</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">13</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">ESTABILIZADOR DE VOLTAGEM - DESCRICAO: DEST. D.G BIVOLT (115 E 220 VOLT).&#10;&#10;COD. SIMPAS 61.10.00.0006315-0 - MARCA: BMI</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">21/12/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -189,7 +174,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000566</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">14</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">ESTABILIZADOR DE VOLTAGEM - DESCRICAO: DEST. D.G BIVOLT (115 E 220 VOLT).&#10;&#10;COD. SIMPAS 61.10.00.0006315-0 - MARCA: BMI</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">21/12/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -197,7 +181,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000602</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">ESTABILIZADOR DE VOLTAGEM - DESCRICAO: DEST. D.G BIVOLT (115 E 220 VOLT).&#10;&#10;COD. SIMPAS 61.10.00.0006315-0 - MARCA: BMI</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">21/12/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -205,7 +188,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000636</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">16</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CONDICIONADOR DE AR DE PAREDE - TIPO SPLIT - DESCRICAO: CONCICIONADOR DE AR DE PAREDE, TIPO SPLIT, CAPACIDADE DE REFRIGERAÇÃO 24000 BTUS, COM CONTROLE REMOTO, CICLO FRIO.  SERIE RB1HW24AC2B.  CÓD. SIMPAS: 41.20.00.00115692-6</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">26/12/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -213,7 +195,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000719</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">17</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">COLETE BALISTICO - DESCRICAO: DEST. DG - NIVEL IIIA, MASCULINO 110 M, 30 P E 120 G. - MARCA BLINTEC&#10;&#10;&#10;&#10;COD. SIMPAS 120 G - 84.70.20.00010684-4.&#10;&#10;&#10;&#10;COD. SIMPAS 110 M - 84.70.20.00010685-2.&#10;&#10;&#10;&#10;COD. SIMPAS 30   P -  84.70.20.00010686-0.</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">28/12/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -221,7 +202,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000720</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">18</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">COLETE BALISTICO - DESCRICAO: DEST. DG - NIVEL IIIA, MASCULINO 110 M, 30 P E 120 G. - MARCA BLINTEC&#10;&#10;&#10;&#10;COD. SIMPAS 120 G - 84.70.20.00010684-4.&#10;&#10;&#10;&#10;COD. SIMPAS 110 M - 84.70.20.00010685-2.&#10;&#10;&#10;&#10;COD. SIMPAS 30   P -  84.70.20.00010686-0.</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">28/12/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -229,7 +209,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000721</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">19</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">COLETE BALISTICO - DESCRICAO: DEST. DG - NIVEL IIIA, MASCULINO 110 M, 30 P E 120 G. - MARCA BLINTEC&#10;&#10;&#10;&#10;COD. SIMPAS 120 G - 84.70.20.00010684-4.&#10;&#10;&#10;&#10;COD. SIMPAS 110 M - 84.70.20.00010685-2.&#10;&#10;&#10;&#10;COD. SIMPAS 30   P -  84.70.20.00010686-0.</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">28/12/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -237,7 +216,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000722</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">20</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">COLETE BALISTICO - DESCRICAO: DEST. DG - NIVEL IIIA, MASCULINO 110 M, 30 P E 120 G. - MARCA BLINTEC&#10;&#10;&#10;&#10;COD. SIMPAS 120 G - 84.70.20.00010684-4.&#10;&#10;&#10;&#10;COD. SIMPAS 110 M - 84.70.20.00010685-2.&#10;&#10;&#10;&#10;COD. SIMPAS 30   P -  84.70.20.00010686-0.</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">28/12/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -245,7 +223,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000723</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">21</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">COLETE BALISTICO - DESCRICAO: DEST. DG - NIVEL IIIA, MASCULINO 110 M, 30 P E 120 G. - MARCA BLINTEC&#10;&#10;&#10;&#10;COD. SIMPAS 120 G - 84.70.20.00010684-4.&#10;&#10;&#10;&#10;COD. SIMPAS 110 M - 84.70.20.00010685-2.&#10;&#10;&#10;&#10;COD. SIMPAS 30   P -  84.70.20.00010686-0.</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">28/12/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -253,7 +230,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000724</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">22</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">COLETE BALISTICO - DESCRICAO: DEST. DG - NIVEL IIIA, MASCULINO 110 M, 30 P E 120 G. - MARCA BLINTEC&#10;&#10;&#10;&#10;COD. SIMPAS 120 G - 84.70.20.00010684-4.&#10;&#10;&#10;&#10;COD. SIMPAS 110 M - 84.70.20.00010685-2.&#10;&#10;&#10;&#10;COD. SIMPAS 30   P -  84.70.20.00010686-0.</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">28/12/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -261,7 +237,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000725</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">23</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">COLETE BALISTICO - DESCRICAO: DEST. DG - NIVEL IIIA, MASCULINO 110 M, 30 P E 120 G. - MARCA BLINTEC&#10;&#10;&#10;&#10;COD. SIMPAS 120 G - 84.70.20.00010684-4.&#10;&#10;&#10;&#10;COD. SIMPAS 110 M - 84.70.20.00010685-2.&#10;&#10;&#10;&#10;COD. SIMPAS 30   P -  84.70.20.00010686-0.</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">28/12/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -269,7 +244,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000726</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">24</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">COLETE BALISTICO - DESCRICAO: DEST. DG - NIVEL IIIA, MASCULINO 110 M, 30 P E 120 G. - MARCA BLINTEC&#10;&#10;&#10;&#10;COD. SIMPAS 120 G - 84.70.20.00010684-4.&#10;&#10;&#10;&#10;COD. SIMPAS 110 M - 84.70.20.00010685-2.&#10;&#10;&#10;&#10;COD. SIMPAS 30   P -  84.70.20.00010686-0.</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">28/12/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -277,7 +251,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000727</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">25</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">COLETE BALISTICO - DESCRICAO: DEST. DG - NIVEL IIIA, MASCULINO 110 M, 30 P E 120 G. - MARCA BLINTEC&#10;&#10;&#10;&#10;COD. SIMPAS 120 G - 84.70.20.00010684-4.&#10;&#10;&#10;&#10;COD. SIMPAS 110 M - 84.70.20.00010685-2.&#10;&#10;&#10;&#10;COD. SIMPAS 30   P -  84.70.20.00010686-0.</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">28/12/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -285,7 +258,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00000728</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">26</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">COLETE BALISTICO - DESCRICAO: DEST. DG - NIVEL IIIA, MASCULINO 110 M, 30 P E 120 G. - MARCA BLINTEC&#10;&#10;&#10;&#10;COD. SIMPAS 120 G - 84.70.20.00010684-4.&#10;&#10;&#10;&#10;COD. SIMPAS 110 M - 84.70.20.00010685-2.&#10;&#10;&#10;&#10;COD. SIMPAS 30   P -  84.70.20.00010686-0.</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">28/12/2011</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -293,7 +265,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00001069</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">27</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">ARQUIVO EM ACO COM 04 GAVETAS</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -301,7 +272,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00001802</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">28</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MESA PARA MICRO/TERMINAL DE COMPUTADOR - DESCRICAO: REAPROVEITAMENTO</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">27/03/2012</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -309,7 +279,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00001804</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">29</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MESA PARA MICRO/TERMINAL DE COMPUTADOR - DESCRICAO: REAPROVEITAMENTO</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">27/03/2012</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -317,7 +286,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00001807</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">30</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MESA PARA ESCRITORIO EM MADEIRA</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">27/03/2012</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -325,7 +293,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00001812</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">31</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MESA AUXILIAR</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">27/03/2012</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -333,7 +300,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00001878</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">32</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOMBA DAGUA - DESCRICAO: CENTRÍFUGA,TRIFÁSICA, POTENCIA DE 5 CV,220/380V, SUCÇÃO DE 2 POLEGADAS,RECALQUE DE 2 POLEGADAS HORIZONTAL, CAPACIDADE DE VAZÃO DE 26M3/H,MCA 10 M, MONOBLOCO, MONOESTAGIO, CORPO EM ALUMINIO INJETADO, COD. SIMPAS: 43.20.00.00103637-6. - MARCA: THEBE</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">25/05/2012</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -341,7 +307,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00006699</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">33</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">CAMERA FOTOGRAFICA - DESCRICAO: DIRETORIA DE REQUALIFICAÇÃO - DIGITAL, PANORAMICA, 14.1 MP.&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;MEMORIA INTERNA DE 256 MB, COMUNICAÇÃO USB, TEMPORIZADOR ALARME. ENTRADA PARA CARTAO DE MEMORIA, ZOOM OPTICO DE 4X, GRAVADOR.&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;COD. SIMPAS - 67.20.00.00125179-1 - MARCA: SAMSUNG</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">16/07/2012</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -349,7 +314,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00007956</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">34</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CONDICIONADOR DE AR DE PAREDE - TIPO SPLIT</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -357,7 +321,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00007964</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">35</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">ARMARIO ALTO EM MADEIRA</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">11/12/2015</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">REGULAR</Data></Cell>
@@ -365,7 +328,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00007966</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">36</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">TELEVISOR EM CORES</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">REGULAR</Data></Cell>
@@ -373,7 +335,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00007967</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">37</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">ARMARIO ALTO EM MADEIRA</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">14/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">REGULAR</Data></Cell>
@@ -381,7 +342,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00007968</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">38</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">REFRIGERADOR TIPO FRIGOBAR</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">14/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">REGULAR</Data></Cell>
@@ -389,7 +349,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00007975</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">39</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CADEIRA GIRATORIA  EM VINIL</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -397,7 +356,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00007977</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">40</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CADEIRA GIRATORIA  EM VINIL</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -405,7 +363,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00007986</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">41</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CADEIRA GIRATORIA  EM VINIL</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -413,7 +370,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00007987</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">42</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CADEIRA FIXA EM VINIL</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -421,7 +377,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00007989</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">43</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CONDICIONADOR DE AR DE PAREDE - TIPO SPLIT</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -429,7 +384,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00007991</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">44</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">ARQUIVO EM ACO COM 04 GAVETAS</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -437,7 +391,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00007992</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">45</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">TELEVISOR EM CORES</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">REGULAR</Data></Cell>
@@ -445,7 +398,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00007993</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">46</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">ARQUIVO EM ACO COM 04 GAVETAS</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -453,7 +405,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00007995</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">47</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MICROCOMPUTADOR PROCESSADOR</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -461,7 +412,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00007997</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">48</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BEBEDOURO DE AGUA TIPO GARRAFAO</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -469,7 +419,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00007998</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">49</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CADEIRA GIRATORIA  EM VINIL</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -477,7 +426,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00008000</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">50</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MESA PARA IMPRESSORA</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -485,7 +433,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00008101</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">51</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">LAVADORA DE ALTA PRESSAO - DESCRICAO: CADEIA PUBLICA - HIDROJATEAMENTO PRESSAO MIN. DE 2000 LIBRAS-VAZAO MIN. INFERIOR A 800 1/H - CAPACIDADE PORTA DETERGENTE DE 5 LITROS PENEU DE BORRACHATENSAO DE 220V.&#10;&#10;&#10;&#10;COD. SIMPAS - 49.40.00.00123586-9 - MARCA: WAP</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">31/08/2012</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -493,7 +440,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00008102</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">52</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">BOMBA DAGUA - DESCRICAO: CLC - CENTRIFUGA, POTENCIA, 5,0 CV - TRIFASICO - 03 POLEGADAS - &#10;&#10;&#10;&#10;COD. SIMPAS - 43.20.00.00124196-6 - MARCA: SOMAR</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">31/08/2012</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -501,7 +447,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00008103</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">53</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">BOMBA DAGUA - DESCRICAO: CLC - CENTRIFUGA, POTENCIA, 5,0 CV - TRIFASICO - 03 POLEGADAS - &#10;&#10;&#10;&#10;COD. SIMPAS - 43.20.00.00124196-6 - MARCA: SOMAR</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">31/08/2012</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -509,7 +454,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00008147</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">54</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">BOMBA DAGUA - DESCRICAO: PRESIDIO SALVADOR - CENTRIFUGA , MONOSTATO, 3.500 RPM MOTOR 3.0 CVB TENSÃO 220/380 VOLTS.&#10;&#10;&#10;&#10;COD. SIMPAS - 43.20.00.00110088-2.</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">26/10/2012</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -517,7 +461,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00008156</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">55</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">TRANSFORMADOR DE VOLTAGEM - DESCRICAO: DG - 3000 WATTS - CORRENTE ALTERNADA DE 110 PARA 220 E 220 PARA 110.&#10;&#10;COD SIMPAS - 61.20.00.00110301-6 - MARCA: GILSON</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">24/11/2012</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -525,7 +468,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00008157</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">56</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">TRANSFORMADOR DE VOLTAGEM - DESCRICAO: DG - 3000 WATTS - CORRENTE ALTERNADA DE 110 PARA 220 E 220 PARA 110.&#10;&#10;COD SIMPAS - 61.20.00.00110301-6 - MARCA: GILSON</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">24/11/2012</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -533,7 +475,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00008629</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">57</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">AUTOCLAVE HORIZONTAL - DESCRICAO: CADEIA PUBLICA - PARA ESTERELIZAÇÃO A VAPOR BIVOLTS 110/220 - 1700 WATTS - AÇO INOX COM ANEL DE VEDAÇÕ E PORTA DE SILICONE.&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;COD. SIMPAS - 65.20.20.00010633-0</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">27/12/2012</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -541,7 +482,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00008734</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">58</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MICROCOMPUTADOR CORE I 3</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">27/08/2014</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">REGULAR</Data></Cell>
@@ -549,7 +489,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00008811</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">59</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">LONGARINA COM 04 LUGARES</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">27/08/2014</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">REGULAR</Data></Cell>
@@ -557,7 +496,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00009080</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">60</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MICROCOMPUTADOR CORE I 3</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">27/08/2014</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">REGULAR</Data></Cell>
@@ -565,7 +503,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010801</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">61</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">FAC-SIMILES .</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -573,7 +510,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010802</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">62</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CADEIRA FIXA EM VINIL</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -581,7 +517,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010803</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">63</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CADEIRA GIRATORIA  EM VINIL</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">REGULAR</Data></Cell>
@@ -589,7 +524,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010805</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">64</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MESA DE TRABALHO EM MADEIRA</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">REGULAR</Data></Cell>
@@ -597,7 +531,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010806</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">65</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">ARMARIO ALTO EM MADEIRA</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">29/05/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -605,7 +538,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010807</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">66</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CONDICIONADOR DE AR DE PAREDE - TIPO SPLIT</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -613,7 +545,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010808</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">67</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">ARMARIO EM ACO</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">29/05/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -621,7 +552,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010809</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">68</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MESA DE TRABALHO EM MADEIRA</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -629,7 +559,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010810</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">69</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MESA PARA MICRO/TERMINAL DE COMPUTADOR</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -637,7 +566,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010814</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">70</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MICROCOMPUTADOR PROCESSADOR</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -645,7 +573,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010815</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">71</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">APARELHO DE MICRO SYSTEM</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">REGULAR</Data></Cell>
@@ -653,7 +580,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010816</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">72</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">GAVETEIRO EM METAL</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -661,7 +587,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010818</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">73</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CADEIRA GIRATORIA EM COURVIM</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -669,7 +594,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010819</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">74</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MESA DE TRABALHO EM MADEIRA</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -677,7 +601,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010820</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">75</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MESA PARA MICRO/TERMINAL DE COMPUTADOR</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -685,7 +608,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010822</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">76</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MESA PARA MAQUINA DE ESCREVER EM MADEIRA</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -693,7 +615,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010823</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">77</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CADEIRA FIXA EM VINIL</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -701,7 +622,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010826</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">78</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CADEIRA FIXA EM VINIL</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -709,7 +629,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010827</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">79</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CADEIRA FIXA EM VINIL</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -717,7 +636,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010828</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">80</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MESA PARA REUNIAO  EM MADEIRA</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -725,7 +643,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010830</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">81</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MESA DE TRABALHO EM MADEIRA</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -733,7 +650,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010831</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">82</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MICROCOMPUTADOR PROCESSADOR</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">14/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -741,7 +657,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010834</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">83</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MESA PARA REUNIAO  EM MADEIRA</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">REGULAR</Data></Cell>
@@ -749,7 +664,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010835</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">84</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CADEIRA FIXA EM VINIL</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -757,7 +671,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010836</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">85</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CADEIRA FIXA EM VINIL</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -765,7 +678,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010837</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">86</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CADEIRA FIXA EM VINIL</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -773,7 +685,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010838</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">87</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">CADEIRA FIXA EM VINIL</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -781,7 +692,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010840</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">88</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MESA PARA MICRO/TERMINAL DE COMPUTADOR</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">REGULAR</Data></Cell>
@@ -789,7 +699,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010841</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">89</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MICROCOMPUTADOR PROCESSADOR</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -797,7 +706,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010842</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">90</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MESA DE TRABALHO EM MADEIRA</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -805,7 +713,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010843</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">91</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">ARQUIVO EM ACO COM 04 GAVETAS</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">REGULAR</Data></Cell>
@@ -813,7 +720,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010844</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">92</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">ARQUIVO EM ACO COM 04 GAVETAS</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -821,7 +727,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010845</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">93</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">ARQUIVO EM ACO COM 04 GAVETAS</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -829,7 +734,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010846</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">94</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">ARQUIVO EM ACO COM 04 GAVETAS</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -837,7 +741,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010847</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">95</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">ARQUIVO EM ACO COM 04 GAVETAS</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -845,7 +748,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010848</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">96</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BANCADA DE TRABALHO EM MADEIRA</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">REGULAR</Data></Cell>
@@ -853,7 +755,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010853</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">97</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">ARMARIO ALTO EM MADEIRA</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">29/05/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -861,7 +762,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010854</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">98</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MICROCOMPUTADOR PROCESSADOR</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -869,7 +769,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010855</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">99</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">MESA PARA ESCRITORIO EM MADEIRA</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">BOM</Data></Cell>
@@ -877,7 +776,6 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s63"><Data ss:Type="String">00010858</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">100</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">VENTILADOR DE PAREDE</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">REGULAR</Data></Cell>
@@ -899,11 +797,12 @@
     <VerticalResolution>300</VerticalResolution>
    </Print>
    <Selected/>
+   <TopRowVisible>87</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>105</ActiveRow>
-     <ActiveCol>2</ActiveCol>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>7</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

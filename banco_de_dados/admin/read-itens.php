@@ -81,6 +81,17 @@
             $codigo_siscop = $registros['codigo_siscop'];
             $situacao = $registros['situacao'];
 
+
+            //CALCULO DA QUANTIDADE
+            $queryQuantidade = $link->query("SELECT SUM(quantidade) FROM tb_itens_lancamento WHERE id_item = '$id'");
+            $registro_quantidade = mysqli_fetch_row($queryQuantidade);
+            $qnt_total = $registro_quantidade[0];
+
+            //CALCULO DO DISPONIVEL
+            $queryDisponivel = $link->query("SELECT * FROM tb_patrimonio WHERE id_item = '$id' and id_unidade is not NULL");
+            $num_linhas_disponivel = $queryDisponivel->num_rows;
+            $qnt_disponivel = $qnt_total - $num_linhas_disponivel;
+
             $querySoma = $link->query("SELECT * FROM tb_patrimonio WHERE id_item = '$id'");
             $num_linhas = $querySoma->num_rows;
 
@@ -90,8 +101,8 @@
                       <td>$descricao</td>
                       <td>$codigo</td>
                       <td style='text-indent: 30px'>$codigo_siscop</td>
-                      <td style='text-indent: 30px'>0</td>
-                      <td style='text-indent: 50px'>0</td>";
+                      <td style='text-indent: 30px'>$qnt_total</td>
+                      <td style='text-indent: 50px'>$qnt_disponivel</td>";
                 echo "<td><a href='editar-item.php?id=$id&sit_item=$situacao&select_ordenacao=$ordenar&desc=$desc&cod=$cod&select_situacao=$sit&cod_siscop=$cod_siscop'><i class='material-icons'>edit</i></a></td>";
                 echo "<td><a href='../../banco_de_dados/admin/modifica_situacao_itens.php?id=$id&sit_item=$situacao&select_ordenacao=$ordenar&desc=$desc&cod=$cod&select_situacao=$sit&cod_siscop=$cod_siscop'><i class='material-icons' style='color: red;'>do_not_disturb_on</i></a></td>";
                 echo "</tr>";
@@ -102,8 +113,8 @@
                       <td>$descricao</td>
                       <td>$codigo</td>
                       <td style='text-indent: 30px'>$codigo_siscop</td>
-                      <td style='text-indent: 30px'>0</td>
-                      <td style='text-indent: 50px'>0</td>";
+                      <td style='text-indent: 30px'>$qnt_total</td>
+                      <td style='text-indent: 50px'>$qnt_disponivel</td>";
                 echo "<td><a href='editar-item.php?id=$id&sit_item=$situacao&select_ordenacao=$ordenar&desc=$desc&cod=$cod&select_situacao=$sit&cod_siscop=$cod_siscop'><i class='material-icons'>edit</i></a></td>";
                 echo "<td><a href='../../banco_de_dados/admin/modifica_situacao_itens.php?id=$id&sit_item=$situacao&select_ordenacao=$ordenar&desc=$desc&cod=$cod&select_situacao=$sit&cod_siscop=$cod_siscop'><i class='material-icons' style='color: green;'>lens</i></a></td>";
                 echo "</tr>";
