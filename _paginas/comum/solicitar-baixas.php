@@ -14,7 +14,7 @@
                         <input type="text" name="nome" id="nome" maxlength="40" required autofocus list="selec_itens"/>
                         <label for="nome">Patrimônio do Item</label>
                     </div>
-                    <datalist id="selec_itens" name="selec_itens">
+                    <datalist id="selec_itens" >
                         <option></option>
                         <?php
                             $querySelect = $link->query("select p.id_item, p.id_unidade, p.num_patrimonio, i.nome_item, p.id as id_tab_patrimonio, i.id from tb_patrimonio as p INNER JOIN tb_itens as i ON p.id_item = i.id WHERE p.id_unidade = '$id_unidade_user' order by p.num_patrimonio");

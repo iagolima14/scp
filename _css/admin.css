@@ -1,26 +1,39 @@
 @charset "UTF-8";
 
-footer{
-  background-color: #aa0000;
+footer {
+    background-color: #aa0000;
 }
 
-tr#destaque:hover{
+tr#destaque:hover {
     background-color: lightgreen !important;
 }
-tr#destaque2:hover{
+
+tr#destaque2:hover {
     background-color: rgba(230, 1, 6, 0.53) !important;
 }
 
-.espaco55{
+.espaco55 {
     margin-left: 80px;
 }
-.texto_icone{
+
+.texto_icone {
     line-height: 1;
 }
-.btn_inicial{
-    width:130px;
+.texto_icone1 {
+    line-height: 1;
+    color: black;
+    font-weight: bold;
+}
+
+.btn_inicial {
+    width: 130px;
     height: 130px;
     background-color: #2f4f4f;
+}
+.btn_inicial_relatorios {
+    width: 150px;
+    height: 200px;
+    background-color: #a0a0a0;
 }
 
 /*.teste{
@@ -28,12 +41,13 @@ tr#destaque2:hover{
     overflow: auto;
 }*/
 
-#div_alterar_senha{
+#div_alterar_senha {
     margin-left: 160px;
     background-color: #e6e6e6;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
-#div_inform_senha{
+
+#div_inform_senha {
     font-family: Arial;
     font-weight: bold;
     color: #ffffff;
@@ -44,18 +58,20 @@ tr#destaque2:hover{
 }
 
 /*CSS da div onde estõ as informações do diretor*/
-#info_diretor{
+#info_diretor {
     font-family: "Arial";
     font-size: 20px;
     line-height: 0.2;
     margin-top: -20px;
 }
-h4{
+
+h4 {
     font-family: Arial;
     font-weight: bold;
     font-size: 40px;
 }
-form#ent{
+
+form#ent {
     line-height: 1;
 }
 
@@ -68,50 +84,72 @@ body {
 main {
     flex: 1 0 auto;
 }
-.altera_fonte_cab{
+
+.altera_fonte_cab {
     font-size: 11pt;
 }
-.altera_fonte_corpo{
+
+.altera_fonte_corpo {
     font-size: 10pt;
 }
-.add_arquivo{
+
+.add_arquivo {
     width: 50%;
 }
-.espaco_linha{
+
+.espaco_linha {
     margin-bottom: 100px;
 }
-.font_select{
-    padding: 2px 2px; !important
-    font-size: 10pt; !important
-    line-height: 0.1; !important
+
+.font_select {
+    padding: 2px 2px;
+!important font-size: 10 pt;
+!important line-height: 0.1;
+!important
 }
-.alerta_popup{
+
+.alerta_popup {
     float: left;
     position: absolute;
     margin: -18px 0 0 105px;
 
 }
-.mover_btn_baixo{
+
+.mover_btn_baixo {
     margin-top: 10px;
 }
-.submenu{
+
+.submenu {
     font-weight: bold;
     text-align: center;
     text-decoration: underline;
 }
-.tab_subgrupo{
-    border: 1px dotted gray;
+
+.tab_subgrupo {
+
     font-size: 9pt;
     padding: 0px;
     line-height: 0.05 !important;
 }
 
-.tab_grupo{
-    border: 1px solid black;
-    font-size: 10pt;
+.tab_grupo {
+    font-weight: bold;
+    font-size: 11pt;
     padding: 10px;
+
 }
-table#tab_grupo td#td_grupo{
+
+table#tab_grupo td#td_grupo {
     line-height: 0.1 !important;
 
+}
+
+.testeabc{
+    text-indent: 50px;
+}
+.testeabc2{
+    text-indent: 25px;
+}
+.testeabc3{
+    font-weight: bold;
 }

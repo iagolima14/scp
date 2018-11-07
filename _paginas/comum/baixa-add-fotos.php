@@ -4,7 +4,7 @@
 <?php include_once("../../_includes/comum/menu_comum.inc.php"); ?>
 
 <?php
-$selec_itens = filter_input(INPUT_GET, 'selec_itens', FILTER_SANITIZE_SPECIAL_CHARS);
+$selec_itens = filter_input(INPUT_GET, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
 $id_patrimonio = filter_input(INPUT_POST, 'id_patrimonio', FILTER_SANITIZE_SPECIAL_CHARS);
 $nome_item = filter_input(INPUT_POST, 'nome_item', FILTER_SANITIZE_SPECIAL_CHARS);
 $patrimonio_item = filter_input(INPUT_POST, 'patrimonio_item', FILTER_SANITIZE_SPECIAL_CHARS);
