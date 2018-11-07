@@ -10,12 +10,14 @@ while ($registros = $querySelect->fetch_assoc()) {
     $nome_grupo = $registros['nome_grupo'];
     $cod_grupo = $registros['cod_grupo'];
 
-    echo "<tr id='destaque' class='tab_grupo'>";
-    echo "<td id='td_grupo'>$i</td>
-            <td id='td_grupo'><a href=''></a>$nome_grupo</td>
-            <td id='td_grupo'>$cod_grupo</td>";
-    echo "<td><a href='editar-grupos.php?id=$id'><i class='material-icons'>edit</i></a></td>";
-    echo "</tr>";
+    echo "<li>
+            <div class='collapsible-header testeabc3'>";
+                echo "<div class='col s1'>$i</div>";
+                echo "<div class='col s5 testeabc'>$nome_grupo</div>";
+                echo "<div class='col s4 testeabc'>$cod_grupo</div>";
+                echo "<div class='col s2 testeabc2'><a href='editar-grupos.php?id=$id'><i class='material-icons'>edit</i></a></div>";
+        echo "</div>";
+
 
     $querySelect2 = $link->query("select * from tb_subgrupo where id_grupo='$id'");
     while ($registros2 = $querySelect2->fetch_assoc()) {
@@ -24,12 +26,14 @@ while ($registros = $querySelect->fetch_assoc()) {
         $nome_subgrupo = $registros2['nome_subgrupo'];
         $cod_subgrupo = $registros2['cod_subgrupo'];
 
-        echo "<tr id='destaque2' class='tab_subgrupo'>";
-        echo "<td style='padding: 0px !important;'>$i-$j</td>
-                <td style='padding: 0px !important;'><a href=''></a>$nome_subgrupo</td>
-                <td style='padding: 0px !important;'>$cod_subgrupo</td>";
-        echo "<td><a href='editar-subgrupos.php?id_subgrupo=$id_subgrupo'><i class='material-icons'>edit</i></a></td>";
-        echo "</tr>";
+        echo "<div class='collapsible-body'>";
+        echo "<span>";
+            echo "<div class='col s2'>$i-$j</div>";
+            echo "<div class='col s6 '>$nome_subgrupo</div>";
+            echo "<div class='col s3 '>$cod_subgrupo</div>";
+            echo "<div class='col s1 '><a href='editar-subgrupos.php?id_subgrupo=$id_subgrupo'><i class='material-icons' style='color:red;'>edit</i></a></div>";
+            echo "</span></div>";
     }
+    echo "</li>";
 }
 ?>

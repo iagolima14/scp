@@ -12,24 +12,25 @@
             <div class="col s2">
                 <input type="button" value="VOLTAR" class="btn blue mover_btn_baixo" onclick="location.href='tela-admin.php'">
             </div>
+        </div>
+        <div class="col s10">
             <table id="tab_grupo" class="striped">
                 <thead>
-                <tr>
-                    <th style="width: 20%; text-transform: uppercase;">ID</th>
-                    <th style="width: 40%; text-transform: uppercase;">Nome do Grupo/Subgrupo</th>
-                    <th style="width: 30%; text-transform: uppercase;">Cod do Grupo/Subgrupo</th>
-                    <th style="width: 10%; text-transform: uppercase;">Editar</th>
-                </tr>
+                    <tr >
+                        <th style="width: 10%; text-transform: uppercase; text-indent: 15px;">ID</th>
+                        <th style="width: 30%; text-transform: uppercase;">Nome do Grupo/Subgrupo</th>
+                        <th style="width: 30%; text-transform: uppercase;">Cod do Grupo/Subgrupo</th>
+                        <th style="width: 10%; text-transform: uppercase;">Editar</th>
+                    </tr>
                 </thead>
-                <tbody>
-                <div id="teste">
-
-                </div>
-                <?php include_once '../../banco_de_dados/admin/read-grupos.php' ?>
-                </tbody>
             </table>
         </div>
+        <div class="col s10">
+            <ul class="collapsible popout">
+                <?php include_once '../../banco_de_dados/admin/read-grupos.php' ?>
+            </ul>
+        </div>
     </div>
-    </div>
+
 
 <?php include_once("../../_includes/geral/footer.inc.php"); ?>

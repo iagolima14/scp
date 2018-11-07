@@ -86,7 +86,12 @@
 </script>
 
 
-
+<script>
+    var elem = document.querySelector('.collapsible.expandable');
+    var instance = M.Collapsible.init(elem, {
+        accordion: false
+    });
+</script>
 
 
 
@@ -97,8 +102,15 @@
 </script>
 
 
-
-
+<!--FUNÇÃO DE IMPRESSÃO DE PÁGINA-->
+<script type="text/javascript">
+    function imprimir(para) {
+        var conteudo = document.getElementById(para).innerHTML,
+            tela_impressao = window.open('siscop');
+        tela_impressao.document.write(conteudo);
+        tela_impressao.window.print();
+    }
+</script>
 
 
 
