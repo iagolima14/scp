@@ -15,7 +15,7 @@ echo "
         <div class='login'>
                 <form id='form' name='form' method='post' action='_paginas/geral/verifica_user.php' accept-charset='UTF-8'>                       
                         <div class=\"div-align-center\">
-                                <img id=\"logoLogin\" src=\"_imagens/logo_seap.jpg\" alt=\"Logo\">
+                                <img id=\"logoLogin\" src=\"_imagens/brasao-bahia.jpg\" alt=\"Logo\">
                         </div>
                         
                         <input aria-readonly='false' id='login' name='login' autocomplete='false' placeholder='Usuário' class='ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all username-input ui-state-hover' type='text'>
