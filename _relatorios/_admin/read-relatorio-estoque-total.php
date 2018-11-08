@@ -16,6 +16,8 @@ $sit = filter_input(INPUT_GET, 'select_situacao', FILTER_SANITIZE_SPECIAL_CHARS)
         $codigo = $registros['codigo'];
         $codigo_siscop = $registros['codigo_siscop'];
         $situacao = $registros['situacao'];
+        $quantidade = $registros['quantidade'];
+        $disponivel = $registros['disponivel'];
 
         $querySoma = $link->query("SELECT * FROM tb_patrimonio WHERE id_item = '$id'");
         $num_linhas = $querySoma->num_rows;
@@ -26,8 +28,8 @@ $sit = filter_input(INPUT_GET, 'select_situacao', FILTER_SANITIZE_SPECIAL_CHARS)
                       <td>$descricao</td>
                       <td>$codigo</td>
                       <td style='text-indent: 30px'>$codigo_siscop</td>
-                      <td style='text-indent: 30px'>0</td>
-                      <td style='text-indent: 50px'>0</td>";
+                      <td style='text-indent: 30px'>$quantidade</td>
+                      <td style='text-indent: 50px'>$disponivel</td>";
             echo "</tr>";
         }
         else{
@@ -36,8 +38,8 @@ $sit = filter_input(INPUT_GET, 'select_situacao', FILTER_SANITIZE_SPECIAL_CHARS)
                       <td>$descricao</td>
                       <td>$codigo</td>
                       <td style='text-indent: 30px'>$codigo_siscop</td>
-                      <td style='text-indent: 30px'>0</td>
-                      <td style='text-indent: 50px'>0</td>";
+                      <td style='text-indent: 30px'>$quantidade</td>
+                      <td style='text-indent: 50px'>$disponivel</td>";
             echo "</tr>";
         }
 

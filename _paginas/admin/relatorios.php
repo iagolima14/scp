@@ -24,6 +24,16 @@
             <!--INDEX (LINHA 1) COLUNA 2 | LANÇAMENTO DE ITENS-->
             <div class="col s3 toolt">
                 <!-- BTN com ação LINK e informativo -->
+                <a href="../../_relatorios/_admin/relatorio-movimentacoes.php" class="btn-large tooltipped no-padding btn_inicial_relatorios" data-position="top" data-tooltip="Movimentações nas Unidades">
+                    <p class="texto_icone1">Relatório</p>
+                    <i class="material-icons" style="font-size: 50px;">print</i>
+                    <p class="texto_icone">Movimentações nas Unidades</p>
+                </a>
+            </div>
+
+            <!--INDEX (LINHA 1) COLUNA 3 | LANÇAMENTO DE ITENS-->
+            <div class="col s3 toolt">
+                <!-- BTN com ação LINK e informativo -->
                 <a href="lancar-itens.php" class="btn-large tooltipped no-padding btn_inicial_relatorios" data-position="top" data-tooltip="Por Unidade">
                     <p class="texto_icone1">Relatório</p>
                     <i class="material-icons" style="font-size: 50px;">print</i>
@@ -31,7 +41,7 @@
                 </a>
             </div>
 
-            <!--INDEX (LINHA 1) COLUNA 3 | CONSULTAR ITENS -->
+            <!--INDEX (LINHA 1) COLUNA 4 | CONSULTAR ITENS -->
             <div class="col s3 toolt">
                 <!-- BTN com ação LINK e informativo -->
                 <a href="consultar-item.php" class="btn-large tooltipped no-padding btn_inicial_relatorios" data-position="top" data-tooltip="Outros Relatórios">
