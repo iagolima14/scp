@@ -59,7 +59,8 @@
                 <!--CAMPO GRUPO-->
                 <div class="input-field col s12">
                     <i class="material-icons prefix">add_shopping_cart</i>
-                    <select id="grupo" name="grupo" required>
+                    <select id="grupo" name="grupo">
+                        <option></option>
                         <?php
                             $grupo = $link->query('SELECT * FROM tb_grupo ORDER BY nome_grupo');
                             while($resultados = $grupo->fetch_assoc()){
@@ -82,7 +83,8 @@
                 <!--CAMPO SUBGRUPO-->
                 <div class="input-field col s12">
                     <i class="material-icons prefix">date_range</i>
-                    <select id="subgrupo" name="subgrupo" required>
+                    <select id="subgrupo" name="subgrupo">
+                        <option></option>
                         <?php
                         $subgrupo = $link->query('SELECT * FROM tb_subgrupo ORDER BY nome_subgrupo');
                         while($resultados = $subgrupo->fetch_assoc()){

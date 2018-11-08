@@ -20,12 +20,12 @@
 
     $valores_grupo = explode(" # ", $info_grupo);
     $id_grupo = $valores_grupo[0];
-    $cod_grupo = $valores_grupo[1];
+    $cod_grupo = isset($valores_grupo[1])?$valores_grupo[1]:"";
     $cod_grupo_antigo = substr($codigo_siscop, 0, 2);
 
     $valores_subgrupo = explode(" # ", $info_subgrupo);
     $id_subgrupo = $valores_subgrupo[0];
-    $cod_subgrupo = $valores_subgrupo[1];
+    $cod_subgrupo = isset($valores_subgrupo[1])?$valores_subgrupo[1]:"";
     $cod_subgrupo_antigo = substr($codigo_siscop, 2, 2);
 
     if($cod_grupo == $cod_grupo_antigo && $cod_subgrupo == $cod_subgrupo_antigo){
