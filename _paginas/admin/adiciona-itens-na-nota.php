@@ -46,11 +46,11 @@
 
 
                         <!--BOTÕES-->
-                        <div class="input-field col s7 offset-s5">
+                        <div class="input-field col s9 offset-s2">
                             <input type="submit" value="inserir" class="btn green">
                             <input type="button" value="verificar" name="VERIFICAR" class="btn grey" onclick="location.href='verifica-itens-lancados.php'">
                             <input type="reset" value="limpar" class="btn red" onclick="">
-                            <input type="button" value="voltar" name="VOLTAR" class="btn blue" onclick="decisao_voltar()">
+<!--                            <input type="button" value="voltar" name="VOLTAR" class="btn blue" onclick="decisao_voltar()">-->
 
                         </div>
 

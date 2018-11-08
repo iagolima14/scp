@@ -4,6 +4,13 @@ footer {
     background-color: #aa0000;
 }
 
+tr#destaque{
+    font-size: 9pt !important;
+    line-height: 1;
+    padding: 0;
+}
+
+
 tr#destaque:hover {
     background-color: lightgreen !important;
 }

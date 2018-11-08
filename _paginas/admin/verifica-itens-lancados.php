@@ -15,7 +15,6 @@
                     <th>QUANTIDADE</th>
                     <th>VALOR</th>
                     <th>EXCLUIR</th>
-                    <th>ALTERAR</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -25,7 +24,7 @@
         </div>
         <!--BOTÕES-->
         <div class="input-field col s7 offset-s5">
-            <input type="submit" value="confirmar" class="btn green">
+            <input type="submit" value="confirmar" class="btn green" onclick="location.href='../../banco_de_dados/admin/confirma-lancamento.php?id_lancamento=<?php echo $ultimo_id ?>'">
             <input type="button" value="voltar" name="VOLTAR" class="btn blue" onclick="location.href='adiciona-itens-na-nota.php'">
 
         </div>
