@@ -57,20 +57,31 @@
                 <!--CAMPO UNIDADE DO USUÁRIO-->
                 <div class="input-field col s12">
                     <i class="material-icons prefix">location_city</i>
-                    <select class="aa" id="sel_unidades" name="sel_unidades">
+                    <select id="sel_unidades" name="sel_unidades">
                         <option></option>
                         <?php
-                        $querySelect = $link->query("select * from tb_unidades");
-                        while ($registros = $querySelect->fetch_assoc()) {
-                            $nome = $registros['nome'];
-                            $id_unidade_selecionada = $registros['id'];
-                            echo "<option value='$id_unidade_selecionada'>$nome - $id_unidade_selecionada</option>";
+                        $vetor_regiao = array("RMSP", "IP", "RMSC", "IC", "CEAPA");
+                        $vetor_regiao_extenso = array("CAPITAL E RMS GESTÃO PLENA", "INTERIOR GESTÃO PLENA", "CAPITAL E RMS COGESTÃO", "INTERIOR COGESTÃO", "CEAPA");
+                        for($i=0; $i<5; $i++){
+                            echo "<optgroup label='$vetor_regiao_extenso[$i]'>";
+                            $querySelect = $link->query("select * from tb_unidades WHERE regiao = '$vetor_regiao[$i]'");
+                            while ($registros = $querySelect->fetch_assoc()) {
+                                $nome = $registros['nome'];
+                                $id_unidade_selecionada = $registros['id'];
+                                if($id_unidade_selecionada == $id_unidade){
+                                    echo "<option selected value='$id_unidade_selecionada' style='padding: 0; line-height: 0.1;'>$nome</option>";
+                                }
+                                else{
+                                    echo "<option value='$id_unidade_selecionada' style='padding: 0; line-height: 0.1;'>$nome</option>";
+                                }
+
+                            }
+                            echo "</optgroup>";
                         }
                         ?>
                     </select>
                     <label for="tel">Unidade do Usuário</label>
                 </div>
-
                 <fieldset id="permis" class="formulario" style="padding: 15px">
                     <legend>Permissão</legend>
                     <form action="#" id="permis">

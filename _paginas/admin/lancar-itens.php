@@ -48,7 +48,7 @@
                         <label for="origem">Origem</label>
                     </div>
                     <!--BOTÕES-->
-                    <div class="input-field col s6 offset-s3">
+                    <div class="input-field col s8 offset-s2">
                         <input type="submit" value="cadastrar" class="btn green">
                         <input type="reset" value="limpar" class="btn red">
                         <input type="button" value="voltar" name="VOLTAR" class="btn blue" onclick="location.href='tela-admin.php'">
