@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../_materialize/css/materialize.min.css">
     <link rel="stylesheet" href="../../_css/comum.css">
     <link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
-    <title>Sip</title>
+    <title>SISCOP SEAP</title>
 </head>
 <body>
 <main>

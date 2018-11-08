@@ -8,6 +8,6 @@
     <link rel="stylesheet" href="_materialize/css/materialize.min.css">
     <link rel="stylesheet" href="../_css/div-link-logo.css">
     <link rel="stylesheet" href="_css/admin.css">
-    <title>Sip</title>
+    <title>SISCOP SEAP</title>
 </head>
 <body>
