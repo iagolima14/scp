@@ -92,7 +92,6 @@
                             $nome_subgrupo = $resultados['nome_subgrupo'];
                             $cod_subgrupo = $resultados['cod_subgrupo'];
                             if($id_subgrupo == $id_do_subgrupo){
-
                                 echo "<option value='$id_subgrupo # $cod_subgrupo' selected>$nome_subgrupo - $cod_subgrupo</option>";
                             }
                             else{
