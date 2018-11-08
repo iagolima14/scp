@@ -23,8 +23,8 @@
 
 <!--FUNÇÃO PARA CHAMAR A PÁGINA RELATÓRIO SETORES-->
 <script type="text/javascript">
-    function chama_pagina(id) {
-        location.href='relatorio-setores.php?id_setor='+id;
+    function chama_pagina(id, nome) {
+        location.href='relatorio-setores.php?id_setor='+id+'&nome_setor='+nome;
     }
 </script>
 

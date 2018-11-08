@@ -17,14 +17,14 @@ while ($registros = $querySelect->fetch_assoc()){
     $num_linhas = $querySoma->num_rows;
 
     if ($situacao == "I") {
-        echo "<tr id='destaque' style='background-color: rgba(174,35,38,0.44)' onclick='chama_pagina($id)'>";
+        echo "<tr id='destaque' style='background-color: rgba(174,35,38,0.44)' onclick='chama_pagina($id, \"$nome\")'>";
         echo "<td>$nome</td><td class='espaco_qnt_linha'><a href=''>$num_linhas</a></td><td>$responsavel</td><td>$telefone</td>";
         echo "<td><a href='editar-setor.php?id=$id'><i class='material-icons'>edit</i></a></td>";
         echo "<td><a href='../../banco_de_dados/comum/modifica_situacao_setor.php?id=$id&sit_setor=$situacao'><i class='material-icons' style='color:red'>do_not_disturb_on</i></a></td>";
         echo "</tr>";
     }
     else{
-        echo "<tr id='destaque' onclick='chama_pagina($id)'>";
+        echo "<tr id='destaque' onclick='chama_pagina($id, \"$nome\")'>";
         echo "<td>$nome</td><td class='espaco_qnt_linha'><a href=''>$num_linhas</a></td><td>$responsavel</td><td>$telefone</td>";
         echo "<td><a href='editar-setor.php?id=$id'><i class='material-icons'>edit</i></a></td>";
         echo "<td><a href='../../banco_de_dados/comum/modifica_situacao_setor.php?id=$id&sit_setor=$situacao'><i class='material-icons' style='color:green'>lens</i></a></td>";

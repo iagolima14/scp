@@ -37,12 +37,12 @@
                     </div>
 
                     <div id="linha" class="col s9 offset-s3 espaco_linha">
-                        <!--INDEX (LINHA 2) COLUNA 1 | RELATÓRIOS-->
+                        <!--INDEX (LINHA 1) COLUNA 2 | DISTRIBUIÇÃO DE ITENS-->
                         <div class="col s4 toolt">
                             <!-- BTN com ação LINK e informativo -->
-                            <a href="relatorios.php" class="btn-large tooltipped no-padding btn_inicial" data-position="top" data-tooltip="Relatórios">
-                                <p class="texto_icone">Relatórios</p>
-                                <i class="material-icons" style="font-size: 50px;">format_list_bulleted</i>
+                            <a href="distribuicao-itens.php" class="btn-large tooltipped no-padding btn_inicial" data-position="top" data-tooltip="Distribuição de Itens Por Unidades">
+                                <p class="texto_icone">Distribuição de Itens - Unidade</p>
+                                <i class="material-icons" style="font-size: 40px;">shopping_cart</i>
                             </a>
                         </div>
                         <!--INDEX (LINHA 2) COLUNA 2 | BAIXAS SOLICITADAS-->
@@ -71,12 +71,12 @@
 
                     </div>
                     <div id="linha" class="col s9 offset-s3 espaco_linha">
-                        <!--INDEX (LINHA 1) COLUNA 2 | DISTRIBUIÇÃO DE ITENS-->
+                        <!--INDEX (LINHA 2) COLUNA 1 | RELATÓRIOS-->
                         <div class="col s4 toolt">
                             <!-- BTN com ação LINK e informativo -->
-                            <a href="distribuicao-itens.php" class="btn-large tooltipped no-padding btn_inicial" data-position="top" data-tooltip="Distribuição de Itens Por Unidades">
-                                <p class="texto_icone">Distribuição de Itens - Unidade</p>
-                                <i class="material-icons" style="font-size: 40px;">shopping_cart</i>
+                            <a href="relatorios.php" class="btn-large tooltipped no-padding btn_inicial" data-position="top" data-tooltip="Relatórios">
+                                <p class="texto_icone">Relatórios</p>
+                                <i class="material-icons" style="font-size: 50px;">format_list_bulleted</i>
                             </a>
                         </div>
                     </div>

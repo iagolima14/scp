@@ -2,7 +2,6 @@
 <?php include_once("../../_includes/comum/header_comum.inc.php"); ?>
 <?php include_once ("../../_includes/comum/controle_acesso_comum.php");?>
 <?php include_once("../../_includes/comum/menu_comum.inc.php"); ?>
-
     <div class="row container">
         <div class="col s12">
             <div class="col s10">
@@ -16,7 +15,7 @@
                 <thead>
                 <tr>
                     <th style="width: 28%; text-transform: uppercase;">Nome do Setor</th>
-                    <th style="width: 18%; text-transform: uppercase;">Quantidade de Itens</th>
+                    <th style="width: 18%; text-transform: uppercase;">Qnt de Itens</th>
                     <th style="width: 20%; text-transform: uppercase;">Responsável</th>
                     <th style="width: 15%; text-transform: uppercase;">Telefone</th>
                     <th style="width: 10%; text-transform: uppercase;">Editar</th>
@@ -24,9 +23,6 @@
                 </tr>
                 </thead>
                 <tbody>
-                <div id="teste">
-
-                </div>
                 <?php include_once '../../banco_de_dados/comum/read-setores.php' ?>
                 </tbody>
             </table>
