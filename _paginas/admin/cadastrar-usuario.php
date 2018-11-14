@@ -82,6 +82,7 @@
                     </select>
                     <label for="tel">Unidade do Usuário</label>
                 </div>
+
                 <fieldset id="permis" class="formulario" style="padding: 15px">
                     <legend>Permissão</legend>
                     <form action="#" id="permis">
